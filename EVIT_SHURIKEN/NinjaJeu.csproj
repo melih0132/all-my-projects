@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="images2\**" />
+    <Compile Remove="images\**" />
+    <Compile Remove="sons\**" />
+    <EmbeddedResource Remove="images2\**" />
+    <EmbeddedResource Remove="images\**" />
+    <EmbeddedResource Remove="sons\**" />
+    <None Remove="images2\**" />
+    <None Remove="images\**" />
+    <None Remove="sons\**" />
+    <Page Remove="images2\**" />
+    <Page Remove="images\**" />
+    <Page Remove="sons\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="demute.png" />
+    <None Remove="fondEntree.png" />
+    <None Remove="fondMain.png" />
+    <None Remove="fondSortie.png" />
+    <None Remove="logoJeu.png" />
+    <None Remove="mute.png" />
+    <None Remove="ninja.png" />
+    <None Remove="shuriken1.png" />
+    <None Remove="shuriken2.png" />
+    <None Remove="SonFond.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SonFond.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="demute.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="fondEntree.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="fondMain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="fondSortie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logoJeu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="mute.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ninja.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="shuriken1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="shuriken2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

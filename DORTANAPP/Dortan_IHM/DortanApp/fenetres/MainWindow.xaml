@@ -1,0 +1,28 @@
+﻿<Window
+    x:Class="DortanApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:DortanApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    WindowStartupLocation="CenterScreen"
+    Title="DORTAN"
+    Width="1200"
+    MinWidth="1200"
+    Height="660"
+    MinHeight="660"
+    Closing="Window_Closing"
+    mc:Ignorable="d">
+
+    <Grid>
+        <TabControl x:Name="tcMain">
+            <TabItem x:Name="tiReserver" Header="Réserver" Background="LightCyan"/>
+
+            <TabItem x:Name="tiVisuReservation" Header="Réservations" Background="LightCyan"/>
+
+            <TabItem x:Name="tiCreer" Header="Création" Background="LightCyan"/>
+
+            <TabItem x:Name="tiMateriel" Header="Materiels" Background="LightCyan"/>
+        </TabControl>
+    </Grid>
+</Window>

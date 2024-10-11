@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="DortanApp.UCReservation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DortanApp"
+             mc:Ignorable="d" >
+
+    <StackPanel>
+        
+        <StackPanel>
+            <Label 
+            x:Name="labActivite" 
+            Content="Les Activités" 
+            Margin="0,20,0,30"
+            FontSize="36" 
+            FontWeight="Bold"
+            HorizontalAlignment="Center" />
+
+            <StackPanel>
+                <Label 
+                    Content="Filtrage" 
+                    FontSize="18" 
+                    Margin="40,0,0,0"
+                    HorizontalAlignment="Left"/>
+
+                <TextBox 
+                    x:Name="txtNom" 
+                    Width="200"
+                    TextChanged="TxtNom_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,0,0,20" />
+
+                <DataGrid 
+                    x:Name="dgActivites"
+                    Margin="40,0,40,0"
+                    MaxHeight="160"
+                    AutoGenerateColumns="False"
+                    IsReadOnly="True"
+                    ItemsSource="{Binding LesActivites}" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Nom}" Header="Nom de l'activité" />
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <WrapPanel>
+                    <Button 
+                    x:Name="btSupActivite" 
+                    Content="sup activité" 
+                    Width="120" 
+                    Height="20"
+                    HorizontalAlignment="Right" 
+                    Margin="40,20,40,0" Click="BtSupActivite_Click"/>
+
+                    <Button 
+                    x:Name="btCreationActivite" 
+                    Content="créer activité" 
+                    Width="120" 
+                    Height="20"
+                    HorizontalAlignment="Right" 
+                    Margin="0,20,40,0"
+                    Click="BtCreationActivite_Click" />
+                </WrapPanel>
+
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Margin="0,30,0,0" >
+            <Label
+            x:Name="labDate"
+            Margin="40,0,40,0"
+            Content="Date"
+            FontSize="18" />
+            <DatePicker 
+            x:Name="dpDate" 
+            Margin="40,5,40,0" />
+
+            <Label
+            x:Name="labDuree"
+            Margin="40,0,40,0"
+            Content="Durée (Heures)"
+            FontSize="18" />
+            <TextBox x:Name="tbDuree"
+            Margin="40,5,40,0"
+            TextWrapping="Wrap" />
+        </StackPanel>
+
+        <Button
+            x:Name="btReserver"
+            Width="100"
+            Height="20"
+            Content="Réserver" 
+            IsDefault="True"
+            Margin="0,20,40,0"
+            HorizontalAlignment="Right" 
+            Click="BtReserver_Click" />
+
+    </StackPanel>
+</UserControl>

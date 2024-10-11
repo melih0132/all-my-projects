@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu de foot multijoueur 2D</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="main-container">
+    <h1>Jeu de Foot</h1>
+    <div id="playerCount">Joueurs connectés : 0</div>
+
+    <div id="team-selection">
+      <h2>Choisissez votre équipe</h2>
+      <button id="redButton">Équipe Rouge</button>
+      <button id="blueButton">Équipe Bleue</button>
+    </div>
+  </section>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    let selectedTeam = null;
+
+    document.getElementById('redButton').addEventListener('click', () => {
+      selectedTeam = 'red';
+      startGame();
+    });
+
+    document.getElementById('blueButton').addEventListener('click', () => {
+      selectedTeam = 'blue';
+      startGame();
+    });
+
+    function startGame() {
+      if (selectedTeam) {
+        socket.emit('joinGame', { team: selectedTeam });
+        window.location.href = "game.html"; // Assurez-vous que game.html existe
+      }
+    }
+
+    socket.on('playerCountUpdate', (count) => {
+      document.getElementById('playerCount').innerText = `Joueurs connectés : ${count}`;
+    });
+  </script>
+</body>
+
+</html>

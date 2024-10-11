@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="DortanApp.UCMateriel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DortanApp"
+             mc:Ignorable="d" >
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.2*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="0.8*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel x:Name="clFiltreEtBt" Grid.Column="0">
+            <Label 
+                Content="Réservation" 
+                FontSize="36"
+                FontWeight="Bold"
+                HorizontalAlignment="Center"
+                Margin="0,20,0,20" />
+
+            <StackPanel Margin="20,0,20,0">
+                <Label 
+                    Content="Filtrage" 
+                    FontSize="20" 
+                    HorizontalAlignment="Center"/>
+
+                <Label Content="Type" FontSize="18"/>
+                <TextBox x:Name="txtType" TextChanged="TxtType_TextChanged"/>
+
+                <Label Content="Catégorie"  FontSize="18"/>
+                <TextBox x:Name="txtCategorie" TextChanged="TxtCategorie_TextChanged" />
+
+                <Label Content="Site" FontSize="18" />
+                <TextBox x:Name="txtSite" TextChanged="TxtSite_TextChanged" />
+            </StackPanel>
+
+            <Button 
+                x:Name="btValider" 
+                Width="80" 
+                Height="20" 
+                Margin="0,30,0,0" 
+                Content="Valider" 
+                HorizontalAlignment="Center" 
+                Visibility="Hidden"
+                Click="BtValider_Click" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" >
+            <Label 
+                Content="Les Matériels" 
+                FontSize="24"
+                FontWeight="Bold"
+                HorizontalAlignment="Center"
+                Margin="0,20,0,20" />
+            
+            <DataGrid x:Name="dbMateriel" AutoGenerateColumns="False" ItemsSource="{Binding LesMateriels}" SelectionChanged="DbMateriel_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nom Matériel" Binding="{Binding Nom}" />
+                    <DataGridTextColumn Header="Type produit" Binding="{Binding TypeMateriel.Nom}" />
+                    <DataGridTextColumn Header="Catégorie" Binding="{Binding NomCategorie}" />
+                    <DataGridTextColumn Header="Site" Binding="{Binding Site.Nom}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>   
+
+        <StackPanel x:Name="clSelection" Grid.Column="2">
+            <StackPanel Margin="0,104,0,0">
+                <ItemsControl ItemsSource="{Binding LesMateriels}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <CheckBox Content="{Binding Nom}" Checked="MaterielSelectionne" Unchecked="MaterielSelectionne" Margin="10,4,0,0"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

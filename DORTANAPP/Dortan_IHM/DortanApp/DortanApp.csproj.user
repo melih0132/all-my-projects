@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="fenetres\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fenetres\UCCreation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fenetres\UCReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fenetres\UCVisuReserver.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="fenetres\UCMateriel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="fenetres\DetailsMateriel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\Connexion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\UCCreation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\UCReservation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\UCVisuReserver.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="fenetres\UCMateriel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
