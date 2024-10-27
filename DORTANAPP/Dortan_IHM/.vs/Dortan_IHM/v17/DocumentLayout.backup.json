@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|c:\\users\\melih\\desktop\\projets\\projets - github\\dortanapp\\dortan_ihm\\dortanapp\\applicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|solutionrelative:dortanapp\\applicationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|c:\\users\\melih\\desktop\\projets\\projets - github\\dortanapp\\dortan_ihm\\dortanapp\\fenetres\\connexion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|solutionrelative:dortanapp\\fenetres\\connexion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|c:\\users\\melih\\desktop\\projets\\projets - github\\dortanapp\\dortan_ihm\\dortanapp\\config\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|solutionrelative:dortanapp\\config\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|c:\\users\\melih\\desktop\\projets\\projets - github\\dortanapp\\dortan_ihm\\dortanapp\\fenetres\\connexion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A700081B-C89A-4C2F-A026-6387DDCDFB03}|DortanApp\\DortanApp.csproj|solutionrelative:dortanapp\\fenetres\\connexion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Connexion.xaml.cs",
               "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\DortanApp\\fenetres\\Connexion.xaml.cs",
               "RelativeDocumentMoniker": "DortanApp\\fenetres\\Connexion.xaml.cs",
               "ToolTip": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\DortanApp\\fenetres\\Connexion.xaml.cs",
               "RelativeToolTip": "DortanApp\\fenetres\\Connexion.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T18:17:32.926Z",
               "EditorCaption": ""
@@ -53,22 +49,9 @@
               "RelativeDocumentMoniker": "DortanApp\\config\\DataAccess.cs",
               "ToolTip": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\DortanApp\\config\\DataAccess.cs",
               "RelativeToolTip": "DortanApp\\config\\DataAccess.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T18:17:20.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationData.cs",
-              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\DortanApp\\ApplicationData.cs",
-              "RelativeDocumentMoniker": "DortanApp\\ApplicationData.cs",
-              "ToolTip": "C:\\Users\\melih\\Desktop\\Projets\\PROJETS - GITHUB\\DORTANAPP\\Dortan_IHM\\DortanApp\\ApplicationData.cs",
-              "RelativeToolTip": "DortanApp\\ApplicationData.cs",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAmwB0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T18:18:33.774Z",
               "EditorCaption": ""
             }
           ]

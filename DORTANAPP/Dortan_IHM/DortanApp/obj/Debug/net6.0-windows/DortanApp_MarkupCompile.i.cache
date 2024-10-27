@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\melih\Desktop\Projets\C#\WPF\DortanApp\Dortan_IHM\DortanApp\obj\Debug\net6.0-windows\
+C:\Users\melih\Desktop\Projets\PROJETS - GITHUB\DORTANAPP\Dortan_IHM\DortanApp\obj\Debug\net6.0-windows\
 DortanApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\melih\Desktop\Projets\C#\WPF\DortanApp\Dortan_IHM\DortanApp\App.xaml
+C:\Users\melih\Desktop\Projets\PROJETS - GITHUB\DORTANAPP\Dortan_IHM\DortanApp\App.xaml
 7-2130920743
 
 24408910946
-197-1343075035
+197130531909
 fenetres\Connexion.xaml;fenetres\DetailsMateriel.xaml;fenetres\MainWindow.xaml;fenetres\UCCreation.xaml;fenetres\UCMateriel.xaml;fenetres\UCReservation.xaml;fenetres\UCVisuReserver.xaml;
 
-False
+True
 
