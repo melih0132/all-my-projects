@@ -35,13 +35,17 @@ socket.on('joinGame', (data) => {
 });
 
 function preload() {
-    this.load.image('player_red', 'assets/player_red.png');
-    this.load.image('player_blue', 'assets/player_blue.png');
+    this.load.image('player_red', '../assets/player_red.png');
+    this.load.image('player_blue', '../assets/player_blue.png');
     this.load.image('ball', 'assets/ball.png');
+
+    this.load.image('background', '../assets/terrain.png');
 }
 
 function create() {
     socket.emit('joinGame', { team: selectedTeam });
+
+    this.add.image(0, 0, 'background').setOrigin(0, 0);
 
     ball = this.physics.add.image(500, 300, 'ball');
     ball.setScale(0.05);
