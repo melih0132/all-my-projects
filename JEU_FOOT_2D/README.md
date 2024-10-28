@@ -14,7 +14,7 @@
 ## Technologies Used
 
 - **Programming Languages:** HTML, CSS, JavaScript
-- **Framework:** Phaser
+- **Framework:** Phaser, Socket.io, Express, Nodemon
 - **Tools:** Visual Studio Code, Git
 
 ## Installation
