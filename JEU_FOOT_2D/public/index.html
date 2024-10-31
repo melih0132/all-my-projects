@@ -26,6 +26,7 @@
     const socket = io();
     let selectedTeam = null;
 
+    // Gestion de la sélection de l’équipe
     document.getElementById('redButton').addEventListener('click', () => {
       selectedTeam = 'red';
       startGame();
@@ -36,13 +37,18 @@
       startGame();
     });
 
+    // Fonction pour démarrer le jeu
     function startGame() {
       if (selectedTeam) {
+        // Envoie l’équipe sélectionnée au serveur
         socket.emit('joinGame', { team: selectedTeam });
-        window.location.href = "game.html"; // Assurez-vous que game.html existe
+
+        // Vous pouvez supprimer cette ligne si `game.html` n'existe pas
+        window.location.href = "game.html";
       }
     }
 
+    // Mise à jour de l'affichage du nombre de joueurs connectés
     socket.on('playerCountUpdate', (count) => {
       document.getElementById('playerCount').innerText = `Joueurs connectés : ${count}`;
     });
