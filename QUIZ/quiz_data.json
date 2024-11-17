@@ -1,0 +1,59 @@
+{
+    "questions": [
+        {
+            "question": "What does OOP stand for?",
+            "options": [
+                "Object Oriented Programming",
+                "Object Oriented Protocol",
+                "Online Object Programming",
+                "Object Offline Programming"
+            ],
+            "correct": 0,
+            "category": "Programming Basics"
+        },
+        {
+            "question": "Which symbol is used for comments in Python?",
+            "options": [
+                "//",
+                "/* */",
+                "#",
+                "--"
+            ],
+            "correct": 2,
+            "category": "Python"
+        },
+        {
+            "question": "What is the correct file extension for Python files?",
+            "options": [
+                ".py",
+                ".python",
+                ".pt",
+                ".pyt"
+            ],
+            "correct": 0,
+            "category": "Python"
+        },
+        {
+            "question": "Which of these is NOT a Python data type?",
+            "options": [
+                "int",
+                "str",
+                "char",
+                "float"
+            ],
+            "correct": 2,
+            "category": "Python"
+        },
+        {
+            "question": "What is the purpose of __init__ method in Python classes?",
+            "options": [
+                "To initialize class attributes",
+                "To delete an object",
+                "To return a string",
+                "To create a loop"
+            ],
+            "correct": 0,
+            "category": "OOP"
+        }
+    ]
+}
