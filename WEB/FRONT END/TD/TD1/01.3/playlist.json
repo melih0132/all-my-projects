@@ -1,0 +1,19 @@
+{
+  "playlist": [
+    {
+      "groupe": "Deep Purple",
+      "titre": "Smoke on the water",
+      "année": 1972
+    },
+    {
+      "groupe": "Metallica",
+      "titre": "My friend of misery",
+      "année": 1991
+    },
+    {
+      "groupe": "Nirvana",
+      "titre": "Something in the way",
+      "année": 1991
+    }
+  ]
+}

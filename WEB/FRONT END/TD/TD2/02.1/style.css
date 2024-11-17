@@ -1,0 +1,60 @@
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.lightbox {
+	width: 300px;
+}
+
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#box {
+	margin: calc(10vh - 20px) auto;
+	padding: 20px;
+	width: fit-content;
+	background-color: white;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 4px;
+	position: relative;
+	transition: all 1s ease;
+}
+
+#box.out {
+	transform: translateX(120vw) rotate(30deg);
+}
+
+#box img {
+	height: 80vh;
+}
+
+#close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 0 0 2px black;
+	background-color: rgba(255, 255, 255, .8);
+	color: #888888;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+#close:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: #333333;
+	box-shadow: 0 0 4px black;
+	transform: rotate(360deg);
+}
