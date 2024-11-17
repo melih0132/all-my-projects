@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/assets/css/style.css"/>
+  <link rel="stylesheet" href="/assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  <title>Projet n°4 - Kube</title>
+  <title>Projet #4 - LPO - Gestion des Données de Comptage d'Oiseaux</title>
   <link rel="icon" href="/assets/png/logo.png" type="image/png">
 </head>
 
@@ -35,8 +35,8 @@
           </li>
         </ul>
         <div class="header__main-ham-menu-cont">
-          <img src="/assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="/assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+          <img src="/assets/svg/ham-menu.svg" alt="menu hamburger" class="header__main-ham-menu" />
+          <img src="/assets/svg/ham-menu-close.svg" alt="fermer le menu hamburger"
             class="header__main-ham-menu-close d-none" />
         </div>
       </div>
@@ -47,15 +47,12 @@
           <li class="header__sm-menu-link">
             <a href="../">Accueil</a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="../#about">À propos</a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="../#projects">Projets</a>
           </li>
-
           <li class="header__sm-menu-link">
             <a href="../#contact">Contact</a>
           </li>
@@ -66,16 +63,16 @@
 
   <section class="project-cs-hero">
     <div class="project-cs-hero__content">
-      <h1 class="heading-primary">Kube</h1>
+      <h1 class="heading-primary">LPO</h1>
       <div class="project-cs-hero__info">
         <p class="text-primary">
-          L'étude de cas du projet Kube est présentée sur cette page,
-          incluant un aperçu du projet ainsi que les outils utilisés.
+          L'étude de cas du projet LPO est présentée sur cette page, y compris un aperçu du projet et des outils
+          utilisés.
         </p>
       </div>
       <div class="project-cs-hero__cta">
-        <a href="https://github.com/melih0132/PROJETS/tree/main/KUBE" class="btn btn--bg" target="_blank" rel="noreferrer">Lien du
-          Projet</a>
+        <a href="https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/LPO" class="btn btn--bg" target="_blank"
+          rel="noreferrer">Lien du projet</a>
       </div>
     </div>
   </section>
@@ -83,57 +80,84 @@
     <div class="main-container">
       <div class="project-details__content">
         <div class="project-details__showcase-img-cont">
-          <img src="/assets/png/Kube/Main.png" alt="Image du Projet Kube" loading="lazy" class="project-details__showcase-img" />
+          <img src="/assets/webp/LPO/logo.webp" alt="Image du projet LPO" loading="lazy"
+            class="project-details__showcase-img" />
         </div>
         <div class="project-details__content-main">
           <div class="project-details__desc">
-            <h2 class="project-details__content-title">Présentation du Projet</h2>
+            <h2 class="project-details__content-title">Aperçu du projet</h2>
             <p class="project-details__desc-para">
-              Kube est un jeu d'obstacles en 3D développé avec Unity. Le joueur doit naviguer à travers différents
-              niveaux en évitant des obstacles variés, avec des défis croissants à chaque étape. Ce projet vise à offrir
-              une expérience de jeu immersive et captivante avec une interface graphique moderne et dynamique.
+              Ce projet vise à développer une base de données complète pour la gestion des données de comptage
+              d'oiseaux, permettant à la Ligue pour la Protection des Oiseaux (LPO) de collecter, analyser et présenter
+              efficacement des informations vitales. Construit sur PostgreSQL, la base de données s'intègre parfaitement
+              avec des outils comme Excel et Power BI pour améliorer les capacités d'analyse et de visualisation des
+              données.
             </p>
             <p class="project-details__desc-para">
-              Depuis son lancement, Kube a été bien accueilli pour ses mécaniques de jeu innovantes et son design visuel
-              attrayant. Le jeu est en constante amélioration avec des mises à jour régulières visant à enrichir
-              l'expérience utilisateur et à ajouter de nouveaux niveaux et fonctionnalités.
+              La phase de modélisation de la base de données a inclus la création d'un Diagramme Entité-Relation (ERD)
+              pour définir les entités clés telles que les comptages d'oiseaux, les observateurs, les espèces et les
+              sites, ainsi que leurs relations et contraintes. Cela a été suivi par le Modèle de Données Logique (LDM),
+              qui a traduit l'ERD en tables relationnelles spécifiquement adaptées à PostgreSQL.
+            </p>
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/MCD.webp" alt="ERD" class="project-details__showcase-img" />
+            </div>
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/MLD.webp" alt="LDM" class="project-details__showcase-img" />
+            </div>
+            <p class="project-details__desc-para">
+              Dans la configuration de la base de données, des tables ont été créées avec des contraintes définies, y
+              compris des clés primaires et étrangères, pour garantir l'intégrité des données. Des enregistrements
+              simulés de comptage d'oiseaux ont ensuite été peuplés dans la base de données, et des requêtes SQL ont été
+              développées pour une gestion et une analyse efficaces des données.
             </p>
             <p class="project-details__desc-para">
-              Kube a pour objectif de divertir et de challenger les joueurs en leur offrant une expérience de jeu fluide
-              et engageante. Ce projet fait partie de mon portfolio de jeux développés avec Unity.
+              Pour l'analyse statistique, des données pertinentes ont été extraites pour une utilisation dans Excel, où
+              des statistiques descriptives ont été réalisées pour évaluer le nombre d'individus par espèce, la
+              distribution géographique des observations et les tendances de population au fil du temps. Des
+              visualisations ont été créées pour représenter efficacement ces résultats.
             </p>
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/Excel.webp" alt="Excel pour les statistiques"
+                class="project-details__showcase-img" />
+            </div>
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/Excel2.webp" alt="Excel pour les statistiques"
+                class="project-details__showcase-img" />
+            </div>
             <p class="project-details__desc-para">
-              Parmi ses fonctionnalités, Kube propose des graphismes 3D avancés et des effets sonores immersifs pour une
-              expérience de jeu enrichissante.
+              Le projet s'est concrétisé par le développement d'un rapport interactif utilisant Power BI. Les données
+              consolidées ont été importées pour concevoir un tableau de bord dynamique qui affiche les tendances des
+              populations d'oiseaux, identifie les zones de haute biodiversité et facilite les comparaisons annuelles ou
+              saisonnières.
             </p>
-            <p class="project-details__desc-para">
-              N'hésitez pas à découvrir le projet en visitant le lien GitHub.
-            </p>
-          </div>
-          <div class="project-details__showcase-img-cont">
-            <img src="/assets/png/Kube/Menu.png" alt="Image du Projet" class="project-details__showcase-img" />
-          </div>
-          <div class="project-details__showcase-img-cont">
-            <img src="/assets/png/Kube/Main.png" alt="Image du Projet" class="project-details__showcase-img" />
-          </div>
-          <div class="project-details__showcase-img-cont">
-            <img src="/assets/png/Kube/Mort.png" alt="Image du Projet" class="project-details__showcase-img" />
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/PowerBI.webp" alt="Tableau de bord Power BI"
+                class="project-details__showcase-img" />
+            </div>
+            <div class="project-details__showcase-img-cont">
+              <img src="/assets/webp/LPO/PowerBI2.webp" alt="Tableau de bord Power BI"
+                class="project-details__showcase-img" />
+            </div>
           </div>
           <div class="project-details__tools-used">
-            <h2 class="project-details__content-title">Langages</h2>
+            <h2 class="project-details__content-title">Technologies Utilisées</h2>
             <div class="skills__projects">
-              <div class="skills__skill">Unity</div>
-              <div class="skills__skill">C#</div>
-              <div class="skills__skill">3D Modeling</div>
-              <div class="skills__skill">Git</div>
-              <div class="skills__skill">GitHub</div>
+              <div class="skills__skill">Visual Paradigm</div>
+              <div class="skills__skill">PowerAMC</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">pgAdmin4</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Excel</div>
+              <div class="skills__skill">Power BI</div>
+              <div class="skills__skill">Microsoft Teams</div>
             </div>
           </div>
           <div class="project-details__links">
             <h2 class="project-details__content-title">Voir GitHub</h2>
-            <a href="https://github.com/melih0132/PROJETS/tree/main/KUBE"
+            <a href="https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/LPO"
               class="btn btn--med btn--theme project-details__links-btn" target="_blank" rel="noreferrer">Lien du
-              Projet</a>
+              projet</a>
             <a href="../#" class="btn btn--med btn--theme-inv project-details__links-btn">Retour</a>
           </div>
         </div>
@@ -165,7 +189,6 @@
           <p class="main-footer__short-desc">
             Développeur de zinzin sah.
           </p>
-          <a href="/assets/CV - MELIH CETINKAYA.pdf" download class="main-footer__link">Télécharger le CV</a>
         </div>
       </div>
 
@@ -174,12 +197,11 @@
         <script>
           document.write(new Date().getFullYear());
         </script>
-        . Made by Melih Cetinkaya
+        . Réalisé par Melih Cetinkaya
       </div>
     </div>
   </footer>
 
-  
   <script src="/fr/projets/script.js"></script>
 </body>
 
