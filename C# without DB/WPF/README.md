@@ -1,4 +1,4 @@
-# WPF without DB
+# WPF
 
 Welcome to the **WPF** repository! This directory contains projects developed using Windows Presentation Foundation (WPF). These projects focus on creating rich user interfaces and demonstrating various features of WPF.
 
