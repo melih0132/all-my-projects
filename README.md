@@ -1,39 +1,34 @@
 # **PROJECTS**
+
 Welcome to my **PROJECTS** repository! Here, you'll find a collection of my development projects, each with its own Git repository. This directory contains various projects I have worked on, each with its own specific technologies and features.
 
 ## 📁 **Included Projects**
 
-### 1. [Evit'Shuriken](https://github.com/melih0132/PROJETS/tree/main/EVIT_SHURIKEN)  
-**Evit'Shuriken** is a WPF game I created, combining knowledge of C# and XAML. This project was completed during my first year in the IT Bachelor's program.
+### 1. BIG PROJECTS
+This project folder contains large-scale projects that I've been working on.
 
-### 2. [DORTANAPP](https://github.com/melih0132/PROJETS/tree/main/DORTANAPP)  
-**DortanApp** is a software developed in WPF with a database for booking activities in a local government office. The staff can choose an activity or create a new one, then enter the reservation date.
+### 2. C# with DB
+This project folder contains C# applications that utilize a database.
 
-### 3. [Bird Counting Management LPO](https://github.com/melih0132/PROJETS/tree/main/GESTION_LPO)  
-This project helps manage bird counting data for the Ligue de Protection des Oiseaux (LPO). It includes:  
-- A database model (MCD and MLD).  
-- SQL queries and insertions in PostgreSQL.  
-- Statistics generated in Excel.  
-- An interactive dashboard built with Power BI.
+### 3. C# without DB
+This project folder contains C# applications that do not require a database.
 
-### 4. [Programming Quiz Game](https://github.com/melih0132/PROJETS/tree/main/QUIZ_GAME)  
-**Programming Quiz Game** is an interactive terminal-based application developed in Python that tests programming knowledge. Features include:
-- Multiple choice programming questions with score tracking
-- High scores system with persistent storage
-- Game statistics (average scores, completion times)
-- JSON data management
-- Object-Oriented Programming implementation
+### 4. PYTHON
+This project folder contains Python-based applications and scripts.
 
-### 5. [KUBE](https://github.com/melih0132/PROJETS/tree/main/KUBE)  
-**Kube** is a game developed in Unity with C#. This project allowed me to familiarize myself with a tool designed for game developers.
+### 5. UNITY
+This project folder contains Unity-based games and applications.
 
-### 6. [2D FOOTBALL GAME - Incomplete](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
-**2D FOOTBALL GAME** is an online football game developed in HTML, CSS, and JavaScript using the Phaser framework.
+### 6. WEB
+This project folder contains web-based projects, including HTML, CSS, and JavaScript.
+
+### 7. README.md
+This file provides an overview and description of the projects in this repository.
 
 ## 🛠️ **Technologies Used**
 Each project uses different technologies, including:
-- **Languages:** C#, HTML, CSS, JavaScript, Python  
-- **Frameworks:** WPF, Phaser, Unity  
-- **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel, JSON  
+- **Languages:** C#, HTML, CSS, JavaScript, Python
+- **Frameworks:** WPF, Phaser, Unity
+- **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel, JSON
 
 Thank you for visiting my project repository!
