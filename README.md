@@ -20,7 +20,7 @@ Ce projet permet de gérer les relevés de comptages d’oiseaux pour la Ligue d
 ### 4. [KUBE](https://github.com/melih0132/PROJETS/tree/main/KUBE)  
 **Kube** est un jeu réalisé via Unity en C#. Ce projet m'a permis de me familiariser avec un logiciel destiné à aider les développeurs de jeux.  
 
-### 5. [JEU FOOT 2D](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
+### 5. [JEU FOOT 2D - Non Achevé](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
 **JEU FOOT 2D** est un jeu de football en ligne développé en HTML, CSS et JavaScript avec le framework Phaser.  
 
 ## 🛠️ **Technologies Utilisées**
