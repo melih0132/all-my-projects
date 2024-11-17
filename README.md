@@ -4,7 +4,7 @@ Welcome to my **PROJECTS** repository! Here, you'll find a collection of my deve
 
 ## 📁 **Included Projects**
 
-### 1. BIG PROJECTS
+### 1. [BIG PROJECTS](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS)
 This project folder contains large-scale projects that I've been working on.
 
 ### 2. C# with DB
