@@ -1,0 +1,14 @@
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\bin\Debug\net6.0\Demineur_Console.exe
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\bin\Debug\net6.0\Demineur_Console.deps.json
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\bin\Debug\net6.0\Demineur_Console.runtimeconfig.json
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\bin\Debug\net6.0\Demineur_Console.dll
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\bin\Debug\net6.0\Demineur_Console.pdb
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.AssemblyInfoInputs.cache
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.AssemblyInfo.cs
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.dll
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\refint\Demineur_Console.dll
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.pdb
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\Demineur_Console.genruntimeconfig.cache
+C:\Users\melih\Desktop\Demineur_Console\Demineur_Console\obj\Debug\net6.0\ref\Demineur_Console.dll
