@@ -1,6 +1,5 @@
 # **PROJECTS**
-
-Welcome to my **PROJECTS** repository! Here, you’ll find a collection of my development projects, each with its own Git repository. This directory contains various projects I have worked on, each with its own specific technologies and features.
+Welcome to my **PROJECTS** repository! Here, you'll find a collection of my development projects, each with its own Git repository. This directory contains various projects I have worked on, each with its own specific technologies and features.
 
 ## 📁 **Included Projects**
 
@@ -17,18 +16,24 @@ This project helps manage bird counting data for the Ligue de Protection des Ois
 - Statistics generated in Excel.  
 - An interactive dashboard built with Power BI.
 
-### 4. [KUBE](https://github.com/melih0132/PROJETS/tree/main/KUBE)  
+### 4. [Programming Quiz Game](https://github.com/melih0132/PROJETS/tree/main/QUIZ_GAME)  
+**Programming Quiz Game** is an interactive terminal-based application developed in Python that tests programming knowledge. Features include:
+- Multiple choice programming questions with score tracking
+- High scores system with persistent storage
+- Game statistics (average scores, completion times)
+- JSON data management
+- Object-Oriented Programming implementation
+
+### 5. [KUBE](https://github.com/melih0132/PROJETS/tree/main/KUBE)  
 **Kube** is a game developed in Unity with C#. This project allowed me to familiarize myself with a tool designed for game developers.
 
-### 5. [2D FOOTBALL GAME - Incomplete](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
+### 6. [2D FOOTBALL GAME - Incomplete](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
 **2D FOOTBALL GAME** is an online football game developed in HTML, CSS, and JavaScript using the Phaser framework.
 
 ## 🛠️ **Technologies Used**
-
 Each project uses different technologies, including:
-
-- **Languages:** C#, HTML, CSS, JavaScript  
+- **Languages:** C#, HTML, CSS, JavaScript, Python  
 - **Frameworks:** WPF, Phaser, Unity  
-- **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel  
+- **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel, JSON  
 
 Thank you for visiting my project repository!
