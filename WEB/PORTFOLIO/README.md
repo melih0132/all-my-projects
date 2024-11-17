@@ -10,7 +10,7 @@ Bienvenue sur mon portfolio GitHub ! Ce site présente mes projets, compétences
 
 Voici les principales technologies et outils que j'utilise :
 
-- **Langages :** C#, HTML, CSS, JavaScript, etc.
+- **Langages :** HTML, CSS et JavaScript
 - **Outils :** Git, GitHub, VS Code, etc.
 
 ## Projets
