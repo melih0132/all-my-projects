@@ -1,34 +1,34 @@
-# **PROJETS**
+# **PROJECTS**
 
-Bienvenue dans mon répertoire **PROJETS** ! Ici, vous trouverez une collection de mes projets de développement, chacun ayant son propre dépôt Git. Ce répertoire contient divers projets que j'ai réalisés, chacun avec ses propres spécificités et technologies.
+Welcome to my **PROJECTS** repository! Here, you’ll find a collection of my development projects, each with its own Git repository. This directory contains various projects I have worked on, each with its own specific technologies and features.
 
-## 📁 **Projets Inclus**
+## 📁 **Included Projects**
 
 ### 1. [Evit'Shuriken](https://github.com/melih0132/PROJETS/tree/main/EVIT_SHURIKEN)  
-**Evit'Shuriken** est un jeu WPF que j'ai créé, combinant des connaissances en C# et XAML. Ce projet a été réalisé durant ma première année en BUT Informatique.  
+**Evit'Shuriken** is a WPF game I created, combining knowledge of C# and XAML. This project was completed during my first year in the IT Bachelor's program.
 
 ### 2. [DORTANAPP](https://github.com/melih0132/PROJETS/tree/main/DORTANAPP)  
-**DortanApp** est un logiciel réalisé en WPF avec une base de données destinée à la réservation d'activités d'une mairie. Le personnel de la mairie choisit une activité ou peut la créer, puis il saisit la date de la réservation.  
+**DortanApp** is a software developed in WPF with a database for booking activities in a local government office. The staff can choose an activity or create a new one, then enter the reservation date.
 
-### 3. [Gestion des Comptages d’Oiseaux LPO](https://github.com/melih0132/PROJETS/tree/main/GESTION_LPO)  
-Ce projet permet de gérer les relevés de comptages d’oiseaux pour la Ligue de Protection des Oiseaux (LPO). Il inclut :  
-- Une modélisation de la base de données (MCD et MLD).  
-- Des requêtes SQL et insertions dans PostgreSQL.  
-- Des statistiques réalisées via Excel.  
-- Un tableau de bord interactif conçu avec Power BI.  
+### 3. [Bird Counting Management LPO](https://github.com/melih0132/PROJETS/tree/main/GESTION_LPO)  
+This project helps manage bird counting data for the Ligue de Protection des Oiseaux (LPO). It includes:  
+- A database model (MCD and MLD).  
+- SQL queries and insertions in PostgreSQL.  
+- Statistics generated in Excel.  
+- An interactive dashboard built with Power BI.
 
 ### 4. [KUBE](https://github.com/melih0132/PROJETS/tree/main/KUBE)  
-**Kube** est un jeu réalisé via Unity en C#. Ce projet m'a permis de me familiariser avec un logiciel destiné à aider les développeurs de jeux.  
+**Kube** is a game developed in Unity with C#. This project allowed me to familiarize myself with a tool designed for game developers.
 
-### 5. [JEU FOOT 2D - Non Achevé](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
-**JEU FOOT 2D** est un jeu de football en ligne développé en HTML, CSS et JavaScript avec le framework Phaser.  
+### 5. [2D FOOTBALL GAME - Incomplete](https://github.com/melih0132/PROJETS/tree/main/JEU_FOOT_2D)  
+**2D FOOTBALL GAME** is an online football game developed in HTML, CSS, and JavaScript using the Phaser framework.
 
-## 🛠️ **Technologies Utilisées**
+## 🛠️ **Technologies Used**
 
-Chaque projet utilise différentes technologies, notamment :  
+Each project uses different technologies, including:
 
-- **Langages :** C#, HTML, CSS, JavaScript  
-- **Frameworks :** WPF, Phaser, Unity  
-- **Outils :** Git, GitHub, Power BI, PostgreSQL, Excel  
+- **Languages:** C#, HTML, CSS, JavaScript  
+- **Frameworks:** WPF, Phaser, Unity  
+- **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel  
 
-Merci de visiter mon répertoire de projets !  
+Thank you for visiting my project repository!
