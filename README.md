@@ -1,7 +1,3 @@
-Voici la version mise à jour avec le nouveau projet ajouté :  
-
----
-
 # **PROJETS**
 
 Bienvenue dans mon répertoire **PROJETS** ! Ici, vous trouverez une collection de mes projets de développement, chacun ayant son propre dépôt Git. Ce répertoire contient divers projets que j'ai réalisés, chacun avec ses propres spécificités et technologies.
