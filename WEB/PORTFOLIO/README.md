@@ -1,38 +1,38 @@
 # Portfolio - Melih CETINKAYA
 
-Bienvenue sur mon portfolio GitHub ! Ce site présente mes projets, compétences et expériences en développement. Vous pouvez découvrir mes réalisations et voir le code source de chacun de mes projets.
+Welcome to my GitHub portfolio! This site presents my projects, skills, and development experiences. You can discover my achievements and view the source code of each of my projects.
 
-## Lien vers le portfolio
+## Portfolio Link
 
 [melih0132.github.io](https://melih0132.github.io/)
 
-## Technologies et outils
+## Technologies and Tools
 
-Voici les principales technologies et outils que j'utilise :
+Here are the main technologies and tools I use:
 
-- **Langages :** C#, HTML, CSS, JavaScript, etc.
-- **Outils :** Git, GitHub, VS Code, etc.
+- **Languages:** C#, HTML, CSS, JavaScript, etc.
+- **Tools:** Git, GitHub, VS Code, etc.
 
-## Projets
+## Projects
 
-Vous trouverez sur mon portfolio plusieurs projets, avec des détails et des démonstrations pour chaque :
+You will find several projects on my portfolio, with details and demonstrations for each:
 
-- **[Evit'Shuriken](https://github.com/melih0132/PROJETS/tree/main/EVIT_SHURIKEN)** : Evit'Shuriken est un jeu WPF que j'ai créé, il combine des connaissances en C# et XAML. Ce projet a été réalisé durant ma première année en BUT Informatique.
-- **[DortanApp](https://github.com/melih0132/PROJETS/tree/main/DORTANAPP)** : DortanApp est un logiciel réalisé en WPF avec une Base de Données destinée à la réservation d'activités d'une mairie. Le personnel de la mairie choisit une activité ou peut la créer, puis il saisit la date de la réservation.
-- **[Kube](https://github.com/melih0132/PROJETS/tree/main/KUBE)** : Kube est un jeu réalisé via Unity en C#, ce projet m'a permis de découvrir le développement de jeux.
+- **[Evit'Shuriken](https://github.com/melih0132/PROJETS/tree/main/EVIT_SHURIKEN)**: Evit'Shuriken is a WPF game I created, combining knowledge in C# and XAML. This project was carried out during my first year in the Computer Science degree.
+- **[DortanApp](https://github.com/melih0132/PROJETS/tree/main/DORTANAPP)**: DortanApp is a WPF software with a Database designed for booking activities in a town hall. The town hall staff can choose an activity or create a new one, then enter the reservation date.
+- **[Kube](https://github.com/melih0132/PROJETS/tree/main/KUBE)**: Kube is a game created using Unity and C#, this project allowed me to discover game development.
 
-## Ce que j'apprends actuellement
+## What I'm Currently Learning
 
-Je travaille actuellement sur les technologies suivantes pour continuer d'améliorer mes compétences :
+I'm currently working on the following technologies to continue improving my skills:
 
 - React
 - Next.js
 
 ## Contact
 
-N'hésitez pas à me contacter pour toute question, collaboration ou opportunité professionnelle !
+Feel free to contact me for any questions, collaborations, or professional opportunities!
 
-- **Email :** melih.cetinkaya.32@gmail.com
-- **LinkedIn :** [linkedin.com/in/melih-ctk](https://www.linkedin.com/in/melih-ctk/)
+- **Email:** melih.cetinkaya.32@gmail.com
+- **LinkedIn:** [linkedin.com/in/melih-ctk](https://www.linkedin.com/in/melih-ctk/)
 
-Merci de visiter mon portfolio !
+Thank you for visiting my portfolio!
