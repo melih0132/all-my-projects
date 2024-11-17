@@ -1,0 +1,20 @@
+create or replace view V_Comptage_Oiseaux as
+select 
+    r.numReleve as "N° de fiche",
+    r.dateobservation as "Date de la fiche",
+    r.lieu as "Lieu",
+    r.latitude as "Latitude",
+    r.longitude as "Longitude",
+    d.nom as "Département d’observation",
+    d.superficie as "Superficie du département",
+    e.nomespece as "Nom de l’espèce",
+    v.nbOiseau as "Nombre compté",
+    v.estimationOiseau as "Estimation du nombre d'oiseaux"
+from 
+    a_ete_vu v
+join 
+    releve r on v.numReleve = r.numReleve
+join 
+    espece e on v.numEspece = e.numespece
+join 
+    departement d on r.numdepartement = d.numdepartement;

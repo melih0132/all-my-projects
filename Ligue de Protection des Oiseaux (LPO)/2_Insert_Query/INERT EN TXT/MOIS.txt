@@ -1,0 +1,12 @@
+INSERT INTO mois(nummois, nom) VALUES (1, 'Janvier');
+INSERT INTO mois(nummois, nom) VALUES (2, 'Février');
+INSERT INTO mois(nummois, nom) VALUES (3, 'Mars');
+INSERT INTO mois(nummois, nom) VALUES (4, 'Avril');
+INSERT INTO mois(nummois, nom) VALUES (5, 'Mai');
+INSERT INTO mois(nummois, nom) VALUES (6, 'Juin');
+INSERT INTO mois(nummois, nom) VALUES (7, 'Juillet');
+INSERT INTO mois(nummois, nom) VALUES (8, 'Août');
+INSERT INTO mois(nummois, nom) VALUES (9, 'Septembre');
+INSERT INTO mois(nummois, nom) VALUES (10, 'Octobre');
+INSERT INTO mois(nummois, nom) VALUES (11, 'Novembre');
+INSERT INTO mois(nummois, nom) VALUES (12, 'Décembre');
