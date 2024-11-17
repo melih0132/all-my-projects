@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Privé</title>
+    <style>
+        .container { display: flex; height: 100vh; }
+        .users-list { width: 200px; padding: 20px; background: #f0f0f0; }
+        .chat-area { flex-grow: 1; padding: 20px; }
+        .message { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .received { background: #e3f2fd; }
+        .sent { background: #e8f5e9; margin-left: 20%; }
+    </style>
+</head>
+<body>
+    <div id="login">
+        <input type="text" id="username" placeholder="Votre nom">
+        <button onclick="register()">Connexion</button>
+    </div>
+
+    <div id="chat" class="container" style="display: none;">
+        <div class="users-list">
+            <h3>Utilisateurs</h3>
+            <ul id="users"></ul>
+        </div>
+        
+        <div class="chat-area">
+            <h3>Chat avec: <span id="currentRecipient"></span></h3>
+            <div id="messages"></div>
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="Message">
+                <button onclick="sendMessage()">Envoyer</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        let currentRecipient = null;
+        
+        function register() {
+            const username = document.getElementById('username').value;
+            if (username) {
+                socket.emit('register', username);
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('chat').style.display = 'flex';
+            }
+        }
+
+        function selectRecipient(username) {
+            currentRecipient = username;
+            document.getElementById('currentRecipient').textContent = username;
+            document.getElementById('messages').innerHTML = '';
+        }
+
+        function sendMessage() {
+            if (!currentRecipient) return;
+            
+            const input = document.getElementById('messageInput');
+            const message = input.value;
+            if (message) {
+                socket.emit('private message', {
+                    to: currentRecipient,
+                    message: message
+                });
+                
+                const messages = document.getElementById('messages');
+                messages.innerHTML += `
+                    <div class="message sent">
+                        Vous: ${message}
+                    </div>
+                `;
+                
+                input.value = '';
+            }
+        }
+
+        socket.on('users', (users) => {
+            const list = document.getElementById('users');
+            list.innerHTML = users
+                .map(user => `
+                    <li onclick="selectRecipient('${user}')">${user}</li>
+                `)
+                .join('');
+        });
+
+        socket.on('private message', (data) => {
+            const messages = document.getElementById('messages');
+            messages.innerHTML += `
+                <div class="message received">
+                    ${data.from}: ${data.message}
+                </div>
+            `;
+        });
+
+        socket.on('userJoined', (username) => {
+            const list = document.getElementById('users');
+            list.innerHTML += `<li onclick="selectRecipient('${username}')">${username}</li>`;
+        });
+
+        socket.on('userLeft', (username) => {
+            const users = document.getElementById('users');
+            const userElement = Array.from(users.children)
+                .find(li => li.textContent === username);
+            if (userElement) userElement.remove();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Système de Notifications</title>
+    <style>
+        .notification {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        .unread { background-color: #e3f2fd; }
+        .read { background-color: #f5f5f5; }
+        .info { border-left: 4px solid blue; }
+        .warning { border-left: 4px solid orange; }
+        .error { border-left: 4px solid red; }
+    </style>
+</head>
+<body>
+    <div id="notifications-panel">
+        <h2>Notifications</h2>
+        <div id="notifications-list"></div>
+    </div>
+
+    <div id="test-panel">
+        <h3>Test: Créer une notification</h3>
+        <select id="notifType">
+            <option value="info">Info</option>
+            <option value="warning">Warning</option>
+            <option value="error">Error</option>
+        </select>
+        <input type="text" id="notifMessage" placeholder="Message">
+        <input type="number" id="targetUser" placeholder="ID utilisateur cible">
+        <button onclick="createNotification()">Envoyer</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        const userId = Math.floor(Math.random() * 1000); // Simuler un ID utilisateur
+
+        socket.emit('login', userId);
+        console.log('Connecté en tant que:', userId);
+
+        function createNotification() {
+            const type = document.getElementById('notifType').value;
+            const message = document.getElementById('notifMessage').value;
+            const targetUserId = parseInt(document.getElementById('targetUser').value);
+
+            socket.emit('create-notification', {
+                targetUserId,
+                message,
+                type
+            });
+        }
+
+        function displayNotification(notification) {
+            const list = document.getElementById('notifications-list');
+            const div = document.createElement('div');
+            div.className = `notification ${notification.read ? 'read' : 'unread'} ${notification.type}`;
+            div.innerHTML = `
+                <p>${notification.message}</p>
+                <small>${new Date(notification.timestamp).toLocaleString()}</small>
+            `;
+            
+            if (!notification.read) {
+                div.onclick = () => {
+                    socket.emit('mark-read', notification.id);
+                };
+            }
+            
+            list.prepend(div);
+        }
+
+        socket.on('unread-notifications', (notifications) => {
+            notifications.forEach(displayNotification);
+        });
+
+        socket.on('new-notification', displayNotification);
+        
+        socket.on('notification-updated', (notification) => {
+            const element = document.querySelector(`[data-notif-id="${notification.id}"]`);
+            if (element) {
+                element.className = `notification read ${notification.type}`;
+            }
+        });
+    </script>
+</body>
+</html>

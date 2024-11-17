@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat en temps réel</title>
+    <link rel="stylesheet" href="styleChat.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages-container">
+            <ul id="messages"></ul>
+        </div>
+        <form id="form" action="">
+            <input id="input" autocomplete="off" placeholder="Écrivez votre message..."/>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        const form = document.getElementById('form');
+        const input = document.getElementById('input');
+        const messages = document.getElementById('messages');
+
+        // Gestion de l'envoi de message
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (input.value) {
+                // Ajouter directement le message pour l'expéditeur
+                addMessage(input.value, true);
+                // Émettre le message vers le serveur
+                socket.emit('chat message', input.value);
+                input.value = '';
+            }
+        });
+
+        // Réception des messages des autres utilisateurs
+        socket.on('chat message', (msg) => {
+            addMessage(msg, false);
+        });
+
+        // Réception des événements utilisateur (connexion/déconnexion)
+        socket.on('user event', (msg) => {
+            const item = document.createElement('li');
+            item.textContent = msg;
+            item.className = 'system-message';
+            messages.appendChild(item);
+            window.scrollTo(0, document.body.scrollHeight);
+        });
+
+        // Fonction pour ajouter un message à la liste
+        function addMessage(msg, isSender) {
+            const item = document.createElement('li');
+            item.textContent = msg;
+            item.className = isSender ? 'sender-message' : 'receiver-message';
+            messages.appendChild(item);
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+    </script>
+</body>
+</html>

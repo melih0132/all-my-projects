@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz en temps réel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #login {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #login input {
+            padding: 10px;
+            font-size: 16px;
+            width: 70%;
+            max-width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        #login button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #login button:hover {
+            background-color: #45a049;
+        }
+
+        #quiz {
+            display: none;
+        }
+
+        .question {
+            margin: 20px 0;
+        }
+
+        .question h2 {
+            margin-bottom: 10px;
+        }
+
+        .option {
+            margin: 10px 0;
+            padding: 15px;
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 70%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .option:hover {
+            background-color: #f0f0f0;
+        }
+
+        .option:active {
+            background-color: #e0e0e0;
+        }
+
+        /* Scores en dehors du conteneur */
+        .scores {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 250px;
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            z-index: 10;
+        }
+
+        .scores h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .scores ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .scores li {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        #hostControls {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #hostControls button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #hostControls button:hover {
+            background-color: #0056b3;
+        }
+
+        .result-popup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .result-popup.success {
+            color: #4CAF50;
+        }
+
+        .result-popup.fail {
+            color: #f44336;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz en temps réel</h1>
+
+        <div id="login">
+            <input type="text" id="username" placeholder="Votre nom">
+            <button onclick="join()">Rejoindre</button>
+        </div>
+
+        <div id="quiz" style="display: none;">
+            <div id="hostControls" style="display: none;">
+                <button onclick="startQuiz()">Démarrer le Quiz</button>
+            </div>
+
+            <div id="questionContainer"></div>
+        </div>
+    </div>
+
+    <!-- Section des scores en dehors du conteneur principal -->
+    <div class="scores">
+        <h3>Scores</h3>
+        <ul id="scoresList"></ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        function join() {
+            const username = document.getElementById('username').value;
+            if (username) {
+                socket.emit('join', username);
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('quiz').style.display = 'block';
+            }
+        }
+
+        function startQuiz() {
+            socket.emit('startQuiz');
+        }
+
+        function submitAnswer(index) {
+            socket.emit('answer', index);
+        }
+
+        socket.on('makeHost', () => {
+            document.getElementById('hostControls').style.display = 'block';
+        });
+
+        socket.on('question', (data) => {
+            const container = document.getElementById('questionContainer');
+            let html = `
+                <div class="question">
+                    <h2>Question ${data.number}/${data.total}</h2>
+                    <p>${data.question}</p>
+                </div>
+            `;
+
+            data.options.forEach((option, index) => {
+                html += `
+                    <div class="option" onclick="submitAnswer(${index})">
+                        ${option}
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        });
+
+        socket.on('updateScores', (scores) => {
+            const list = document.getElementById('scoresList');
+            list.innerHTML = Object.values(scores)
+                .sort((a, b) => b.score - a.score)
+                .map(player => `
+                    <li>${player.username}: ${player.score}</li>
+                `)
+                .join('');
+        });
+
+        socket.on('result', (correct) => {
+            const resultClass = correct ? 'success' : 'fail';
+            const resultMessage = correct ? 'Correct!' : 'Incorrect!';
+
+            const resultElement = document.createElement('div');
+            resultElement.classList.add('result-popup', resultClass);
+            resultElement.innerHTML = resultMessage;
+            document.body.appendChild(resultElement);
+
+            setTimeout(() => {
+                resultElement.remove();
+            }, 3000);
+        });
+
+        socket.on('quizFinished', (data) => {
+            const winnerElement = document.createElement('div');
+            winnerElement.classList.add('result-popup', 'success');
+            winnerElement.innerHTML = `Félicitations ${data.winner} !<br>Vous avez gagné avec ${data.score} points`;
+
+            document.body.appendChild(winnerElement);
+
+            setTimeout(() => {
+                winnerElement.remove();
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>
