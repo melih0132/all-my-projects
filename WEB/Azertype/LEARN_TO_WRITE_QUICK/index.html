@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AzerType</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="config.js" defer></script>
+    <script src="popup.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>AzerType</h1>
+        <h2>Site pour écrire plus vite !</h2>
+        <h3>AzerType est une application en ligne pour apprendre à taper plus vite au clavier :)</h3>
+    </header>
+
+    <main>
+        <div class="zoneOptions">
+            <p>Choisissez votre option et tapez la proposition qui s'affiche dans le champ en-dessous.</p>
+            <div class="optionSource">
+                <input type="radio" name="optionSource" id="mots" value="1" checked>
+                <label for="mots">Mots</label>
+                <input type="radio" name="optionSource" id="phrases" value="2">
+                <label for="phrases">Phrases</label>
+            </div>
+        </div>
+
+        <div class="zoneProposition">
+            Azerty
+        </div>
+
+        <div class="zoneSaisie">
+            <input type="text" id="inputEcriture" name="inputEcriture" placeholder="Écrivez ici" title="Zone de texte pour la saisie">
+            <button id="btnValiderMot">Valider</button>
+        </div>
+
+        <div class="zoneScore">
+            Votre score : <span>0</span>
+        </div>
+
+        <div class="zonePartage">
+            <button>Partager</button>
+        </div>
+
+        
+    <div class="popupBackground">
+        <div class="popup">
+            <div>Partagez votre score</div>
+            <form>
+                <label for="nom">Votre nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                <label for="email">Avec qui voulez-vous partager votre score ?</label>
+                <input type="email" id="email" name="email" placeholder="nom@domaine.com">
+                <button type="submit" id="btnEnvoyerMail">Envoyer</button>
+                <button type="cancel" id="btnAnnuler">Annuler</button>
+            </form>
+        </div>
+    </div>    
+        
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>Adresse : 2 rue de jaqueline auriole, Annecy-le-Vieux</p>
+                <p>Téléphone : +33 06 98 24 89 32</p>
+                <p>Email : melih.cetinkaya@etu.univ-smb.fr</p>
+                <div class="copyright">© 2024 Cetinkaya Melih. Tous droits réservés.</div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
