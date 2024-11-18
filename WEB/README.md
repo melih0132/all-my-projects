@@ -1,28 +1,32 @@
-# Web Projects
+# PROJECTS / WEB / PORTFOLIO
 
-Welcome to the Web Projects section of my repository! This area contains various web-based projects and applications that I have developed using different web technologies.
+Welcome to the Portfolio section of my GitHub repository! This area showcases my web development projects and highlights my skills and experiences.
 
 ## Projects
 
-1. **[Azertype](https://github.com/melih0132/PROJECTS/tree/main/WEB/Azertype)**
-   - A web-based typing practice application.
-   - Utilizes HTML, CSS, and JavaScript to create an interactive typing experience.
+The portfolio website includes several projects:
 
-2. **[PHASER](https://github.com/melih0132/PROJECTS/tree/main/WEB/PHASER)**
-   - A web game built using the Phaser.js HTML5 game framework.
-   - Explores the capabilities of Phaser for creating engaging browser-based games.
+1. **BACK END/TD**
+2. **FRONT END**
+3. **PHASER**
+4. **PORTFOLIO**
+5. **README.md**
 
-3. **[PORTFOLIO](https://github.com/melih0132/PROJECTS/tree/main/WEB/PORTFOLIO)**
-   - My personal portfolio website, showcasing my work and skills.
-   - Combines HTML, CSS, and JavaScript to create a responsive and visually appealing design.
+Each project has a last commit message and the date of the last commit.
 
-## Technologies Used
+## Technologies and Tools
 
-The Web Projects in this repository leverage the following technologies:
+The main technologies and tools I use for my web development work include:
 
-- **HTML:** The standard markup language for creating web pages.
-- **CSS:** Used for styling and layout of the web applications.
-- **JavaScript:** Adds interactivity and dynamic behavior to the web projects.
-- **Phaser.js:** A popular HTML5 game framework used for the game project.
+- HTML, CSS, and JavaScript
+- Git and GitHub
+- Visual Studio Code
 
-Enjoy exploring the Web Projects!
+## Contact
+
+Feel free to reach out to me if you have any questions, collaboration opportunities, or professional inquiries:
+
+- Email: melih.cetinkaya.32@gmail.com
+- LinkedIn: linkedin.com/in/melih-ctk
+
+Thank you for visiting my portfolio!
