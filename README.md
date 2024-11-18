@@ -24,7 +24,7 @@ This project folder contains web-based projects, including HTML, CSS, and JavaSc
 
 ## **Technologies Used**
 Each project uses different technologies, including:
-- **Languages:** C#, HTML, CSS, JavaScript, Python
+- **Languages:** C#, HTML, CSS, JavaScript, Python, PHP, SQL
 - **Frameworks:** WPF, Phaser, Unity
 - **Tools:** Git, GitHub, Power BI, PostgreSQL, Excel, JSON
 
