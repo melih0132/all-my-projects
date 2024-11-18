@@ -1,16 +1,15 @@
-# PROJECTS / WEB / PORTFOLIO
+# WEB PROJECTS
 
-Welcome to the Portfolio section of my GitHub repository! This area showcases my web development projects and highlights my skills and experiences.
+Welcome to the web section of my GitHub repository! This area showcases my web development projects and highlights my skills and experiences.
 
 ## Projects
 
 The portfolio website includes several projects:
 
-1. **BACK END/TD**
+1. **BACK END**
 2. **FRONT END**
 3. **PHASER**
 4. **PORTFOLIO**
-5. **README.md**
 
 Each project has a last commit message and the date of the last commit.
 
@@ -18,7 +17,7 @@ Each project has a last commit message and the date of the last commit.
 
 The main technologies and tools I use for my web development work include:
 
-- HTML, CSS, and JavaScript
+- HTML, CSS, PHP and JavaScript
 - Git and GitHub
 - Visual Studio Code
 
