@@ -11,7 +11,7 @@ This project helps manage bird counting data for the Ligue de Protection des Ois
 - Statistics generated in Excel
 - An interactive dashboard built with Power BI
 
-### 2. [Uber-like Application](https://github.com/melih0132/UBER)
+### 2. [Uber-like Application](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/UBER)
 This project involves the complete design and development of a data management system for an Uber-like application. Key features include:
 - User management for passengers and drivers
 - Trip tracking and payment management
