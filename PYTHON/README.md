@@ -16,9 +16,9 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
    - A quiz program that retrieves questions and answers from a JSON data source.
    - Demonstrates the use of JSON data handling in Python.
 
-4. **RECAP_PY_BASIC**
-   - A project that provides a recap of basic Python concepts and syntax.
-   - Covers topics such as variables, data types, control structures, and functions.
+4. **RANKING**
+   - A project for ranking things.
+   - Covers topics such as sorting, searching, and data manipulation.
 
 ## Technologies Used
 
