@@ -3,25 +3,31 @@ const CONFIG = {
   messageDisplayTime: 3000,
   languageChangeInterval: 2000,
   translations: [
-    "Bonjour", "Hola", "Ciao", "Hallo", "Merhaba",
-    "Привет", "こんにちは", "안녕하세요", "欢迎", "Olá"
+    "Hi", "Ola", "Ciao", "Hoi", "Yo",
+    "ハイ", "サン", "안녕", "嘿", "Прив",
+    "Bon", "Hai", "Hej", "ねえ", "Ви",
+    "Oi", "よ", "嗨", "เฮ", "नम"
   ],
   skillColors: {
     "HTML": "#E34C26",
-    "CSS": "#1572B6",
+    "CSS": "#732f9c",
     "JavaScript": "#F7DF1E",
     "PHP": "#777BB4",
     "Python": "#306998",
-    "C#": "#9B4F96",
+    ".NET/C#": "#9B4F96",
     "SQL": "#CC2927",
+    "XAML": "#007ACC",
     "Bash": "#4EAA25",
     "R": "#2167ba",
     "AutoIT": "#5d82ac",
     "PostgreSQL": "#336791",
     "MongoDB": "#47A248",
     "pgAdmin4": "#326690",
+    "phpMyAdmin": "#f89d06",
     "Visual Paradigm": "#cc3433",
     "PowerAMC": "#F08080",
+    "ERD": "#FF5733",
+    "LDM": "#33FF57",
     "Node.js": "#3C873A",
     "Express": "#4B8BBE",
     "Socket.io": "#24c29f",
@@ -34,6 +40,7 @@ const CONFIG = {
     "Visual Studio": "#5C2D91",
     "Git": "#F05032",
     "GitHub": "#181717",
+    "Microsoft Azure": "#0078D4",
     "Linux": "#ffc200",
     "Trello": "#0079BF",
     "Microsoft Teams": "#6264A7",
@@ -46,6 +53,7 @@ const CONFIG = {
     "Unit Tests": "#55606E",
     "UML": "#007ACC",
     "Agile": "#A0CE4E",
+    "Laravel": "#F05340",
     "Scrum": "#FF7043",
     "Terminal": "#111111",
     "Powershell": "#012456"
@@ -59,6 +67,7 @@ class HamburgerMenu {
     this.menuIcon = document.querySelector('.header__main-ham-menu');
     this.closeIcon = document.querySelector('.header__main-ham-menu-close');
     this.menuLinks = document.querySelectorAll('.header__sm-menu-link');
+    this.header = document.querySelector('.header');
 
     this.init();
   }
@@ -71,15 +80,27 @@ class HamburgerMenu {
   }
 
   toggleMenu() {
-    this.smallMenu.classList.toggle('header__sm-menu--active');
+    const isActive = this.smallMenu.classList.toggle('header__sm-menu--active');
     this.menuIcon.classList.toggle('d-none');
     this.closeIcon.classList.toggle('d-none');
+
+    if (isActive) {
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        this.header.style.backgroundColor = '#121212';
+      }
+      else {
+        this.header.style.backgroundColor = '#fff';
+      }
+    } else {
+      this.header.style.backgroundColor = '';
+    }
   }
 
   closeMenu() {
     this.smallMenu.classList.remove('header__sm-menu--active');
     this.menuIcon.classList.remove('d-none');
     this.closeIcon.classList.add('d-none');
+    this.header.style.backgroundColor = '';
   }
 }
 
@@ -166,10 +187,8 @@ class HeaderNav {
 
   init() {
     window.addEventListener('scroll', () => this.updateActiveSection());
-    // Initial update
     this.updateActiveSection();
 
-    // Add click events for smooth scrolling
     this.navLinks.forEach(link => {
       link.addEventListener('click', (e) => this.handleNavClick(e));
     });
@@ -184,12 +203,10 @@ class HeaderNav {
       const sectionId = section.getAttribute('id');
 
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        // Remove active class from all links
         this.navLinks.forEach(link => {
           link.classList.remove('active');
         });
 
-        // Add active class to corresponding link
         const activeLink = document.querySelector(`.header__link[href="./#${sectionId}"]`);
         if (activeLink) {
           activeLink.classList.add('active');
@@ -250,14 +267,92 @@ class Skills {
   }
 }
 
+class CollapsibleSkills {
+  constructor() {
+    this.titles = document.querySelectorAll('.skills__category-title');
+    this.skillRows = document.querySelectorAll('.skills__skill-row');
+    this.mediaQuery = window.matchMedia('(max-width: 37.5em)');
+    this.active = this.mediaQuery.matches;
+    this.init();
+  }
+
+  init() {
+    this.handleMediaQueryChange(this.mediaQuery);
+    this.mediaQuery.addEventListener('change', (e) => this.handleMediaQueryChange(e));
+  }
+
+  addEventListeners() {
+    this.titles.forEach((title) => {
+      title.addEventListener('click', this.toggleSkillRow);
+    });
+  }
+
+  removeEventListeners() {
+    this.titles.forEach((title) => {
+      title.removeEventListener('click', this.toggleSkillRow);
+    });
+  }
+
+  toggleSkillRow = (event) => {
+    if (!this.active) return;
+    const title = event.currentTarget;
+    const skillRow = title.nextElementSibling;
+    if (skillRow.classList.contains('expanded')) {
+      this.collapse(skillRow);
+    } else {
+      this.expand(skillRow);
+    }
+  };
+
+  toggleAll(expand) {
+    this.skillRows.forEach((skillRow) => {
+      if (expand) {
+        this.expand(skillRow);
+      } else {
+        this.collapse(skillRow);
+      }
+    });
+  }
+
+  expand(skillRow) {
+    skillRow.classList.add('expanded');
+    skillRow.style.maxHeight = `${skillRow.scrollHeight}px`;
+  }
+
+  collapse(skillRow) {
+    skillRow.style.maxHeight = '0';
+    skillRow.addEventListener(
+      'transitionend',
+      () => skillRow.classList.remove('expanded'),
+      { once: true }
+    );
+  }
+
+  handleMediaQueryChange(mediaQuery) {
+    this.active = mediaQuery.matches;
+    if (this.active) {
+      this.toggleAll(false);
+      this.addEventListeners();
+    } else {
+      this.toggleAll(true);
+      this.removeEventListeners();
+    }
+  }
+}
+
 class Projects {
   constructor() {
-    this.paragraphs = document.querySelectorAll('.projects__row-content-desc');
+    this.paragraphs = document.querySelectorAll('.projects__row-content');
+    this.mediaQuery = window.matchMedia('(max-width: 37.5em)');
+    this.projectLinks = document.querySelectorAll('.project__link');
+    this.githubProjectIndex = Array.from(this.projectLinks).findIndex(link => link.href.includes('github.com'));
     this.init();
   }
 
   init() {
     this.applySkillColors();
+    this.handleMediaQueryChange(this.mediaQuery);
+    this.mediaQuery.addEventListener('change', (e) => this.handleMediaQueryChange(e));
   }
 
   applySkillColors() {
@@ -271,6 +366,53 @@ class Projects {
           span.style.color = CONFIG.skillColors[skillText];
         }
       });
+    });
+  }
+
+  handleMediaQueryChange(mediaQuery) {
+    if (mediaQuery.matches) {
+      this.addLinks();
+    } else {
+      this.removeLinks();
+    }
+  }
+
+  addLinks() {
+    let adjustedIndex = 1; // Débuter l'indexation des projets à 1
+
+    this.paragraphs.forEach((paragraph, index) => {
+      if (paragraph.closest('#other-projects')) return;
+      
+      const parentProject = paragraph.closest('.projects__row');
+      const projectIndex = Array.from(this.projectLinks).indexOf(parentProject.closest('.project__link'));
+      
+      if (!paragraph.querySelector('.btn--theme')) {
+        const link = document.createElement('a');
+        
+        if (projectIndex === this.githubProjectIndex) {
+          link.href = this.projectLinks[this.githubProjectIndex].href;
+          link.target = "_blank";
+        } else {
+          link.href = `/en/projets/projet-${adjustedIndex}.html`;
+          link.target = "_self";
+          adjustedIndex++; // Incrémenter uniquement pour les projets non GitHub
+        }
+        
+        link.className = "btn btn--med btn--theme links";
+        link.textContent = "See more";
+        paragraph.appendChild(link);
+      }
+    });
+  }
+
+  removeLinks() {
+    this.paragraphs.forEach(paragraph => {
+      if (paragraph.closest('#other-projects')) return;
+
+      const existingLink = paragraph.querySelector('.btn--theme');
+      if (existingLink) {
+        paragraph.removeChild(existingLink);
+      }
     });
   }
 }
@@ -331,7 +473,7 @@ class LanguageSelector {
 
   handleLanguageChange() {
     const selectedLang = this.selector.value;
-    location.href = `/${selectedLang}/#home`;
+    location.href = `/${selectedLang}/`;
   }
 }
 
@@ -341,6 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
   new HeaderNav();
   new MultilingualGreeting();
   new Skills();
+  new CollapsibleSkills();
   new Projects();
   new ContactForm();
   new LanguageSelector();
