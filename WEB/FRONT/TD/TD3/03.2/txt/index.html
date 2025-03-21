@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enregistrement des Interactions de la Souris</title>
+</head>
+<body>
+    <h1>Suivi des interactions souris</h1>
+
+    <script>
+        document.addEventListener('mousemove', function(event) {
+            let data = {
+                x: event.clientX,
+                y: event.clientY,
+                type: 'mousemove'
+            };
+
+            sendMouseData(data);
+        });
+
+        document.addEventListener('click', function(event) {
+            let data = {
+                x: event.clientX,
+                y: event.clientY,
+                type: 'click'
+            };
+
+            sendMouseData(data);
+        });
+
+        function sendMouseData(data) {
+            // Envoie des données de la souris au fichier PHP via fetch API
+            fetch('save_mouse_data.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.error('Erreur:', error));
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	flex: 0 0 100px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+section#shoes {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+
+article {
+	flex: 0 0 250px;
+	background-color: #EEE;
+	padding: 10px;
+	margin: 20px;
+}
+
+section#form {
+	flex: 0 0 300px;
+}

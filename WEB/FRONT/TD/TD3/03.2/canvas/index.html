@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher les interactions de la souris</title>
+</head>
+<body>
+    <h1>Suivi des interactions souris</h1>
+    <canvas id="mouseCanvas" width="800" height="400" style="border:1px solid #000;"></canvas>
+    <button id="loadDataBtn">Charger les données</button>
+
+    <script>
+        // Capturer et envoyer les interactions comme avant
+        document.addEventListener('mousemove', function(event) {
+            let data = {
+                x: event.clientX,
+                y: event.clientY,
+                type: 'mousemove'
+            };
+            sendMouseData(data);
+        });
+
+        document.addEventListener('click', function(event) {
+            let data = {
+                x: event.clientX,
+                y: event.clientY,
+                type: 'click'
+            };
+            sendMouseData(data);
+        });
+
+        function sendMouseData(data) {
+            fetch('save_mouse_data.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+        }
+
+        // Charger les données du fichier et les afficher sur le canvas
+        document.getElementById('loadDataBtn').addEventListener('click', function() {
+            fetch('read_mouse_data.php')
+                .then(response => response.json())
+                .then(data => drawOnCanvas(data));
+        });
+
+        function drawOnCanvas(data) {
+            const canvas = document.getElementById('mouseCanvas');
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Effacer le canvas avant de dessiner
+
+            data.forEach(item => {
+                if (item.type === 'click') {
+                    ctx.fillStyle = 'red';
+                    ctx.fillRect(item.x - 5, item.y - 5, 10, 10); // Dessiner un carré rouge pour les clics
+                } else {
+                    ctx.fillStyle = 'blue';
+                    ctx.fillRect(item.x - 2, item.y - 2, 4, 4); // Dessiner un petit point bleu pour les mouvements
+                }
+            });
+        }
+    </script>
+</body>
+</html>

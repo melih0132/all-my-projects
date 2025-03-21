@@ -1,0 +1,48 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-weight: 100vh;
+}
+
+#hopButton {
+	position: absolute;
+	top: 40vh;
+	left: 20vw;
+	padding: 20px;
+	background-color: orange;
+	border: none;
+	border-radius: 10px;
+	cursor: crosshair;
+	transition: all 0.5s ease;
+}
+
+#ball {
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	width: 100px;
+	height: 100px;
+	background-color: magenta;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

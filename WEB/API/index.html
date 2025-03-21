@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Récupérateur de Citation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Récupérateur de Citation</h1>
+    <button id="get-quote">Obtenir une citation</button>
+    <p id="quote"></p>
+    <p id="author"></p>
+    <script>
+        async function fetchQuote() {
+            try {
+                // Appel à l'API quotable.io pour obtenir une citation aléatoire
+                const response = await fetch('https://api.quotable.io/random');
+                if (!response.ok) {
+                    throw new Error('Erreur lors de la récupération de la citation');
+                }
+                const data = await response.json();
+
+                // Récupération de la citation et de l'auteur
+                const quote = data.content;
+                const author = data.author || "Auteur inconnu";
+
+                // Affichage de la citation et de l'auteur
+                document.getElementById('quote').innerText = `Citation : "${quote}"`;
+                document.getElementById('author').innerText = `Auteur : ${author}`;
+            } catch (error) {
+                console.error('Erreur :', error.message);
+                document.getElementById('quote').innerText = "Impossible de récupérer une citation.";
+                document.getElementById('author').innerText = "";
+            }
+        }
+
+        document.getElementById('get-quote').addEventListener('click', fetchQuote);
+    </script>
+</body>
+
+</html>

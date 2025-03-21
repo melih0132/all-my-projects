@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	background-color: black;
+}
+h1 {
+	positon: fixed;
+	top: 100px;
+	left: -100px;
+	transform: rotate(90deg);
+	color: white;
+}
+
+
+
+
+

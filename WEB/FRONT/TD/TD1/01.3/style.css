@@ -1,0 +1,40 @@
+* { 
+	margin: 0px; 
+	padding: 0px; 
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: sans-serif;
+	transition: all 0.5s ease;	
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid aquamarine;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+input {
+    margin: 5px;
+    padding: 5PX;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 20px;
+}
