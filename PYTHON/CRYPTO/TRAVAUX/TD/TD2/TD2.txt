@@ -1,0 +1,89 @@
+2.1
+pgcd(7, 19) = 2 * 7 + 5
+7 = 1 * 5 + 2
+5 = 2 * 2 + 1
+2 = 2 * 1 + 0
+
+donc pgcd(7, 19) = 1
+
+pgcd(29, 38) = 1 * 29 + 9
+29 = 3 * 9 + 2
+9 = 2 * 4 + 1
+4 = 4 * 1 + 0
+
+donc pgcd(29, 38) = 1
+
+pgcd(111, 53) = 0 * 111 + 53
+111 = 53 * 2 + 5
+5 = 3 * 1 + 2
+3 = 2 * 1 + 1
+2 = 2 * 1 + 0
+
+donc pgcd(111, 53) = 1
+
+2.2
+Inverse de 5 sur Z/26Z :
+5x ≡ 1 mod 26
+Calculons le pgcd(26, 5) :
+pgcd(26, 5) = 5 * 5 + 1
+5 = 1 * 5 + 0
+le pgcd = 1 donc
+1 = 26 - 5 * 5
+cela signifie que 
+5 * (-5) ≡ 1 mod 26
+
+ainsi, l'inverse de 5 est 21 (car -5 mod 26 = 21).
+
+Inverse de 17 sur Z/46Z :
+17x ≡ 1 mod 46
+Calculons le pgcd(46, 17) :
+pgcd(46, 17) = 1
+le pgcd = 1 donc
+1 = 5 - 2 * 2
+2 = 12 - 2 * 5
+cela signifie que 
+1 = 5 - 2(12 - 2 * 5) = 5 * 5 - 2 * 12
+En substituant 5 = 17 − 1 * 17 : 
+1 = 5 * (17 − 1 * 17) - 2 * 12
+ainsi, l'inverse de 17 est 27 (car -19 mod 46 = 27).
+
+...
+
+2.3
+photos
+
+3
+Méthode RSA :
+Théorème. Soient p et q deux nombres premiers, et posons n = p × q.
+Soit e est un entier premier avec (p – 1) × (q – 1), alors il existe un entier
+d > 0 et un entier m tels que e × d + m × (p – 1)(q – 1) = 1.
+C’est-à-dire e × d = 1 (mod (p – 1)(q – 1))
+Notons au passage que si on choisit d positif et inférieur à (p – 1)(q – 1),
+alors d est unique.
+On choisit 2 nombres premiers entre eux grands n et p
+— Calculer : n = p×q
+— Calculer l'indicatrice d'Euler : ϕ(n) = (p-1)*(q-1)
+— Sélectionner un entier : e ∈ N premier avec ϕ(n)
+— Calculer l'inverse modulaire (via l'algorithme d'Euclide étendu): d ∈ N tel que : d * e ≡ 1 mod 𝝋(n)
+(n,e) est appelée la clé publique
+d est la clé privée.
+Exemple p = 1009, q = 1013, n = 1022117
+ϕ(n)=1020096 = (p-1)*(q-1)
+e = 101 (on peut vérifier que ϕ(n) et e sont premier entre eux)
+[ excel 1=PGCD(101;1020096 ) ]
+d = 767597 (d * e ≡ 1 mod 𝝋(n)) [ excel
+1 = MOD(767597*101;1020096 )}
+M = messagge
+Message codé = C ≡ M^e (mod n)
+Décodage : M ≡ C^d (mod n)
+Note C^d = M^(ed)
+RSA-100 =
+1522605027922533360535618378132637429718068114961380688657
+908494580122963258952897654000350692006139
+RSA-100 a été factorisé en avril 1991 :
+RSA-100 =
+37975227936943673922808872755445627854565536638199
+ × 40094690950920881030683735292761468389214899724061
+e= 65537
+
+Solution :

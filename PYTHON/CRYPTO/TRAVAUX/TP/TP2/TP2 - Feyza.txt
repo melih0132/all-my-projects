@@ -1,0 +1,263 @@
+--code prof
+def extended_euclid_gcd(a, b):
+    """
+    Returns 3 results:
+    - gcd(a, b)
+    - Coefficients of Bézout's identity: x and y such that ax + by = gcd(a, b)
+    """
+    # Initial values
+    old_r, r = a, b
+    old_s, s = 1, 0
+    old_t, t = 0, 1
+    while r != 0:
+        quotient = old_r // r  # In Python, // performs integer division
+        old_r, r = r, old_r - quotient * r
+        old_s, s = s, old_s - quotient * s
+        old_t, t = t, old_t - quotient * t
+    r=old_s*a+old_t*b
+    # The gcd is stored in old_r, and the coefficients are old_s and old_t
+    return old_r, old_s, old_t
+ 
+ 
+def pgcd(a, b, debug):
+    while a != b:        
+        d = abs(b - a)  # Calcul de la différence absolue
+        b = a  # b prend la valeur de a
+        a = d  # a prend la valeur de d (la différence)
+ 
+    return d
+--------------------------
+--1.
+
+from sympy import randprime
+
+# Fonction pour générer des nombres premiers aléatoires
+def generate_prime(bits=1024):
+    # Génère un grand nombre premier dans une plage spécifique
+    return randprime(2**(bits-1), 2**bits)
+
+import random
+from sympy import mod_inverse, randprime
+import base64
+
+# Fonction pour générer des nombres premiers aléatoires
+def generate_prime(bits=1024):
+    return randprime(2**(bits-1), 2**bits)
+
+# Fonction pour générer des clés RSA
+def generate_rsa_keys(bits=1024):
+    p = generate_prime(bits)
+    q = generate_prime(bits)
+    n = p * q
+    phi_n = (p - 1) * (q - 1)
+    e = 65537
+    d = mod_inverse(e, phi_n)
+    return ((e, n), (d, n))
+
+# Générer les clés
+public_key, private_key = generate_rsa_keys()
+print("Clé publique :", public_key)
+print("Clé privée :", private_key)
+
+# Fonction de chiffrement RSA avec Base64
+def rsa_encrypt(message, public_key):
+    e, n = public_key
+    # Convertir le message en entier
+    m = int.from_bytes(message.encode(), 'big')
+    # Appliquer le chiffrement: c = m^e mod n
+    c = pow(m, e, n)
+    # Encoder le résultat en Base64 pour éviter les problèmes de décodage
+    encrypted_message = base64.b64encode(c.to_bytes((c.bit_length() + 7) // 8, 'big')).decode('utf-8')
+    return encrypted_message
+
+# Fonction de déchiffrement RSA avec Base64
+def rsa_decrypt(encrypted_message, private_key):
+    d, n = private_key
+    # Décoder le message chiffré de Base64
+    c = int.from_bytes(base64.b64decode(encrypted_message), 'big')
+    # Appliquer le déchiffrement: m = c^d mod n
+    m = pow(c, d, n)
+    # Convertir l'entier déchiffré en texte
+    message = m.to_bytes((m.bit_length() + 7) // 8, 'big').decode('utf-8')
+    return message
+
+# Exemple d'utilisation des fonctions RSA
+if __name__ == "__main__":
+    # Le message à chiffrer
+    message = "Message secret"
+
+    # Chiffrement du message
+    encrypted_message = rsa_encrypt(message, public_key)
+    print("Message chiffré :", encrypted_message)
+
+    # Déchiffrement du message
+    decrypted_message = rsa_decrypt(encrypted_message, private_key)
+    print("Message déchiffré :", decrypted_message)
+
+
+-----------------------
+--2.
+pip install rsa
+pip install rsa-python
+
+import rsa
+
+# Générer une paire de clés RSA (clé publique et clé privée)
+(public_key, private_key) = rsa.newkeys(512)  # On peut choisir 512, 1024, 2048, etc.
+def rsa_encrypt(message, public_key):
+    # Convertir le message en bytes et chiffrer
+    message_chiffrer = rsa.encrypt(message.encode(), public_key)
+    return message_chiffrer
+def rsa_decrypt(message_chiffrer, private_key):
+    # Déchiffrer le message et convertir les bytes en string
+    message_dechiffrer = rsa.decrypt(message_chiffrer, private_key).decode()
+    return message_dechiffrer
+
+import rsa
+# Générer une paire de clés (clé publique et clé privée)
+public_key, private_key = rsa.newkeys(2048)  # 512 bits pour des exemples simples, mais 2048 ou plus est recommandé en pratique
+
+#exemple de message
+message = "salut"
+
+#Chiffrer
+message_chiffrer = rsa_encrypt(message, public_key)
+print("Message chiffré :", message_chiffrer)
+
+#Dechiffrer
+message_dechiffrer = rsa_decrypt(message_chiffrer, private_key)
+print("Message déchiffré :", message_dechiffrer)
+
+
+
+--3.
+import rsa
+import argparse
+
+class RSAApp:
+    def __init__(self):
+        # Génération des clés publiques et privées
+        self.public_key, self.private_key = rsa.newkeys(512)
+    
+    def encrypt_message(self, message):
+        """
+        Chiffre un message en utilisant la clé publique.
+        """
+        encrypted_message = rsa.encrypt(message.encode(), self.public_key)
+        return encrypted_message
+    
+    def decrypt_message(self, encrypted_message):
+        """
+        Déchiffre un message en utilisant la clé privée.
+        """
+        try:
+            decrypted_message = rsa.decrypt(encrypted_message, self.private_key).decode()
+            return decrypted_message
+        except rsa.DecryptionError:
+            return "Erreur : impossible de déchiffrer le message."
+
+    def run(self, mode, message):
+        """
+        Exécute le programme en fonction du mode (chiffrement ou déchiffrement).
+        """
+        if mode == 'encrypt':
+            encrypted_message = self.encrypt_message(message)
+            print(f"Message chiffré : {encrypted_message}")
+        elif mode == 'decrypt':
+            # On suppose que le message à déchiffrer est fourni sous forme binaire (bytes)
+            try:
+                encrypted_message = eval(message)  # Convertir le texte en bytes
+                decrypted_message = self.decrypt_message(encrypted_message)
+                print(f"Message déchiffré : {decrypted_message}")
+            except SyntaxError:
+                print("Erreur : format incorrect pour le message chiffré.")
+        else:
+            print("Mode inconnu. Utilisez 'encrypt' pour chiffrer ou 'decrypt' pour déchiffrer.")
+
+if __name__ == "__main__":
+    # Parser pour les arguments de la ligne de commande
+    parser = argparse.ArgumentParser(description="Application de chiffrement/déchiffrement RSA.")
+    parser.add_argument('mode', choices=['encrypt', 'decrypt'], help="Mode de fonctionnement : 'encrypt' pour chiffrer, 'decrypt' pour déchiffrer")
+    parser.add_argument('message', help="Le message à chiffrer ou déchiffrer")
+
+    # Récupération des arguments
+    args = parser.parse_args()
+
+    # Création de l'application
+    app = RSAApp()
+    
+    # Exécution de l'application avec les arguments fournis
+    app.run(args.mode, args.message)
+------------------------------
+chiffrer message 
+import rsa
+import base64
+import argparse
+import sys
+
+class RSAApp:
+    def __init__(self):
+        # Génération des clés publiques et privées
+        self.public_key, self.private_key = rsa.newkeys(512)
+    
+    def encrypt_message(self, message):
+        """
+        Chiffre un message en utilisant la clé publique, puis encode en Base64.
+        """
+        encrypted_message = rsa.encrypt(message.encode(), self.public_key)
+        encrypted_message_base64 = base64.b64encode(encrypted_message).decode('utf-8')
+        return encrypted_message_base64
+    
+    def decrypt_message(self, encrypted_message_base64):
+        """
+        Déchiffre un message encodé en Base64 en utilisant la clé privée.
+        """
+        try:
+            encrypted_message = base64.b64decode(encrypted_message_base64)
+            decrypted_message = rsa.decrypt(encrypted_message, self.private_key).decode()
+            return decrypted_message
+        except (rsa.DecryptionError, base64.binascii.Error):
+            return "Erreur : impossible de déchiffrer le message."
+
+    def run(self, mode, message):
+        """
+        Exécute le programme en fonction du mode (chiffrement ou déchiffrement).
+        """
+        if mode == 'encrypt':
+            encrypted_message = self.encrypt_message(message)
+            print(f"Message chiffré (Base64) : {encrypted_message}")
+        elif mode == 'decrypt':
+            decrypted_message = self.decrypt_message(message)
+            print(f"Message déchiffré : {decrypted_message}")
+        else:
+            print("Mode inconnu. Utilisez 'encrypt' pour chiffrer ou 'decrypt' pour déchiffrer.")
+
+if __name__ == "__main__":
+    # Simuler des arguments dans Spyder
+    if len(sys.argv) == 1:
+        sys.argv.extend(['encrypt', 'Ceci est un test'])  # Par exemple : 'encrypt' et le message à chiffrer
+
+    # Parser pour les arguments de la ligne de commande
+    parser = argparse.ArgumentParser(description="Application de chiffrement/déchiffrement RSA avec Base64.")
+    parser.add_argument('mode', choices=['encrypt', 'decrypt'], help="Mode de fonctionnement : 'encrypt' pour chiffrer, 'decrypt' pour déchiffrer")
+    parser.add_argument('message', help="Le message à chiffrer ou déchiffrer")
+
+    args = parser.parse_args()
+
+    # Création de l'application
+    app = RSAApp()
+
+    # Exécution de l'application avec les arguments fournis
+    app.run(args.mode, args.message)
+
+if __name__ == "__main__":
+    # Demander à l'utilisateur de choisir le mode et d'entrer un message
+    mode = input("Entrez le mode (encrypt ou decrypt) : ")
+    message = input("Entrez le message : ")
+
+    # Création de l'application
+    app = RSAApp()
+
+    # Exécution de l'application
+    app.run(mode, message)
+

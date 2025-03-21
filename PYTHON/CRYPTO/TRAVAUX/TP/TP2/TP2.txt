@@ -1,0 +1,17 @@
+Chiffrement RSA - from scratch
+Fonction de chiffrement RSA :
+
+  Génération des clés :
+	Choisissez deux grands nombres premiers p et q.
+	Calculez n=p×q.
+	Calculez ϕ(n)=(p−1)(q−1).
+	Choisissez un entier e tel que 1<e<ϕ(n) et pgcd(e,ϕ(n))=1.
+	Calculez d tel que d×e≡1modϕ(n).
+
+  Fonction de chiffrement :
+	Pour un message m, le chiffre est c=m^e mod n
+
+  Fonction de déchiffrement :
+	Pour un chiffre c, le message est m=c^d mod n
+
+Chiffrement RSA - package python

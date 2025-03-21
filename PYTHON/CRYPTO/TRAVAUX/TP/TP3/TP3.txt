@@ -1,0 +1,38 @@
+1.1 CRC
+Exercice : Encoder le message 11101 en utilisant le CRC avec le polynôme générateur x^3 + x + 1.
+
+Étapes de correction :
+
+Représentation du polynôme générateur :
+Le polynôme générateur x^3 + x + 1 se représente en binaire sous la forme 1011.
+
+Ajout des zéros :
+Le message 11101 doit être multiplié par x^n, où n est le degré du polynôme (ici, n=3). Le message devient donc 11101000.
+
+Division polynomiale :
+	Divisons le message allongé par le polynôme 1011 (polynôme générateur) en utilisant la méthode de la division binaire (division XOR) :
+		Prenons les 4 premiers bits du message 1110, et faisons un XOR avec 1011.
+
+	1110 ⊕ 1011 = 0101.
+
+Ajoutons le bit suivant du message pour obtenir 01011.
+Recommençons : 0101 ⊕ 1011 = 1110, etc.
+
+À la fin de la division, le reste obtenu sera le CRC, soit le code de redondance cyclique.
+
+Encodage final :
+Le CRC est ajouté à la fin du message initial, ce qui donne le message encodé.
+
+Décodage :
+Pour vérifier s'il y a une erreur, on effectue de nouveau la division polynomiale sur le message reçu (qui inclut le CRC). 
+Si le reste est nul, cela signifie qu'il n'y a pas d'erreur.
+
+1.2 Fonction de hachage (SHA-256)
+Exercice : Utiliser la fonction de hachage SHA-256 avec Python pour hacher des messages.
+
+Installation de la bibliothèque hashlib :
+Avant tout, il faut s'assurer d'avoir la bibliothèque hashlib installée :
+
+	pip install hashlib
+
+Implémentation de la fonction...

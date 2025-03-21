@@ -1,0 +1,227 @@
+TD1 - Chiffrements Symétriques
+1. Introduction
+Objectif : Manipuler les différents concepts d’arithmétique modulaire appliqués au chiffrement César et commencer à réfléchir sur l’implémentation de ce chiffrement pour préparer le TP.
+Prérequis :
+
+Connaître les bases de l’arithmétique modulaire
+Connaître le fonctionnement des méthodes de chiffrement symétrique vues en cours
+Savoir effectuer des additions en binaire
+Connaissances à acquérir :
+
+Effectuer des calculs simples (additions, soustractions, multiplications et divisions) sur des ensembles Z/nZ
+Appliquer les algorithmes de Polybe, César et Vigenère
+Instructions : Réaliser ces exercices en groupes de 3 (maximum).
+
+2. Arithmétique Modulaire
+2.1 Relation de Congruence
+
+Propriété : a≡b[n]
+<=> a ≡ kn + reste
+<=> b ≡ kn + reste
+=> a - b ≡ 0[0]
+
+Ces congruences sont-elles vraies ?
+
+100≡5[5]
+100÷5=20, reste 0 → vrai.
+
+1024≡16[16]
+1024÷16=64, reste 0 → vrai.
+
+102≡−23[98]
+102−(−23)=125, et 
+125÷98=1, reste 27 → faux.
+
+49≡70[7]
+49÷7=7, 
+70÷7=10, reste 0 → vrai.
+
+8+31≡7[4]
+8+31=39, 
+39÷4=9, reste 3 → faux.
+
+305+950≡100[200]
+305+950=1255, 
+1255÷200=6, reste 55 → faux.
+
+15472+15489≡1[15480]
+15472+15489=30961, 
+30961÷15480=2, reste 1 → vrai.
+
+8×15≡−1[11]
+8×15=120,
+(120-(-1))÷11=11, reste 0 → vrai.
+
+10×13≡20[11]
+10×13=130,
+(130-20)÷11=10, reste 0 → vrai.
+
+5^3≡5[3]
+5^3÷3=125, reste 0 → vrai.
+
+94^10≡1020[92]
+94^10÷92=5, reste 12 → faux.
+
+12^100 ≡ 2[11]
+12^100÷11=1100, reste 1 → faux.
+
+2.2 Exponentiations
+Calculez les exponentiations suivantes :
+
+c ≡ 10^5 (mod 500)
+c=0 car 10^5÷500=200, reste 0.
+
+c ≡ 10^5 (mod 495)
+c=10 car 10^5÷495=202, reste 10.
+
+c ≡ 3^17 (mod 26)
+c=9 car 3^17÷26=4966929, reste 9.
+
+c ≡ 4^9 (mod 48)
+c=16 car 4^9÷48=5461, reste 16.
+
+c ≡ 9^9 (mod 79)
+c=20 car 99÷79=1, reste 20.
+
+c ≡ 2^11 (mod 1998)
+c=65 car 2^11÷1998=4904056, reste 65.
+
+c ≡ 5^5 (mod 26)
+c=5 car 5^5÷26=120, reste 5.
+
+c ≡ 7^6 (mod 40)
+c=9 car 7^6÷40=2941, reste 9.
+
+c ≡ 8^5 (mod 63)
+c=8 car 8^5÷63=520, reste 8.
+
+3. Chiffrement par Substitution
+3.1 Polybe
+Présentation : Le carré de Polybe est une technique de chiffrement par substitution vue pour la première fois en 150 avant J-C. Elle consiste à remplacer les lettres d’un message par des chiffres. Le carré de la figure 1 sert de clé pour le chiffrement et le déchiffrement du message. L’alphabet français comportant 26 lettres, deux lettres sont associées à la même case.
+Le principe : Chaque lettre du carré de Polybe possède une coordonnée dans le carré. Le message est chiffré en substituant chacun de ses caractères par sa coordonnée dans le carré. Par exemple, la lettre H est remplacée par 23.
+
+Dans cet exercice, il est demandé de chiffrer les messages suivants :
+
+Peste
+P → 35, E → 15, S → 34, T → 44, E → 15
+Chiffré : 3515344415
+
+Raisin
+R → 42, A → 11, I → 24, S → 34, I → 24, N → 35
+Chiffré : 421124342435
+
+Anniversaire
+A → 11, N → 35, N → 35, I → 24, V → 52, E → 15, R → 42, S → 34, A → 11, I → 24, E → 15
+Chiffré : 1135352452154234112415
+
+Effrayant
+E → 15, F → 22, F → 22, R → 42, A → 11, Y → 51, A → 11, N → 35, T → 44
+Chiffré : 152222421151113544
+
+Osier
+O → 34, S → 34, I → 24, E → 15, R → 42
+Chiffré : 3434241542
+
+Couches
+C → 13, O → 34, U → 45, C → 13, H → 23, E → 15, S → 34
+Chiffré : 13344513231534
+
+Latex
+L → 41, A → 11, T → 44, E → 15, X → 52
+Chiffré : 4111441552
+
+Fils
+F → 22, I → 24, L → 41, S → 34
+Chiffré : 22244134
+
+Corne
+C → 13, O → 34, R → 42, N → 35, E → 15
+Chiffré : 1334423515
+
+Puis de déchiffrer ceux-ci :
+
+34421424331144154542
+34 → O, 42 → R, 14 → D, 24 → I, 33 → N, 11 → A, 44 → T, 15 → E, 45 → U, 42 → R
+Message : ORDINATEUR
+
+131132243433
+13 → C, 11 → A, 32 → M, 24 → I, 34 → O, 33 → N
+Message : CAMION
+
+A REFAIRE
+
+3.2 César
+Présentation : Le chiffrement César est un chiffrement par décalage utilisé par Jules César pour ses correspondances secrètes.
+Le principe : Chaque lettre du message est remplacée par une autre lettre à distance fixe. Par exemple, le A est remplacé par le B, le B par le C, etc. La clé de cette méthode correspond au décalage de l’alphabet. Dans l’exemple précédent, elle est de 1. Le décalage s’effectue toujours dans le même sens et à la même distance. Lorsque l’on souhaite décaler une lettre de la fin de l’alphabet, on continue de compter le décalage à partir du début de l’alphabet. Par exemple, un décalage de 2 pour encoder la lettre Z donnerait la lettre B.
+
+Décodez le message suivant en vous aidant du tableau de fréquences de chaque lettre :
+
+Pk xktzxk inkf suo. Yax rk zxuzzuox, at nussk yk vxusktk, yky jkad saykzzky xksvroky jk rkmasky ktzxk yky juomzy.
+
+Pour trouver le décalage, il faut regarder la différence avec la lettre e:
+ici, le k revient à la lettre e:
+
+Décalage de 6:
+Je rentre chez moi. Sur le trottoir, un homme se promene, ses deux musettes remplies de legumes entre ses doigts.
+
+Figure 2 : Fréquence des lettres dans le texte à déchiffrer
+
+4. Chiffrement par Bloc
+Vous disposez du message et de la clé suivante :
+
+Message : "Jadis, dans un pays lointain"
+Clé initiale : "0011 0100 1101"
+L’objectif est de chiffrer ce message avec un opérateur XOR. Pour cela, nous encoderons chaque lettre du message de la manière suivante :
+
+Rappel: XOR
+	0	1
+0	0	1
+1	1	0
+
+j = 0000
+a = 0001
+d = 0010
+i = 0011
+s = 0100
+n = 0101
+u = 0110
+p = 0111
+y = 1000
+l = 1001
+o = 1010
+t = 1011
+espace = 1100
+, = 1101
+
+Message chiffré : 
+
+Vous devrez casser le message en plusieurs blocs de manière à les encoder avec la clé mise à disposition. 
+Pour imiter le processus de génération pseudo-aléatoire de clés de l’algorithme AES 
+tout en le gardant accessible pour un TP papier, 
+nous allons supposer que la clé initiale est modifiée après chaque usage. 
+La nouvelle clé sera la somme de l’ancienne et du binaire 0101 0101 0101. 
+Lorsque le message est codé, essayez de le décoder avec la même clé et vérifiez votre résultat !
+
+Conseil : Si vous êtes en groupe, répartissez-vous le travail et décodez chacun un message codé par un autre membre de votre groupe.
+
+5. Automatisation
+Proposez un pseudo-code permettant d’automatiser les tâches effectuées dans l’exercice précédent. Proposez 3 fonctions en pseudo-code pour les tâches suivantes :
+
+Génération de clés : La fonction prend en paramètre la clé précédemment utilisée et retourne la nouvelle clé.
+Chiffrement de messages : La fonction prend un bloc déchiffré en paramètre et le retourne chiffré.
+Déchiffrement de messages : La fonction prend un bloc chiffré en paramètre et le retourne déchiffré.
+
+Génération de clés:
+
+fonction genererCle(cleActuelle):
+    retourner cleActuelle XOR 010101010101
+
+Chiffrement de messages:
+
+fonction chiffrerMessage(bloc, cle):
+    retourner bloc XOR cle
+
+Déchiffrement de messages:
+
+fonction dechiffrerMessage(blocChiffre, cle):
+    retourner blocChiffre XOR cle

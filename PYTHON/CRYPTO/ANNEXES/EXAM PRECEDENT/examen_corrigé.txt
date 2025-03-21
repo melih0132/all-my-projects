@@ -1,0 +1,301 @@
+1. QCM (5 points)
+Lesquelles de ces propriétés sont souhaitables pour les méthodes de chiffrement ? (4 bonnes réponses à trouver)
+
+A. La non-répudiation
+B. La confidentialité
+C. La vélocité
+D. L’authentification
+E. La sécurité
+F. L’intégrité des données
+Réponse : B, D, E, F. Explication : La confidentialité, l’authentification, la sécurité, et l'intégrité des données sont des objectifs principaux des méthodes de chiffrement.
+
+Combien d’erreurs peut corriger le CRC dans un message ?
+
+A. 0
+B. 1
+C. 2
+D. 3
+Réponse : A. Explication : Le CRC est utilisé pour détecter des erreurs, pas pour les corriger.
+
+Quel algorithme de chiffrement utiliser pour chiffrer un disque dur ?
+
+A. AES
+B. Diffie-Hellman
+C. RSA
+D. Vigenère
+Réponse : A. Explication : AES est un algorithme symétrique très utilisé pour le chiffrement des données de disques.
+
+Quelles sont les deux méthodes permettant de générer des clés partagées de manière sécurisée ?
+
+A. L’autorité de certification
+B. La toile de confiance
+C. Diffie-Hellman
+D. Key Distribution Center
+Réponse : C, D. Explication : Diffie-Hellman et le KDC sont des protocoles pour générer et partager des clés en toute sécurité.
+
+Quel type de chiffrement symétrique est le plus adapté au streaming ?
+
+A. Le chiffrement par bloc
+B. Le chiffrement par diffusion
+C. Le chiffrement par flot
+Réponse : C. Explication : Le chiffrement par flot est le plus adapté au streaming car il chiffre les données de manière continue.
+
+2. RSA (4 points)
+On te demande de chiffrer deux nombres (10 et 3) en utilisant RSA. Les paramètres donnés sont :
+
+𝑝
+=
+7
+p=7
+𝑞
+=
+3
+q=3
+𝑒
+=
+5
+e=5
+Étapes :
+
+Calcul de 
+𝑛
+=
+𝑝
+×
+𝑞
+=
+7
+×
+3
+=
+21
+n=p×q=7×3=21.
+Calcul de 
+𝜙
+(
+𝑛
+)
+=
+(
+𝑝
+−
+1
+)
+×
+(
+𝑞
+−
+1
+)
+=
+6
+×
+2
+=
+12
+ϕ(n)=(p−1)×(q−1)=6×2=12.
+La clé publique est 
+(
+𝑛
+=
+21
+,
+𝑒
+=
+5
+)
+(n=21,e=5).
+Pour chiffrer un message 
+𝑀
+M, on utilise la formule : 
+𝐶
+=
+𝑀
+𝑒
+m
+o
+d
+ 
+ 
+𝑛
+C=M 
+e
+ modn
+
+Pour 
+𝑀
+=
+10
+M=10 :
+
+𝐶
+=
+1
+0
+5
+m
+o
+d
+ 
+ 
+21
+=
+100000
+m
+o
+d
+ 
+ 
+21
+=
+10
+C=10 
+5
+ mod21=100000mod21=10
+Pour 
+𝑀
+=
+3
+M=3 :
+
+𝐶
+=
+3
+5
+m
+o
+d
+ 
+ 
+21
+=
+243
+m
+o
+d
+ 
+ 
+21
+=
+12
+C=3 
+5
+ mod21=243mod21=12
+Résultats :
+
+Le chiffrement de 10 est 10.
+Le chiffrement de 3 est 12.
+3. Calcul d’inverse (4 points)
+Tu dois calculer l’inverse de 9 sur 
+𝑍
+/
+110
+𝑍
+Z/110Z avec l'algorithme d'Euclide étendu.
+
+On veut trouver 
+𝑥
+x tel que : 
+9
+𝑥
+≡
+1
+ 
+(
+mod 
+110
+)
+9x≡1 (mod 110)
+
+Utilisons l’algorithme d’Euclide étendu :
+
+Appliquons l’algorithme d’Euclide pour trouver le PGCD de 9 et 110 :
+
+110
+=
+12
+×
+9
++
+2
+110=12×9+2
+9
+=
+4
+×
+2
++
+1
+9=4×2+1
+2
+=
+2
+×
+1
++
+0
+2=2×1+0
+Le PGCD est 1, donc 9 est inversible modulo 110.
+
+Remontons les étapes pour trouver l’inverse :
+
+1
+=
+9
+−
+4
+×
+2
+1=9−4×2
+1
+=
+9
+−
+4
+×
+(
+110
+−
+12
+×
+9
+)
+1=9−4×(110−12×9)
+1
+=
+49
+×
+9
+−
+4
+×
+110
+1=49×9−4×110
+Donc, l'inverse de 9 modulo 110 est 
+49
+49.
+
+Résultat : L’inverse de 9 sur 
+𝑍
+/
+110
+𝑍
+Z/110Z est 49.
+
+4. Fonctions de hachage (4 points)
+Une fonction de hachage est une fonction mathématique qui transforme un message de longueur arbitraire en une empreinte de longueur fixe. Les fonctions de hachage sont largement utilisées en cryptographie pour garantir l'intégrité des données. Les propriétés souhaitées pour une fonction de hachage sont :
+
+Résistance à la préimage : Il doit être difficile de retrouver le message original à partir de son haché.
+Résistance aux collisions : Il doit être difficile de trouver deux messages différents ayant le même haché.
+Diffusion : Une petite modification du message doit entraîner un haché totalement différent.
+5. Authentification (3 points)
+Authentifier un utilisateur avec RSA :
+
+Le serveur envoie un défi sous forme de message.
+L’utilisateur chiffre ce message avec sa clé privée.
+Le serveur déchiffre avec la clé publique de l'utilisateur et compare avec le message original pour confirmer l’identité.
+Protocole d'authentification avec des clés partagées :
+
+Les deux interlocuteurs partagent une clé secrète.
+Lorsqu’un utilisateur veut prouver son identité, il envoie un message chiffré avec cette clé secrète.
+L’autre interlocuteur déchiffre et vérifie que le message correspond à ce qui est attendu.
