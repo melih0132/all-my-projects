@@ -1,31 +1,31 @@
-# **PROJECTS**
+# **PROJECTS**  
 
-Welcome to my **PROJECTS** repository! Here, you'll find a collection of my development projects, each with its own Git repository. This directory contains various projects I have worked on, each with its own specific technologies and features.
+Welcome to my **PROJECTS** repository! Here, you'll find a curated collection of my development projects, each housed in its own Git repository. These projects span various domains, technologies, and levels of complexity.  
 
-## **Included Projects**
+## **Project Categories**  
 
-### 1. [BIG PROJECTS](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS)
-This project folder contains large-scale projects that I've been working on.
+### 1. [Big Projects](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS)  
+A collection of large-scale projects demonstrating advanced functionalities and architectures.  
 
-### 2. [C# with DB](https://github.com/melih0132/PROJECTS/tree/main/C%23%20with%20DB)
-This project folder contains C# applications that utilize a database.
+### 2. [.NET/C#](https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23)  
+Projects developed using .NET and C#, including WPF applications and backend services.  
 
-### 3. [C# without DB](https://github.com/melih0132/PROJECTS/tree/main/C%23%20without%20DB)
-This project folder contains C# applications that do not require a database.
+### 3. [Python](https://github.com/melih0132/PROJECTS/tree/main/PYTHON)  
+A variety of Python-based applications and scripts, ranging from automation tools to data analysis.  
 
-### 4. [PYTHON](https://github.com/melih0132/PROJECTS/tree/main/PYTHON)
-This project folder contains Python-based applications and scripts.
+### 4. [Unity](https://github.com/melih0132/PROJECTS/tree/main/UNITY)  
+Games and interactive applications built with Unity, showcasing gameplay mechanics and 3D environments.  
 
-### 5. [UNITY](https://github.com/melih0132/PROJECTS/tree/main/UNITY)
-This project folder contains Unity-based games and applications.
+### 5. [Web Development](https://github.com/melih0132/PROJECTS/tree/main/WEB)  
+Web applications and websites using HTML, CSS, JavaScript, and modern frameworks.  
 
-### 6. [WEB](https://github.com/melih0132/PROJECTS/tree/main/WEB)
-This project folder contains web-based projects, including HTML, CSS, and JavaScript.
+## **Technologies & Tools**  
 
-## **Technologies Used**
-Each project uses different technologies, including:
-- **Languages:** C#, HTML, CSS, JavaScript, Python, PHP, SQL
-- **Frameworks:** WPF, Phaser, Unity,  Laravel,  Node.js, Bootsrap
-- **Tools:** Power BI, PostgreSQL, Excel, JSON, Visual Paradigm, Power AMC, VS Code, Visual Studio
+Throughout these projects, I have worked with various technologies, including:  
 
-Thank you for visiting my project repository!
+- **Languages:** C#, Python, JavaScript, PHP, SQL, HTML, CSS  
+- **Frameworks & Libraries:** .NET (WPF), Laravel, Node.js, Phaser, Unity, Bootstrap  
+- **Databases & Tools:** PostgreSQL, Power BI, Excel, JSON, Visual Paradigm, PowerAMC  
+- **Development Environments:** Visual Studio, VS Code  
+
+Feel free to explore or reach out if you have any questions!
