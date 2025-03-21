@@ -1,0 +1,66 @@
+﻿<Window
+    x:Class="Application_WPF_Av_Eval.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Application_WPF_Av_Eval"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    Icon="https://cdn-icons-png.flaticon.com/512/1549/1549755.png"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    mc:Ignorable="d"
+    WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="53*" />
+                <RowDefinition Height="381*" />
+            </Grid.RowDefinitions>
+
+
+            <DockPanel Grid.Row="0" Background="#FF84C6FF">
+                <materialDesign:PopupBox
+                    DockPanel.Dock="Left"
+                    PlacementMode="BottomAndAlignLeftEdges"
+                    StaysOpen="False">
+                    <StackPanel Background="White">
+                        <Button
+                            Name="ConvertisseurDevise_Button"
+                            Click="ConvertisseurDevise_Button_Click"
+                            Content="€ -&gt; Devise" />
+                        <Button
+                            Name="ConvertisseurEuro"
+                            Click="ConvertisseurEuro_Click"
+                            Content="Devise -&gt; €" />
+                        <Button
+                            Name="GEstionDevises"
+                            Click="GEstionDevises_Click"
+                            Content="Devises" />
+                    </StackPanel>
+                </materialDesign:PopupBox>
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="#FF84C6FF"
+                    Style="{DynamicResource MaterialDesignHeadline4TextBlock}"
+                    Text="Convertisseur" />
+            </DockPanel>
+
+            <ContentControl
+                x:Name="MyContentControl"
+                Grid.Row="1"
+                Background="#FFC7C7C7" />
+        </Grid>
+
+    </Grid>
+</Window>

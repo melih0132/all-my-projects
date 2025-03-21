@@ -1,0 +1,68 @@
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.csproj.AssemblyReference.cache
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\App.g.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF_MarkupCompile.cache
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF_MarkupCompile.lref
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.exe
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.deps.json
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.runtimeconfig.json
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.pdb
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.g.resources
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.GeneratedMSBuildEditorConfig.editorconfig
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.AssemblyInfoInputs.cache
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.AssemblyInfo.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.csproj.CoreCompileInputs.cache
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Applicat.EBB1BD05.Up2Date
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\refint\Application_WPF.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.pdb
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.genruntimeconfig.cache
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\ref\Application_WPF.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\App.baml
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Data\Devises.json
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurDevise.g.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurEuro.g.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\GEstionDevises.g.cs
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurDevise.baml
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurEuro.baml
+P:\S3\R3.04\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\GEstionDevises.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.exe
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Data\Devises.json
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.deps.json
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.runtimeconfig.json
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Application_WPF.pdb
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.csproj.AssemblyReference.cache
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\App.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurDevise.g.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurEuro.g.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\GEstionDevises.g.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\App.g.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF_MarkupCompile.cache
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF_MarkupCompile.lref
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurDevise.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\ConvertisseurEuro.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\UserControls\GEstionDevises.baml
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.g.resources
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.AssemblyInfoInputs.cache
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.AssemblyInfo.cs
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.csproj.CoreCompileInputs.cache
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Applicat.EBB1BD05.Up2Date
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\refint\Application_WPF.dll
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.pdb
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\Application_WPF.genruntimeconfig.cache
+P:\R3.04 Qualite\PROD\TD3\Application_WPF\Application_WPF\obj\Debug\net8.0-windows\ref\Application_WPF.dll

@@ -1,0 +1,94 @@
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.exe
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.deps.json
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.runtimeconfig.json
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.pdb
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.AssemblyReference.cache
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\App.g.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.cache
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.lref
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.baml
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.g.resources
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfoInputs.cache
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfo.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.CoreCompileInputs.cache
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\Conversi.ABFAEACD.Up2Date
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\refint\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.pdb
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.genruntimeconfig.cache
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ref\ConversionDevise.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.exe
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.deps.json
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.runtimeconfig.json
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.pdb
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.AssemblyReference.cache
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.g.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.g.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.g.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.cache
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.lref
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.baml
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.baml
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.baml
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.g.resources
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfoInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfo.cs
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.sourcelink.json
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\Conversi.ABFAEACD.Up2Date
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\refint\ConversionDevise.dll
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.pdb
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.genruntimeconfig.cache
+C:\Users\melih\Desktop\Travaux à faire\QUALITE\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ref\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.g.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.g.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.g.cs
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.baml
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.baml
+P:\R3.04 Qualite\PROD\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.baml
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.AssemblyReference.cache
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.g.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.g.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\App.g.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.cache
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise_MarkupCompile.lref
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\refint\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.pdb
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.exe
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.deps.json
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.runtimeconfig.json
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\ConversionDevise.pdb
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.g.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\MainWindow.baml
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurDevise.baml
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\ConvertisseurEuro.baml
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\UC\GestionDevises.baml
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.g.resources
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfoInputs.cache
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.AssemblyInfo.cs
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.csproj.CoreCompileInputs.cache
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\Conversi.ABFAEACD.Up2Date
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ConversionDevise.genruntimeconfig.cache
+P:\R3.04 Qualite\PROD\TD3\ConversionDevise\ConversionDevise\obj\Debug\net8.0-windows\ref\ConversionDevise.dll

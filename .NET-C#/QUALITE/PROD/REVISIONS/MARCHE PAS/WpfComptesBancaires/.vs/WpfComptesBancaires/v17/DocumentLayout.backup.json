@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE18570-B431-4845-93D9-83FF3E02BB8A}|DataLayer\\DataLayer.csproj|c:\\users\\melih\\desktop\\travaux \u00E0 faire\\dev\\qualite\\prod\\revisions\\wpfcomptesbancaires\\datalayer\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE18570-B431-4845-93D9-83FF3E02BB8A}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8AEA63-154C-49B9-B189-D3F8976CFC75}|WpfComptesBancaires\\WpfComptesBancaires.csproj|c:\\users\\melih\\desktop\\travaux \u00E0 faire\\dev\\qualite\\prod\\revisions\\wpfcomptesbancaires\\wpfcomptesbancaires\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DA8AEA63-154C-49B9-B189-D3F8976CFC75}|WpfComptesBancaires\\WpfComptesBancaires.csproj|solutionrelative:wpfcomptesbancaires\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA8AEA63-154C-49B9-B189-D3F8976CFC75}|WpfComptesBancaires\\WpfComptesBancaires.csproj|c:\\users\\melih\\desktop\\travaux \u00E0 faire\\dev\\qualite\\prod\\revisions\\wpfcomptesbancaires\\wpfcomptesbancaires\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA8AEA63-154C-49B9-B189-D3F8976CFC75}|WpfComptesBancaires\\WpfComptesBancaires.csproj|solutionrelative:wpfcomptesbancaires\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\DataLayer\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\DataLayer\\DataAccess.cs",
+              "RelativeToolTip": "DataLayer\\DataAccess.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:42:34.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\WpfComptesBancaires\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfComptesBancaires\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\WpfComptesBancaires\\MainWindow.xaml",
+              "RelativeToolTip": "WpfComptesBancaires\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-21T04:40:15.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\WpfComptesBancaires\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfComptesBancaires\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\WpfComptesBancaires\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfComptesBancaires\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T04:40:10.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

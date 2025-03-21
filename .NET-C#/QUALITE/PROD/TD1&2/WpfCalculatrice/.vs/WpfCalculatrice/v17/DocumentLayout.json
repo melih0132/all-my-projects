@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\wpfcalculatrice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|solutionrelative:wpfcalculatrice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\wpfcalculatrice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|solutionrelative:wpfcalculatrice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\wpfcalculatrice\\calculatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6809119A-DB16-44D7-815B-FD48E1D5FE80}|WpfCalculatrice\\WpfCalculatrice.csproj|solutionrelative:wpfcalculatrice\\calculatrice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1961659-9C4E-45C5-813C-2DE4BB462279}|TD1Debug\\TD1Debug.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\td1debug\\exodebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1961659-9C4E-45C5-813C-2DE4BB462279}|TD1Debug\\TD1Debug.csproj|solutionrelative:td1debug\\exodebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309DDF4-9A31-4B0F-9B85-A387474FD9C2}|Calculatrice\\Calculatrice.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\calculatrice\\calcul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309DDF4-9A31-4B0F-9B85-A387474FD9C2}|Calculatrice\\Calculatrice.csproj|solutionrelative:calculatrice\\calcul.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1961659-9C4E-45C5-813C-2DE4BB462279}|TD1Debug\\TD1Debug.csproj|p:\\r3.04 qualite\\prod\\td1\u00262\\wpfcalculatrice\\td1debug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1961659-9C4E-45C5-813C-2DE4BB462279}|TD1Debug\\TD1Debug.csproj|solutionrelative:td1debug\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfCalculatrice\\MainWindow.xaml",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\MainWindow.xaml",
+              "RelativeToolTip": "WpfCalculatrice\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-30T11:15:00.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExoDebug.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\TD1Debug\\ExoDebug.cs",
+              "RelativeDocumentMoniker": "TD1Debug\\ExoDebug.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\TD1Debug\\ExoDebug.cs",
+              "RelativeToolTip": "TD1Debug\\ExoDebug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:40:08.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\TD1Debug\\Program.cs",
+              "RelativeDocumentMoniker": "TD1Debug\\Program.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\TD1Debug\\Program.cs",
+              "RelativeToolTip": "TD1Debug\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T09:21:29.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Calcul.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\Calculatrice\\Calcul.cs",
+              "RelativeDocumentMoniker": "Calculatrice\\Calcul.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\Calculatrice\\Calcul.cs",
+              "RelativeToolTip": "Calculatrice\\Calcul.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDIAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T08:17:42.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculatrice.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\Calculatrice.cs",
+              "RelativeDocumentMoniker": "WpfCalculatrice\\Calculatrice.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\Calculatrice.cs",
+              "RelativeToolTip": "WpfCalculatrice\\Calculatrice.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwEcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T07:36:44.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfCalculatrice\\MainWindow.xaml.cs",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD1\u00262\\WpfCalculatrice\\WpfCalculatrice\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfCalculatrice\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwCMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T07:36:34.793Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

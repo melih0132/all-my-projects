@@ -1,0 +1,82 @@
+[
+  {
+    "NomDevise": "Dollar américain",
+    "Taux": 1.0273
+  },
+  {
+    "NomDevise": "Franc suisse",
+    "Taux": 0.9405
+  },
+  {
+    "NomDevise": "Yen japonais",
+    "Taux": 160.5635
+  },
+  {
+    "NomDevise": "Livre turque",
+    "Taux": 36.4007
+  },
+  {
+    "NomDevise": "Livre sterling",
+    "Taux": 0.8237
+  },
+  {
+    "NomDevise": "Dollar canadien",
+    "Taux": 1.4442
+  },
+  {
+    "NomDevise": "Dollar australien",
+    "Taux": 1.6303
+  },
+  {
+    "NomDevise": "Yuan chinois",
+    "Taux": 7.3315
+  },
+  {
+    "NomDevise": "Roupie indienne",
+    "Taux": 86.5797
+  },
+  {
+    "NomDevise": "Réal brésilien",
+    "Taux": 5.1525
+  },
+  {
+    "NomDevise": "Rouble russe",
+    "Taux": 74.1234
+  },
+  {
+    "NomDevise": "Peso mexicain",
+    "Taux": 19.8765
+  },
+  {
+    "NomDevise": "Rand sud-africain",
+    "Taux": 19.1533
+  },
+  {
+    "NomDevise": "Won sud-coréen",
+    "Taux": 1300.1234
+  },
+  {
+    "NomDevise": "Ringgit malaisien",
+    "Taux": 4.5678
+  },
+  {
+    "NomDevise": "Dollar néo-zélandais",
+    "Taux": 1.7204
+  },
+  {
+    "NomDevise": "Peso philippin",
+    "Taux": 56.7890
+  },
+  {
+    "NomDevise": "Couronne suédoise",
+    "Taux": 10.1234
+  },
+  {
+    "NomDevise": "Couronne norvégienne",
+    "Taux": 10.5678
+  },
+  {
+    "NomDevise": "Dinar tunisien",
+    "Taux": 3.1234
+  }
+]

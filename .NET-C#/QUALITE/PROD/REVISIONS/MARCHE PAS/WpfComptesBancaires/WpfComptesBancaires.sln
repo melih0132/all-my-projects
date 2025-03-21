@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfComptesBancaires", "WpfComptesBancaires\WpfComptesBancaires.csproj", "{DA8AEA63-154C-49B9-B189-D3F8976CFC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{9DE18570-B431-4845-93D9-83FF3E02BB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLayer\BusinessLayer.csproj", "{030E321C-B180-4E9D-83DA-8AD67139184F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA8AEA63-154C-49B9-B189-D3F8976CFC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8AEA63-154C-49B9-B189-D3F8976CFC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8AEA63-154C-49B9-B189-D3F8976CFC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8AEA63-154C-49B9-B189-D3F8976CFC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE18570-B431-4845-93D9-83FF3E02BB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE18570-B431-4845-93D9-83FF3E02BB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE18570-B431-4845-93D9-83FF3E02BB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE18570-B431-4845-93D9-83FF3E02BB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030E321C-B180-4E9D-83DA-8AD67139184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030E321C-B180-4E9D-83DA-8AD67139184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030E321C-B180-4E9D-83DA-8AD67139184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030E321C-B180-4E9D-83DA-8AD67139184F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,99 @@
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.exe
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.deps.json
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.runtimeconfig.json
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.pdb
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\Users\selmaner\Desktop\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.cache
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.lref
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.g.resources
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfCompt.8CDCA969.Up2Date
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\refint\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.pdb
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.genruntimeconfig.cache
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\ref\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\WpfComptesBancaires\obj\Debug\net8.0-windows\App.baml
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.exe
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.deps.json
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.runtimeconfig.json
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.pdb
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.cache
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.lref
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\App.baml
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.g.resources
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfCompt.8CDCA969.Up2Date
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\refint\WpfComptesBancaires.dll
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.pdb
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.genruntimeconfig.cache
+C:\Users\selmaner\Desktop\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\ref\WpfComptesBancaires.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.exe
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.deps.json
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.runtimeconfig.json
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\WpfComptesBancaires.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\Npgsql.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\BusinessLayer.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\bin\Debug\net8.0-windows\DataLayer.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.AssemblyReference.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.baml
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\App.g.cs
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires_MarkupCompile.lref
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\App.baml
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.g.resources
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfoInputs.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.AssemblyInfo.cs
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.csproj.CoreCompileInputs.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfCompt.8CDCA969.Up2Date
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\refint\WpfComptesBancaires.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\WpfComptesBancaires.genruntimeconfig.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\WpfComptesBancaires\obj\Debug\net8.0-windows\ref\WpfComptesBancaires.dll

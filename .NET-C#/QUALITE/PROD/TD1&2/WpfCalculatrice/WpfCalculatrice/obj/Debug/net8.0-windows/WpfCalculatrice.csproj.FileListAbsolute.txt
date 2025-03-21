@@ -1,0 +1,48 @@
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.exe
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.deps.json
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.runtimeconfig.json
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.dll
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.pdb
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice_MarkupCompile.cache
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice_MarkupCompile.lref
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.g.resources
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.AssemblyInfoInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.AssemblyInfo.cs
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.dll
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\refint\WpfCalculatrice.dll
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.pdb
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.genruntimeconfig.cache
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\ref\WpfCalculatrice.dll
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\Calculatrice.dll
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\Calculatrice.pdb
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.csproj.AssemblyReference.cache
+C:\Users\melih\Desktop\Travaux à faire\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalcu.AD5D1BE7.Up2Date
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\MainWindow.g.cs
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\App.g.cs
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice_MarkupCompile.cache
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice_MarkupCompile.lref
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.csproj.AssemblyReference.cache
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.exe
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.deps.json
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.runtimeconfig.json
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.dll
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\WpfCalculatrice.pdb
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\Calculatrice.dll
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\bin\Debug\net8.0-windows\Calculatrice.pdb
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\MainWindow.baml
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.g.resources
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.AssemblyInfoInputs.cache
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.AssemblyInfo.cs
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.csproj.CoreCompileInputs.cache
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalcu.AD5D1BE7.Up2Date
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.dll
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\refint\WpfCalculatrice.dll
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.pdb
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\WpfCalculatrice.genruntimeconfig.cache
+P:\R3.04 Qualite\TD1\WpfCalculatrice\WpfCalculatrice\obj\Debug\net8.0-windows\ref\WpfCalculatrice.dll

@@ -1,0 +1,5 @@
+Lancer le programme en Debug. Qu’affiche la console ?
+a = 3
+
+Lancer le programme en Release. Qu’affiche la console ?
+a = 6

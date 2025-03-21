@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bvJgviuMW4o=",
+  "success": true,
+  "projectFilePath": "P:\\R3.04 Qualite\\TD1\\WpfCalculatrice\\TD1Debug\\TD1Debug.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cetinkam\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.6\\microsoft.dotnet.ilcompiler.8.0.6.nupkg.sha512",
+    "C:\\Users\\cetinkam\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.6\\microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
+    "C:\\Users\\cetinkam\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.6\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

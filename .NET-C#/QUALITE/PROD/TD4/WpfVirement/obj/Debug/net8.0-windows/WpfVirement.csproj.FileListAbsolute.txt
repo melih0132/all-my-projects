@@ -1,0 +1,145 @@
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.cache
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.lref
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.exe
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.deps.json
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.runtimeconfig.json
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\App.baml
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.g.resources
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirem.C18424A3.Up2Date
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\refint\WpfVirement.dll
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.genruntimeconfig.cache
+C:\Users\selmaner\Desktop\WpfVirement\obj\Debug\net8.0-windows\ref\WpfVirement.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\Users\selmaner\Desktop\WpfVirement\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.exe
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.deps.json
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.runtimeconfig.json
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\Users\selmaner\Desktop\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.cache
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.lref
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\App.baml
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.g.resources
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirem.C18424A3.Up2Date
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\refint\WpfVirement.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.genruntimeconfig.cache
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\ref\WpfVirement.dll
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.baml
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.g.cs
+C:\Users\selmaner\Desktop\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.baml
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.exe
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.deps.json
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.runtimeconfig.json
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.pdb
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\Npgsql.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.dll
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.pdb
+D:\Telechargement\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.pdb
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.AssemblyReference.cache
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.g.cs
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.g.cs
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\App.g.cs
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.cache
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.lref
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\App.baml
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.baml
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.baml
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.g.resources
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.GeneratedMSBuildEditorConfig.editorconfig
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfoInputs.cache
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfo.cs
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.CoreCompileInputs.cache
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirem.C18424A3.Up2Date
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.dll
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\refint\WpfVirement.dll
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.pdb
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.genruntimeconfig.cache
+D:\Telechargement\TD4\WpfVirement\obj\Debug\net8.0-windows\ref\WpfVirement.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.exe
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.deps.json
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.runtimeconfig.json
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\BusinessLayer.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.AssemblyReference.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.g.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.g.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement_MarkupCompile.lref
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\App.baml
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\AjoutCompte.baml
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\RechercheVirement.baml
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.g.resources
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfoInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.AssemblyInfo.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.sourcelink.json
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirem.C18424A3.Up2Date
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\refint\WpfVirement.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\WpfVirement.genruntimeconfig.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\WpfVirement\obj\Debug\net8.0-windows\ref\WpfVirement.dll

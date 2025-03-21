@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a47SagcP1rY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\melih\\Desktop\\Travaux à faire\\DEV\\QUALITE\\PROD\\REVISIONS\\WpfComptesBancaires\\WpfComptesBancaires\\WpfComptesBancaires.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\npgsql\\9.0.2\\npgsql.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

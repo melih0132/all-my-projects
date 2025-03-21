@@ -1,0 +1,61 @@
+C:\Users\selmaner\Desktop\DataLayer\bin\Debug\net8.0-windows\DataLayer.deps.json
+C:\Users\selmaner\Desktop\DataLayer\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\DataLayer\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\refint\DataLayer.dll
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\DataLayer\obj\Debug\net8.0-windows\ref\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.deps.json
+C:\Users\selmaner\Desktop\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.AssemblyReference.cache
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfoInputs.cache
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfo.cs
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\refint\DataLayer.dll
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\selmaner\Desktop\TD4\DataLayer\obj\Debug\net8.0-windows\ref\DataLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.deps.json
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.AssemblyReference.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfoInputs.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfo.cs
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.CoreCompileInputs.cache
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\refint\DataLayer.dll
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.pdb
+P:\R3.04 - QUALITE DE DEVELOPPEMENT\TD4\DataLayer\obj\Debug\net8.0-windows\ref\DataLayer.dll
+D:\Telechargement\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.deps.json
+D:\Telechargement\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.dll
+D:\Telechargement\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.pdb
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.AssemblyReference.cache
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfoInputs.cache
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfo.cs
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.CoreCompileInputs.cache
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.dll
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\refint\DataLayer.dll
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.pdb
+D:\Telechargement\TD4\DataLayer\obj\Debug\net8.0-windows\ref\DataLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.deps.json
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\bin\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.AssemblyReference.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfoInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.AssemblyInfo.cs
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.sourcelink.json
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\refint\DataLayer.dll
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\DataLayer.pdb
+C:\Users\melih\Desktop\Travaux à faire\DEV\QUALITE\PROD\TD4\DataLayer\obj\Debug\net8.0-windows\ref\DataLayer.dll

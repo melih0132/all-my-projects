@@ -1,0 +1,85 @@
+﻿<Window
+    x:Class="WpfCalculatriveV2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfCalculatriveV2"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Calculatrice"
+    Width="400"
+    Height="300"
+    mc:Ignorable="d">
+    <Grid Margin="0,0,2,0">
+        <StackPanel
+            Margin="50,146,52,0"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+            <Button
+                x:Name="ButtonAddition"
+                Width="23"
+                VerticalAlignment="Top"
+                Click="ButtonAddition_Click"
+                Content="+" />
+            <Button
+                x:Name="ButtonSoustraction"
+                Width="23"
+                Margin="10,0,0,0"
+                VerticalAlignment="Top"
+                Click="ButtonSoustraction_Click"
+                Content="-" />
+            <Button
+                x:Name="ButtonMultiplication"
+                Width="23"
+                Margin="10,0,0,0"
+                VerticalAlignment="Top"
+                Click="ButtonMultiplication_Click"
+                Content="*" />
+            <Button
+                x:Name="ButtonDivision"
+                Width="23"
+                Margin="10,0,0,0"
+                VerticalAlignment="Top"
+                Click="ButtonDivision_Click"
+                Content="/" />
+            <Button
+                x:Name="ButtonFactorielle"
+                Width="23"
+                Margin="10,0,0,0"
+                VerticalAlignment="Top"
+                Click="ButtonFactorielle_Click"
+                Content="!" />
+            <Button
+                x:Name="ButtonMoyenne"
+                Width="35"
+                Margin="10,0,0,0"
+                VerticalAlignment="Top"
+                Click="ButtonMoyenne_Click"
+                Content="Moy" />
+        </StackPanel>
+        <TextBox
+            Width="120"
+            Height="23"
+            Margin="0,40,4,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Text="{Binding Nb1, Mode=OneWayToSource}"
+            TextWrapping="Wrap" />
+        <TextBox
+            Width="120"
+            Height="23"
+            Margin="0,88,4,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Text="{Binding Nb2, Mode=OneWayToSource}"
+            TextWrapping="Wrap" />
+        <TextBox
+            Width="120"
+            Height="23"
+            Margin="0,196,4,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            IsReadOnly="True"
+            Text="{Binding Resultat, Mode=OneWay}"
+            TextWrapping="Wrap" />
+    </Grid>
+</Window>

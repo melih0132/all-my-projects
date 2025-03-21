@@ -1,0 +1,72 @@
+﻿<UserControl
+    x:Class="TD3.UserControls.ConvertisseurDevise"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Style="{DynamicResource MaterialDesignHeadline4TextBlock}"
+                Text="€ -&gt; Devise" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Style="{DynamicResource MaterialDesignTitleTextBlock}"
+                Text="Montant (€)" />
+            <TextBox
+                x:Name="MontantEuroTextBox"
+                Width="200"
+                Margin="0,20,0,0"
+                HorizontalAlignment="Center"
+                Background="#F0F0F0"
+                BorderBrush="Black"
+                Style="{DynamicResource MaterialDesignTextBox}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Style="{DynamicResource MaterialDesignTitleTextBlock}"
+                Text="Devise" />
+            <ComboBox
+                x:Name="DeviseComboBox"
+                Width="100"
+                Margin="0,10,0,5"
+                HorizontalAlignment="Center"
+                Background="#F0F0F0"
+                BorderBrush="Black"
+                Style="{DynamicResource MaterialDesignComboBox}" />
+        </StackPanel>
+        <Button
+            x:Name="Convertir_Button"
+            Grid.Row="3"
+            HorizontalAlignment="Center"
+            Click="Convertir_Click"
+            Content="Convertir"
+            Style="{DynamicResource MaterialDesignRaisedDarkButton}" />
+        <StackPanel Grid.Row="4" HorizontalAlignment="Center">
+            <TextBlock
+                HorizontalAlignment="Center"
+                Style="{DynamicResource MaterialDesignTitleTextBlock}"
+                Text="Résultat" />
+            <TextBox
+                x:Name="ResultatTextBox"
+                Width="200"
+                Margin="0,10,0,0"
+                HorizontalAlignment="Center"
+                Background="#F0F0F0"
+                BorderBrush="Black"
+                IsReadOnly="True"
+                Style="{DynamicResource MaterialDesignTextBox}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

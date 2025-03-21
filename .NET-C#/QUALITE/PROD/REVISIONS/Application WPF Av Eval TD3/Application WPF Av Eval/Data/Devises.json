@@ -1,0 +1,16 @@
+
+    [
+    {
+        "NomDevise": "Dollar",
+        "Taux": 1.08
+    },
+    {
+        "NomDevise": "Franc Suisse",
+        "Taux": 1.07
+    },
+    {
+        "NomDevise": "Yen",
+        "Taux": 120
+    }
+    ]
+

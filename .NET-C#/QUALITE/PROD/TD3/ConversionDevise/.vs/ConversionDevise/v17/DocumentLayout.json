@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|p:\\r3.04 qualite\\prod\\td3\\conversiondevise\\conversiondevise\\uc\\convertisseureuro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|solutionrelative:conversiondevise\\uc\\convertisseureuro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|p:\\r3.04 qualite\\prod\\td3\\conversiondevise\\conversiondevise\\uc\\gestiondevises.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|solutionrelative:conversiondevise\\uc\\gestiondevises.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|p:\\r3.04 qualite\\prod\\td3\\conversiondevise\\conversiondevise\\uc\\convertisseurdevise.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|solutionrelative:conversiondevise\\uc\\convertisseurdevise.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|p:\\r3.04 qualite\\prod\\td3\\conversiondevise\\conversiondevise\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9CC73600-DC13-4217-8840-B78B4E82FE51}|ConversionDevise\\ConversionDevise.csproj|solutionrelative:conversiondevise\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionDevises.xaml",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\GestionDevises.xaml",
+              "RelativeDocumentMoniker": "ConversionDevise\\UC\\GestionDevises.xaml",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\GestionDevises.xaml",
+              "RelativeToolTip": "ConversionDevise\\UC\\GestionDevises.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T13:15:42.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConvertisseurEuro.xaml",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\ConvertisseurEuro.xaml",
+              "RelativeDocumentMoniker": "ConversionDevise\\UC\\ConvertisseurEuro.xaml",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\ConvertisseurEuro.xaml",
+              "RelativeToolTip": "ConversionDevise\\UC\\ConvertisseurEuro.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-01T20:29:34.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConvertisseurDevise.xaml",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\ConvertisseurDevise.xaml",
+              "RelativeDocumentMoniker": "ConversionDevise\\UC\\ConvertisseurDevise.xaml",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\UC\\ConvertisseurDevise.xaml",
+              "RelativeToolTip": "ConversionDevise\\UC\\ConvertisseurDevise.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-01T20:27:42.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ConversionDevise\\MainWindow.xaml",
+              "ToolTip": "P:\\R3.04 Qualite\\PROD\\TD3\\ConversionDevise\\ConversionDevise\\MainWindow.xaml",
+              "RelativeToolTip": "ConversionDevise\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-27T09:46:11.379Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

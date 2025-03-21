@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\Application WPF Av Eval TD3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8246D95C-FBD8-4C36-B0A6-93727B2F352E}|Application WPF Av Eval\\Application WPF Av Eval.csproj|c:\\users\\melih\\desktop\\travaux \u00E0 faire\\dev\\qualite\\prod\\application wpf av eval td3\\application wpf av eval\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8246D95C-FBD8-4C36-B0A6-93727B2F352E}|Application WPF Av Eval\\Application WPF Av Eval.csproj|solutionrelative:application wpf av eval\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8246D95C-FBD8-4C36-B0A6-93727B2F352E}|Application WPF Av Eval\\Application WPF Av Eval.csproj|c:\\users\\melih\\desktop\\travaux \u00E0 faire\\dev\\qualite\\prod\\application wpf av eval td3\\application wpf av eval\\data\\devises.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8246D95C-FBD8-4C36-B0A6-93727B2F352E}|Application WPF Av Eval\\Application WPF Av Eval.csproj|solutionrelative:application wpf av eval\\data\\devises.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\Application WPF Av Eval TD3\\Application WPF Av Eval\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "Application WPF Av Eval\\Services\\Service.cs",
+              "ToolTip": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\Application WPF Av Eval TD3\\Application WPF Av Eval\\Services\\Service.cs",
+              "RelativeToolTip": "Application WPF Av Eval\\Services\\Service.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:09:32.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Devises.json",
+              "DocumentMoniker": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\Application WPF Av Eval TD3\\Application WPF Av Eval\\Data\\Devises.json",
+              "RelativeDocumentMoniker": "Application WPF Av Eval\\Data\\Devises.json",
+              "ToolTip": "C:\\Users\\melih\\Desktop\\Travaux \u00E0 faire\\DEV\\QUALITE\\PROD\\Application WPF Av Eval TD3\\Application WPF Av Eval\\Data\\Devises.json",
+              "RelativeToolTip": "Application WPF Av Eval\\Data\\Devises.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T18:07:38.672Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

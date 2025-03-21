@@ -1,0 +1,79 @@
+﻿<Window
+    x:Class="WpfCalculatrice.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfCalculatrice"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Calculatrice"
+    Width="500"
+    Height="450"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Orientation="Vertical">
+            <TextBox
+                Width="280"
+                Height="40"
+                Margin="5"
+                FontSize="20"
+                Text="{Binding PremierNB, UpdateSourceTrigger=PropertyChanged}"
+                TextWrapping="Wrap" />
+            <TextBox
+                Width="280"
+                Height="40"
+                Margin="20"
+                FontSize="20"
+                Text="{Binding SecondNB, UpdateSourceTrigger=PropertyChanged}"
+                TextWrapping="Wrap" />
+
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Button
+                    x:Name="Addition"
+                    Width="40"
+                    Height="40"
+                    Margin="20"
+                    Click="Addition_Click"
+                    Content="+" />
+                <Button
+                    x:Name="Soustraction"
+                    Width="40"
+                    Height="40"
+                    Margin="20"
+                    Click="Soustraction_Click"
+                    Content="-" />
+                <Button
+                    x:Name="Multiplication"
+                    Width="40"
+                    Height="40"
+                    Margin="20"
+                    Click="Multiplication_Click"
+                    Content="x" />
+                <Button
+                    x:Name="Division"
+                    Width="40"
+                    Height="40"
+                    Margin="20"
+                    Click="Division_Click"
+                    Content="/" />
+                <Button
+                    x:Name="Factorielle"
+                    Width="40"
+                    Height="40"
+                    Margin="20"
+                    Click="Factorielle_Click"
+                    Content="!" />
+            </StackPanel>
+
+            <TextBox
+                Width="280"
+                Height="40"
+                Margin="20"
+                FontSize="20"
+                IsReadOnly="True"
+                Text="{Binding Resultat}"
+                TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Window>

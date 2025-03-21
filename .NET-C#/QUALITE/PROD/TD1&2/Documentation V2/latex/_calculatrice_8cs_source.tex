@@ -1,0 +1,95 @@
+\doxysection{Calculatrice.\+cs}
+\hypertarget{_calculatrice_8cs_source}{}\label{_calculatrice_8cs_source}\index{WpfCalculatrice/Calculatrice.cs@{WpfCalculatrice/Calculatrice.cs}}
+\mbox{\hyperlink{_calculatrice_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }System.ComponentModel;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00004}00004\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_wpf_calculatrice}{WpfCalculatrice}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00005}00005\ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00009}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice}{00009}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{namespace_calculatrice}{Calculatrice}}\ :\ INotifyPropertyChanged}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00010}00010\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00011}00011\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{double}\ premierNB;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00012}00012\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{double}\ secondNB;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{double}\ resultat;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00014}00014\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00015}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a4e42710c5387010196d5b75d23be71f4}{00015}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{event}\ PropertyChangedEventHandler\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a4e42710c5387010196d5b75d23be71f4}{PropertyChanged}};}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00017}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ae637ef4d65cc1d7afc8262c67f9090cc}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{protected}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ae637ef4d65cc1d7afc8262c67f9090cc}{OnPropertyChanged}}(\textcolor{keywordtype}{string}\ name)}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ PropertyChangedEventHandler\ handler\ =\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a4e42710c5387010196d5b75d23be71f4}{PropertyChanged}};}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (handler\ !=\ \textcolor{keyword}{null})}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00021}00021\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ handler(\textcolor{keyword}{this},\ \textcolor{keyword}{new}\ PropertyChangedEventArgs(name));}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00026}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ac70e529fed407ae60f26dbeda763548f}{00026}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ac70e529fed407ae60f26dbeda763548f}{PremierNB}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{get}\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ \{\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ this.premierNB;\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00031}00031\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00032}00032\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{set}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.premierNB\ =\ value;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ae637ef4d65cc1d7afc8262c67f9090cc}{OnPropertyChanged}}(nameof(\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ac70e529fed407ae60f26dbeda763548f}{PremierNB}}));}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00038}00038\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00039}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a5fce6fb7dcb7b2ac7e23e6ab5447c968}{00039}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a5fce6fb7dcb7b2ac7e23e6ab5447c968}{SecondNB}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{get}\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \{\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ this.secondNB;\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{set}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00046}00046\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.secondNB\ =\ value;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ae637ef4d65cc1d7afc8262c67f9090cc}{OnPropertyChanged}}(nameof(\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_a5fce6fb7dcb7b2ac7e23e6ab5447c968}{SecondNB}}));}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00052}\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ab23c09f57bfee16f397a53c2fab04f5f}{00052}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ab23c09f57bfee16f397a53c2fab04f5f}{Resultat}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{get}\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ \{\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ this.resultat;\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00058}00058\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{set}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.resultat\ =\ value;}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ae637ef4d65cc1d7afc8262c67f9090cc}{OnPropertyChanged}}(nameof(\mbox{\hyperlink{class_wpf_calculatrice_1_1_calculatrice_ab23c09f57bfee16f397a53c2fab04f5f}{Resultat}}));}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00063}00063\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00065}00065\ \ \ \ \ \ \ \ \ \textcolor{comment}{//public\ double\ Addition(double\ premierNB,\ double\ secondNB)}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00066}00066\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00067}00067\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ return\ premierNB\ +\ secondNB;}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00069}00069\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \textcolor{comment}{//public\ double\ Soustraction(double\ premierNB,\ double\ secondNB)}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ return\ premierNB\ -\/\ secondNB;}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \textcolor{comment}{//public\ double\ Multiplication(double\ premierNB,\ double\ secondNB)}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ return\ premierNB\ *\ secondNB;}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00079}00079\ }
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \textcolor{comment}{//public\ double\ Division(double\ premierNB,\ double\ secondNB)}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ if\ (secondNB\ !=\ 0)}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \ \ \ \ return\ premierNB\ /\ secondNB;}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ else}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \{}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \ \ \ \ throw\ new\ DivideByZeroException("{}division\ par\ zéro\ impossible"{});}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00089}00089\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ \ \ \}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00090}00090\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\}}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00091}00091\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_calculatrice_8cs_source_l00092}00092\ \}}
+
+\end{DoxyCode}

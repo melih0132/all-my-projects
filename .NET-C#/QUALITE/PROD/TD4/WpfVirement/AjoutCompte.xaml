@@ -1,0 +1,70 @@
+﻿<Window
+    x:Class="WpfVirement.AjoutCompte"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfVirement"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="AjoutCompte"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid Margin="20,20,0,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="1"
+            Margin="20,30,20,0"
+            VerticalAlignment="Top">
+            <StackPanel Margin="0,10" Orientation="Horizontal">
+                <Label
+                    Width="150"
+                    VerticalAlignment="Center"
+                    Content="Numéro de compte"
+                    FontSize="14"
+                    FontWeight="Bold" />
+                <TextBox
+                 Width="250"
+                Margin="280,50,0,0"
+                 VerticalAlignment="Center"
+                  Text="{Binding NumCompte}" />
+            </StackPanel>
+
+            <StackPanel Margin="0,10" Orientation="Horizontal">
+                <Label
+                    Width="150"
+                    Margin="0,50,0,0"
+                    VerticalAlignment="Center"
+                    Content="Montant"
+                    FontSize="14"
+                    FontWeight="Bold" />
+                <TextBox
+                    Width="250"
+                    Margin="280,50,0,0"
+                    VerticalAlignment="Center"
+                    Text="{Binding Solde}" />
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel
+            Grid.Row="2"
+            Margin="0,20"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+            <Button
+                x:Name="btCréer"
+                Width="250"
+                Height="25"
+                Content="Créer"
+                FontSize="14"
+                FontWeight="Bold"
+                Foreground="White" Margin="280,50,0,0" Click="btCréer_Click" />
+
+        </StackPanel>
+    </Grid>
+</Window>
