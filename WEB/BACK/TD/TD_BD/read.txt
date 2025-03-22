@@ -1,8 +1,0 @@
-Méthode load($id) : Cette méthode statique récupère les données d’un véhicule spécifique 
-en utilisant son identifiant et retourne une instance de Vehicle. En cas de changement 
-dans la structure de la table (ajout/suppression de champs), elle reste fonctionnelle car elle utilise les clés de la ligne récupérée pour initialiser les propriétés.
-
-Méthode magique __set : Cette méthode détecte les modifications de propriétés et met à jour automatiquement le champ correspondant dans la base de données.
-
-Test du chargement et de la mise à jour : Le script de test montre comment charger un véhicule, modifier une propriété (comme le prix), 
-et vérifier que la mise à jour est bien répercutée en rechargeant les données.
