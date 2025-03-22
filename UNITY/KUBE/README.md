@@ -23,4 +23,4 @@ To run Kube locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/melih0132/PROJETS/tree/main/KUBE
+   [git clone https://github.com/melih0132/PROJETS/tree/main/KUBE](https://github.com/melih0132/PROJECTS/tree/main/UNITY/KUBE)
