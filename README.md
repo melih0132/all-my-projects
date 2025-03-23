@@ -19,12 +19,15 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
 ### 5. **[Web Development](https://github.com/melih0132/PROJECTS/tree/main/WEB)**
    - Web applications and websites using HTML, CSS, JavaScript, and modern frameworks. This category includes both frontend and backend development, demonstrating my skills in creating dynamic and responsive web solutions.
 
+### 6. **[Flutter](https://github.com/melih0132/PROJECTS/tree/main/FLUTTER)**
+   - Mobile applications developed using Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. These projects highlight my ability to create cross-platform applications with a focus on performance and user experience.
+
 ## **Technologies & Tools**
 
 Throughout these projects, I have utilized a diverse set of technologies and tools, including:
 
-- **Languages:** C#, Python, JavaScript, PHP, SQL, HTML, CSS
-- **Frameworks & Libraries:** .NET (WPF), Laravel, Node.js, Phaser, Unity, Bootstrap
+- **Languages:** C#, Python, JavaScript, PHP, SQL, HTML, CSS, Dart
+- **Frameworks & Libraries:** .NET (WPF), Laravel, Node.js, Phaser, Unity, Bootstrap, Flutter
 - **Databases & Tools:** PostgreSQL, Power BI, Excel, JSON, Visual Paradigm, PowerAMC
 - **Development Environments:** Visual Studio, VS Code
 
