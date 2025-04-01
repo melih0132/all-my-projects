@@ -4,7 +4,7 @@ Welcome to the **C# without DB** repository! This directory contains projects de
 
 ## Current Projects
 
-### 1. [C#](https://github.com/melih0132/PROJECTS/tree/main/C%23%20without%20DB/C%23)
+### 1. [C#](https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23/C%23%20without%20DB/C%23)
 
 **Overview:**  
 A collection of console-based applications demonstrating fundamental C# concepts, including loops, conditionals, and data structures.
