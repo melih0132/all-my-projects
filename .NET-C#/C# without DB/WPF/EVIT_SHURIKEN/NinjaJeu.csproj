@@ -34,12 +34,20 @@
     <None Remove="shuriken1.png" />
     <None Remove="shuriken2.png" />
     <None Remove="SonFond.mp3" />
+    <None Remove="Sprites\COIN.png" />
+    <None Remove="Sprites\HURT.png" />
+    <None Remove="Sprites\IDLE.png" />
+    <None Remove="Sprites\RUN.png" />
+    <None Remove="Sprites\RUN_LEFT.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="SonFond.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Sprites\ATTACK.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -68,6 +76,21 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="shuriken2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\COIN.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\HURT.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\IDLE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\RUN.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Sprites\RUN_LEFT.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

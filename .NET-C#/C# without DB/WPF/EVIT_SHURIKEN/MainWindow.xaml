@@ -5,42 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NinjaJeu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="512" Width="896" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/logoJeu.png">
+        Title="Ninja Jeu" Height="512" Width="896" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Icon="/logoJeu.png">
 
     <Canvas x:Name="JeuCanva">
         <Canvas.Background>
             <ImageBrush ImageSource="/fondMain.png"/>
         </Canvas.Background>
 
-        <Rectangle x:Name="PersoRect" Width="60" Height="75" Canvas.Left="403" Canvas.Top="390" >
+        <Rectangle x:Name="PersoRect" Width="96" Height="96" Canvas.Left="400" Canvas.Top="330">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="/ninja.png"/>
-            </Rectangle.Fill>
-        </Rectangle>
-        
-        <!--<Rectangle x:Name="ShurikenRect1" Width="45" Height="37.5" Canvas.Left="182" Canvas.Top="0">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="/shuriken1.png"/>
+                <ImageBrush x:Name="PersoBrush" Stretch="Fill"/>
             </Rectangle.Fill>
         </Rectangle>
 
-        <Rectangle x:Name="ShurikenRect2" Width="37.5" Height="60" Canvas.Left="640" Canvas.Top="0">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="/shuriken2.png"/>
-            </Rectangle.Fill>
-        </Rectangle>
+        <TextBlock x:Name="InvincibleText" Text="INVINCIBLE!" FontSize="28" FontWeight="Bold" Foreground="Gold" 
+           Canvas.Left="350" Canvas.Top="50" Visibility="Collapsed">
+            <TextBlock.RenderTransform>
+                <ScaleTransform x:Name="InvincibleTextScale" ScaleX="1" ScaleY="1" CenterX="70" CenterY="15"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
-        <Rectangle x:Name="ShurikenRect3" Width="45" Height="37.5" Canvas.Left="182" Canvas.Top="0">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="shuriken1.png"/>
-            </Rectangle.Fill>
-        </Rectangle>-->
+        <TextBlock x:Name="NiveauText" Text="Niveau: 1" FontSize="24" FontWeight="Bold" Foreground="White" Canvas.Left="10" Canvas.Top="50" Width="300"/>
 
-        <Rectangle x:Name="PauseBar1" Width="20" Height="70" Fill="White" Visibility="Collapsed" Canvas.Left="418" Canvas.Top="178" HorizontalAlignment="Center" VerticalAlignment="Top" ></Rectangle>
-        <Rectangle x:Name="PauseBar2" Width="20" Height="70" Fill="White" Visibility="Collapsed" Canvas.Left="458" Canvas.Top="178" HorizontalAlignment="Center" VerticalAlignment="Top" ></Rectangle>
+        <Rectangle x:Name="PauseBar1" Width="20" Height="70" Fill="White" Visibility="Collapsed" Canvas.Left="418" Canvas.Top="178"/>
+        <Rectangle x:Name="PauseBar2" Width="20" Height="70" Fill="White" Visibility="Collapsed" Canvas.Left="458" Canvas.Top="178"/>
 
-        <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="24" FontWeight="Bold" Foreground="White" Canvas.Left="10" Canvas.Top="10" Width="300" />
-        <TextBlock x:Name="VieRestant" Text="Vies Restantes: 3" FontSize="24" FontWeight="Bold" Foreground="White" Canvas.Right="10" Canvas.Top="10" />
-        
+        <TextBlock x:Name="ScoreText" Text="Score: 0" FontSize="24" FontWeight="Bold" Foreground="White" Canvas.Left="10" Canvas.Top="10" Width="300"/>
+        <TextBlock x:Name="VieRestant" Text="Vies Restantes: 3" FontSize="24" FontWeight="Bold" Foreground="White" Canvas.Right="10" Canvas.Top="10"/>
     </Canvas>
 </Window>

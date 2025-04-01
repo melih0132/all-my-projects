@@ -39,9 +39,9 @@ namespace NinjaJeu
 
         private void BoutonSon_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow.GererMusqiueDeFond();
+            MainWindow.GerermusiqueDeFond();
 
-            string imageUri = MainWindow.RenvoieTrueSiMusqiueDeFondDesactive() ? "mute.png" : "demute.png";
+            string imageUri = MainWindow.RenvoieTrueSimusiqueDeFondDesactive() ? "mute.png" : "demute.png";
             BoutonSon.Background = new ImageBrush(new BitmapImage(new Uri($"pack://application:,,,/NinjaJeu;component/{imageUri}", UriKind.Absolute)));
         }
     }
