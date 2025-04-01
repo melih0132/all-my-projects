@@ -4,7 +4,7 @@ Welcome to the **C# with DB** repository! This directory contains projects devel
 
 ## Projects
 
-### 1. [DortanApp](https://github.com/melih0132/PROJECTS/tree/main/C%23%20with%20DB/DORTANAPP)
+### 1. [DortanApp](https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23/C%23%20with%20DB/DORTANAPP)
 
 **Overview:**  
 DortanApp is a software application developed using WPF (Windows Presentation Foundation) and integrated with a PostgreSQL database. It is specifically designed for managing the reservation of activities in a town hall. This project allows town hall staff to select from existing activities or create new ones, and input reservation dates accordingly.
