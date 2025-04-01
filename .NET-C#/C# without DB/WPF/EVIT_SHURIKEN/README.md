@@ -23,4 +23,4 @@ To run Evit'Shuriken locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/melih0132/PROJETS/tree/main/EVIT_SHURIKEN
+   git clone https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23/C%23%20without%20DB/WPF/EVIT_SHURIKEN
