@@ -14,7 +14,7 @@ A collection of console-based applications demonstrating fundamental C# concepts
 - Implementation of basic algorithms
 - File I/O operations
 
-### 2. [WPF](https://github.com/melih0132/PROJECTS/tree/main/C%23%20without%20DB/WPF)
+### 2. [WPF](https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23/C%23%20without%20DB/WPF)
 
 **Overview:**  
 Desktop applications built using Windows Forms or WPF, showcasing the ability to create user-friendly interfaces without database integration.
