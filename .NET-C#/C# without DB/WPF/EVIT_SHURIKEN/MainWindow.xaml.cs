@@ -376,7 +376,6 @@ namespace NinjaJeu
 
             double ninjaLeft = Canvas.GetLeft(PersoRect);
             double ninjaTop = Canvas.GetTop(PersoRect);
-
             double ninjaWidth = PersoRect.Width;
             double ninjaHeight = PersoRect.Height;
 
@@ -391,27 +390,6 @@ namespace NinjaJeu
 
             Rect ninjaPos = new Rect(hitboxLeft, hitboxTop, hitboxWidth, hitboxHeight);
             Rect objetPos = new Rect(Canvas.GetLeft(objet), Canvas.GetTop(objet), objet.Width, objet.Height);
-
-            // DEBUG
-            //Rectangle hitboxVisual = new Rectangle
-            //{
-            //    Width = hitboxWidth,
-            //    Height = hitboxHeight,
-            //    Stroke = Brushes.Red,
-            //    StrokeThickness = 2,
-            //    Fill = new SolidColorBrush(Color.FromArgb(50, 255, 0, 0))
-            //};
-            //Canvas.SetLeft(hitboxVisual, hitboxLeft);
-            //Canvas.SetTop(hitboxVisual, hitboxTop);
-            //JeuCanva.Children.Add(hitboxVisual);
-
-            //DispatcherTimer timer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(0.1) };
-            //timer.Tick += (s, e) =>
-            //{
-            //    JeuCanva.Children.Remove(hitboxVisual);
-            //    timer.Stop();
-            //};
-            //timer.Start();
 
             return ninjaPos.IntersectsWith(objetPos);
         }
