@@ -4,38 +4,68 @@
 
 A full stack web application inspired by the Uber model, developed with **.NET Core C#** for the back-end and **Vue.js** for the front-end. The project supports order management, meal delivery (Uber Eats), ride booking, and includes secure authentication using JWT.
 
----
-
 ## Key Features
 
+### Authentication & User Management
 * JWT authentication (registration, login, account management)
-* Ride booking with trip history
-* Meal ordering and delivery (Uber Eats)
-* Management of restaurants, products, and payment methods
-* Interactive map with Leaflet
-* Responsive UI built with Vue.js
+* Role-based access control (Admin, Driver, Customer)
+* Profile management and settings
+* Password recovery and email verification
 
----
+### Ride Management
+* Real-time ride booking
+* Trip history and tracking
+* Fare calculation
+* Driver matching algorithm
+* Ride status updates
+
+### Food Delivery (Uber Eats)
+* Restaurant management
+* Menu and product management
+* Order processing
+* Delivery tracking
+* Payment integration
+
+### Interactive Features
+* Interactive map with Leaflet
+* Real-time location tracking
+* Route optimization
+* Estimated time of arrival
+* Price estimation
+
+### UI/UX
+* Responsive design
+* Material Design components
+* Dark/Light theme
+* Progressive Web App (PWA) support
+* Offline functionality
 
 ## Technologies Used
 
-* **Back-end**: 
-  * .NET 8
-  * Entity Framework Core
-  * RESTful Web API
-  * xUnit for testing
-* **Front-end**: 
-  * Vue.js 3
-  * Vite
-  * Pinia (state management)
-  * Vue Router
-  * Axios
-* **Database**: PostgreSQL
-* **Testing**: 
-  * xUnit for back-end (.NET)
-  * Unit testing for front-end (Vue)
+### Back-end
+* **Framework**: .NET 8
+* **ORM**: Entity Framework Core
+* **API**: RESTful Web API
+* **Testing**: xUnit
+* **Documentation**: Swagger/OpenAPI
 
----
+### Front-end
+* **Framework**: Vue.js 3
+* **Build Tool**: Vite
+* **State Management**: Pinia
+* **Routing**: Vue Router
+* **HTTP Client**: Axios
+* **UI Framework**: Vuetify
+
+### Database
+* **Primary**: PostgreSQL
+* **Caching**: Redis
+* **Search**: Elasticsearch
+
+### DevOps
+* **Containerization**: Docker
+* **CI/CD**: GitHub Actions
+* **Monitoring**: Application Insights
 
 ## Prerequisites
 
@@ -43,8 +73,7 @@ A full stack web application inspired by the Uber model, developed with **.NET C
 * [Node.js (>=16.x)](https://nodejs.org/)
 * [PostgreSQL](https://www.postgresql.org/)
 * [Vue CLI / Vite](https://vitejs.dev/)
-
----
+* [Docker](https://www.docker.com/) (optional)
 
 ## Installation
 
@@ -55,7 +84,7 @@ git clone https://github.com/melih0132/uber-clone-dotnet-vue.git
 cd uber-clone-dotnet-vue
 ```
 
-### 2. Start the API (.NET)
+### 2. Backend Setup
 
 ```bash
 cd UberApi
@@ -64,9 +93,7 @@ dotnet ef database update
 dotnet run
 ```
 
-Make sure to configure the connection strings in `appsettings.Development.json` if needed.
-
-### 3. Start the front-end (Vue.js)
+### 3. Frontend Setup
 
 ```bash
 cd ../UberVueJS
@@ -74,16 +101,16 @@ npm install
 npm run dev
 ```
 
----
-
 ## Configuration
 
 ### Environment Variables
 
-Create a `.env` file in the front-end project root to store API URLs and tokens:
+Create a `.env` file in the front-end project root:
 
 ```env
 VITE_API_URL=http://localhost:5000/api
+VITE_MAP_API_KEY=your_map_api_key
+VITE_STRIPE_PUBLIC_KEY=your_stripe_key
 ```
 
 ### Database Configuration
@@ -98,57 +125,77 @@ Configure your PostgreSQL connection in `UberApi/appsettings.Development.json`:
 }
 ```
 
----
-
 ## Project Structure
 
 ```
 uber-clone-dotnet-vue/
 ├── UberApi/                    → .NET Back-end API
-│   ├── UberApi/               → Main project
-│   │   ├── Controllers/       → REST Controllers
-│   │   ├── Models/           → Entities and models
-│   │   ├── Services/         → Business services
-│   │   ├── Data/             → EF Core context
-│   │   └── Migrations/       → EF Core migrations
-│   └── UberApiTests/         → Unit tests
+│   ├── Controllers/           → REST Controllers
+│   │   ├── AuthController.cs  → Authentication endpoints
+│   │   ├── RideController.cs  → Ride management
+│   │   └── OrderController.cs → Food delivery
+│   ├── Models/               → Entities and DTOs
+│   │   ├── Entities/        → Database models
+│   │   └── DTOs/           → Data transfer objects
+│   ├── Services/           → Business logic
+│   │   ├── AuthService.cs  → Authentication logic
+│   │   ├── RideService.cs  → Ride management
+│   │   └── OrderService.cs → Order processing
+│   ├── Data/               → Database context
+│   ├── Migrations/         → EF Core migrations
+│   └── Tests/              → Unit tests
 │
-└── UberVueJS/                 → Vue.js Front-end application
+└── UberVueJS/                 → Vue.js Front-end
     ├── src/
-    │   ├── components/       → Reusable UI components
-    │   ├── views/           → Main pages
+    │   ├── components/       → Reusable components
+    │   │   ├── auth/        → Authentication
+    │   │   ├── ride/        → Ride booking
+    │   │   └── order/       → Food delivery
+    │   ├── views/           → Page components
     │   ├── stores/          → Pinia stores
     │   ├── services/        → API services
     │   ├── assets/          → Static resources
-    │   └── router/          → Router configuration
+    │   └── router/          → Route configuration
     ├── tests/               → Unit tests
     └── public/              → Public files
 ```
 
----
-
 ## Best Practices
 
-* Use of **TypeScript** for front-end development
-* Unit tests for services and controllers
-* Security: role management, token expiration, data validation
-* Modular architecture: separated services, MVC architecture on the back-end
-* Code documentation with XML comments
-* Git Flow for version management
+* **Code Quality**
+  * TypeScript for type safety
+  * ESLint and Prettier for code formatting
+  * Unit tests for critical components
+  * Code documentation with XML comments
 
----
+* **Security**
+  * JWT token authentication
+  * Role-based authorization
+  * Input validation
+  * XSS and CSRF protection
+  * Secure password hashing
+
+* **Performance**
+  * Lazy loading of components
+  * API response caching
+  * Optimized database queries
+  * Image optimization
+  * Code splitting
+
+* **Development Workflow**
+  * Git Flow branching strategy
+  * Pull request reviews
+  * Automated testing
+  * Continuous integration
+  * Code quality checks
 
 ## Contributing
-
-Contributions are welcome:
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
 
 ## University Project
 

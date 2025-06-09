@@ -1,6 +1,6 @@
 # Uber - Data Management and Application Design
 
-This repository is a redirect to the **[Uber](https://github.com/melih0132/UBER)** project repository. For detailed information about the Uber project, including its design, development, and deployment, please visit the dedicated repository.
+This repository is a redirect to the **[Uber](https://github.com/melih0132/uber-complete-system-laravel)** project repository. For detailed information about the Uber project, including its design, development, and deployment, please visit the dedicated repository.
 
 ## Project Overview
 
@@ -26,4 +26,4 @@ The Uber project involves the complete design and development of a data manageme
 
 ## Access the Project
 
-To explore the project in detail, please visit the **[Uber Project Repository](https://github.com/melih0132/UBER)**.
+To explore the project in detail, please visit the **[Uber Project Repository](https://github.com/melih0132/uber-complete-system-laravel)**.
