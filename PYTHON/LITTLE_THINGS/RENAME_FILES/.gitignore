@@ -1,0 +1,77 @@
+# Fichiers de configuration sensibles
+.env
+.env.local
+.env.production
+
+# Fichiers de sauvegarde et temporaires
+*.pkl
+*.bak
+*.tmp
+*.temp
+
+# Fichiers de logs
+*.log
+logs/
+
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Système d'exploitation
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers de test et de développement
+test_*.py
+*_test.py
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Fichiers de données temporaires
+*.csv
+*.json
+!quiz_data.json  # Garder les fichiers de données nécessaires

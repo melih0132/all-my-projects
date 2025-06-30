@@ -1,0 +1,22 @@
+# Dépendances pour le renommeur de fichiers MP3 intelligent
+# Version 2.0 - Analyse en lot
+
+# IA et traitement
+openai>=1.0.0
+
+# Gestion des métadonnées MP3
+mutagen>=1.45.0
+
+# Utilitaires (optionnels mais recommandés)
+python-dotenv>=1.0.0  # Pour charger les variables d'environnement depuis .env
+
+# Dépendances système (incluses avec Python 3.7+)
+# pathlib
+# json
+# re
+# argparse
+# unicodedata
+# sys
+# time
+# os
+# typing 
