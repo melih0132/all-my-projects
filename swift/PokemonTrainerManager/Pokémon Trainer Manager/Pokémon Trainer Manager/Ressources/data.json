@@ -1,0 +1,81 @@
+{
+  "trainers": [
+    {
+      "id": "uuid-ash",
+      "name": "Sacha",
+      "photoName": "sacha",
+      "badges": [
+        { "name": "Cascade Badge", "imageName": "badge_cascade" },
+        { "name": "Boulder Badge", "imageName": "badge_boulder" },
+        { "name": "Thunder Badge", "imageName": "badge_thunder" }
+      ],
+      "pokemons": [
+        { "name": "Pikachu", "type": "Électrik", "imageName": "pikachu", "level": 50 },
+        { "name": "Charizard", "type": "Feu/Vol", "imageName": "charizard", "level": 63 },
+        { "name": "Bulbasaur", "type": "Plante/Poison", "imageName": "bulbasaur", "level": 20 }
+      ]
+    },
+    {
+      "id": "uuid-misty",
+      "name": "Ondine",
+      "photoName": "ondine",
+      "badges": [
+        { "name": "Cascade Badge", "imageName": "badge_cascade" }
+      ],
+      "pokemons": [
+        { "name": "Stari", "type": "Eau/Psy", "imageName": "staryu", "level": 28 },
+        { "name": "Starmie", "type": "Eau/Psy", "imageName": "starmie", "level": 34 }
+      ]
+    },
+    {
+      "id": "uuid-brock",
+      "name": "Pierre",
+      "photoName": "pierre",
+      "badges": [
+        { "name": "Boulder Badge", "imageName": "badge_boulder" }
+      ],
+      "pokemons": [
+        { "name": "Onix", "type": "Roche/Sol", "imageName": "onix", "level": 40 }
+      ]
+    },
+    {
+      "id": "uuid-giovanni",
+      "name": "Giovanni",
+      "photoName": "giovanni",
+      "badges": [
+        { "name": "Earth Badge", "imageName": "badge_earth" },
+        { "name": "Champion Badge", "imageName": "badge_champion" }
+      ],
+      "pokemons": [
+        { "name": "Nidoking", "type": "Poison/Sol", "imageName": "nidoking", "level": 58 },
+        { "name": "Persian", "type": "Normal", "imageName": "persian", "level": 55 },
+        { "name": "Rhydon", "type": "Sol/Roche", "imageName": "rhydon", "level": 60 }
+      ]
+    },
+    {
+      "id": "uuid-cynthia",
+      "name": "Cynthia",
+      "photoName": "cynthia",
+      "badges": [
+        { "name": "Champion Badge", "imageName": "badge_champion" }
+      ],
+      "pokemons": [
+        { "name": "Lucario", "type": "Combat/Acier", "imageName": "lucario", "level": 62 },
+        { "name": "Roserade", "type": "Plante/Poison", "imageName": "roserade", "level": 60 },
+        { "name": "Garchomp", "type": "Dragon/Sol", "imageName": "garchomp", "level": 66 }
+      ]
+    },
+    {
+      "id": "uuid-regis",
+      "name": "Régis",
+      "photoName": "regis",
+      "badges": [
+        { "name": "Champion Badge", "imageName": "badge_champion" }
+      ],
+      "pokemons": [
+        { "name": "Blastoise", "type": "Eau", "imageName": "blastoise", "level": 65 },
+        { "name": "Arcanine", "type": "Feu", "imageName": "arcanine", "level": 62 }
+      ]
+    }
+  ]
+}
