@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Page
+    x:Class="ClientConvertisseurV1.Views.ConvertisseurEuroPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:ClientConvertisseurV1.Views"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    mc:Ignorable="d">
+
+    <RelativePanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <!-- Titre -->
+        <TextBlock x:Name="txtTitre" Text="Convertisseur Euro" 
+                   RelativePanel.AlignHorizontalCenterWithPanel="True" Margin="0,20,0,10"
+                   FontSize="18" FontWeight="Bold"/>
+
+        <!-- Saisie du montant en Euro -->
+        <TextBlock x:Name="txtSaisie" Text="Montant en Euro:" 
+                   RelativePanel.Below="txtTitre" Margin="0,10,0,5"/>
+
+        <TextBox x:Name="txtMontantEuro" Width="200" 
+                 PlaceholderText="Entrez un montant"
+                 RelativePanel.Below="txtSaisie" Margin="0,0,0,10"/>
+
+        <!-- Sélection de la devise -->
+        <TextBlock x:Name="txtDevise" Text="Devise:" 
+                   RelativePanel.Below="txtMontantEuro" Margin="0,10,0,5"/>
+
+        <ComboBox x:Name="cbDevises" Width="200" 
+                  ItemsSource="{Binding Devises}" 
+                  SelectedItem="{Binding DeviseSelectionnee, Mode=TwoWay}" 
+                  DisplayMemberPath="NomDevise"
+                  RelativePanel.Below="txtDevise" Margin="0,0,0,10"/>
+
+        <!-- Affichage du résultat -->
+        <TextBlock x:Name="txtResultat" Text="Montant converti:" 
+                   RelativePanel.Below="cbDevises" Margin="0,10,0,5"/>
+
+        <TextBox x:Name="txtMontantDevise" Width="200" IsReadOnly="True" 
+                 PlaceholderText="Résultat ici"
+                 RelativePanel.Below="txtResultat" Margin="0,0,0,10"/>
+
+        <!-- Bouton de conversion -->
+        <Button Content="Convertir" Click="Convertir_Click" 
+                RelativePanel.Below="txtMontantDevise" Margin="0,20,0,0"/>
+    </RelativePanel>
+    
+</Page>

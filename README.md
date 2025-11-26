@@ -4,7 +4,7 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
 
 ## **Project Categories**
 
-### 1. **[.NET/C#](https://github.com/melih0132/PROJECTS/tree/main/.NET-C%23)**
+### 1. **[.NET/C#](.NET-C%23)**
    - Projects developed using .NET and C#, including Windows Presentation Foundation (WPF) applications and backend services.
    - Features:
      - WPF applications with modern UI
@@ -13,7 +13,7 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - Unit testing
    - Technologies: .NET Core, C#, WPF, Entity Framework
 
-### 2. **[BIG PROJECTS](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS)**
+### 2. **[BIG PROJECTS](BIG%20PROJECTS)**
    - A collection of large-scale projects demonstrating advanced functionalities and architectures.
    - Projects:
      - **LPO**: Bird counting data management system with PostgreSQL and Power BI
@@ -21,7 +21,7 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **UBER-LARAVEL**: Comprehensive data management system with Laravel
    - Technologies: .NET Core, Vue.js, Laravel, PostgreSQL, Power BI
 
-### 3. **[Flutter](https://github.com/melih0132/PROJECTS/tree/main/FLUTTER)**
+### 3. **[Flutter](FLUTTER)**
    - Mobile applications developed using Flutter for cross-platform development.
    - Projects:
      - **Namer App**: Introduction to Flutter with state management
@@ -29,7 +29,7 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **Event Poll**: Event management and polling application
    - Technologies: Flutter, Dart, Provider, Firebase
 
-### 4. **[Python](https://github.com/melih0132/PROJECTS/tree/main/PYTHON)**
+### 4. **[Python](PYTHON)**
    - A variety of Python-based applications and scripts.
    - Projects:
      - **CHANGE_WALLPAPER**: Desktop wallpaper automation
@@ -39,13 +39,13 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **IUT**: Academic projects and exercises
    - Technologies: Python, Pandas, NumPy, Matplotlib
 
-### 5. **[Unity](https://github.com/melih0132/PROJECTS/tree/main/UNITY)**
+### 5. **[Unity](UNITY)**
    - Games and interactive applications built with Unity.
    - Projects:
      - **KUBE**: 3D platformer game with physics and animations
    - Technologies: Unity, C#, Blender
 
-### 6. **[Web Development](https://github.com/melih0132/PROJECTS/tree/main/WEB)**
+### 6. **[Web Development](WEB)**
    - Web applications and websites using modern web technologies.
    - Projects:
      - **API**: Backend services and RESTful APIs
