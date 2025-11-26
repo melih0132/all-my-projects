@@ -4,7 +4,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
 
 ## Projects
 
-1. **[CHANGE_WALLPAPER](https://github.com/melih0132/PROJECTS/tree/main/PYTHON/CHANGE_WALLPAPER)**
+1. **[CHANGE_WALLPAPER](CHANGE_WALLPAPER)**
    - A script to automatically change the desktop wallpaper.
    - Utilizes Python's built-in modules to interact with the operating system.
    - Features:
@@ -13,7 +13,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - Support for multiple image formats
    - Technologies: Python, OS modules, Schedule
 
-2. **[LITTLE_THINGS](https://github.com/melih0132/PROJECTS/tree/main/PYTHON/LITTLE_THINGS)**
+2. **[LITTLE_THINGS](LITTLE_THINGS)**
    - A set of small, useful Python programs.
    - Includes scripts for tasks like file management, data manipulation, and automation.
    - Features:
@@ -22,7 +22,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - Automation scripts
    - Technologies: Python, Pandas, OS modules
 
-3. **[QUIZ_JSON](https://github.com/melih0132/PROJECTS/tree/main/PYTHON/QUIZ_JSON)**
+3. **[QUIZ_JSON](QUIZ_JSON)**
    - A quiz program that retrieves questions and answers from a JSON data source.
    - Demonstrates the use of JSON data handling in Python.
    - Features:
@@ -31,7 +31,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - JSON data management
    - Technologies: Python, JSON, Random
 
-4. **[RANKING](https://github.com/melih0132/PROJECTS/tree/main/PYTHON/RANKING)**
+4. **[RANKING](RANKING)**
    - A project for ranking things.
    - Covers topics such as sorting, searching, and data manipulation.
    - Features:
@@ -40,7 +40,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - Export functionality
    - Technologies: Python, Pandas, Matplotlib
 
-5. **[IUT](https://github.com/melih0132/PROJECTS/tree/main/PYTHON/IUT)**
+5. **[IUT](IUT)**
    - Academic projects and assignments from IUT.
    - Various Python programming exercises and solutions.
    - Features:
@@ -62,7 +62,7 @@ The Python projects in this repository utilize the following technologies:
 
 ## Project Structure
 ```
-PYTHON/
+python/
 ├── CHANGE_WALLPAPER/        → Desktop wallpaper changer
 │   ├── src/                 → Source code
 │   └── README.md            → Documentation

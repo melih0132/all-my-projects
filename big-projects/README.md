@@ -4,14 +4,14 @@ This folder contains my personal and academic projects that I have been working 
 
 ## Projects Included:
 
-### 1. [Bird Counting Management LPO](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/LPO)
+### 1. [Bird Counting Management LPO](lpo)
 This project helps manage bird counting data for the Ligue de Protection des Oiseaux (LPO). It includes:
 - A database model (MCD and MLD)
 - SQL queries and insertions in PostgreSQL
 - Statistics generated in Excel
 - An interactive dashboard built with Power BI
 
-### 2. [Uber-like Application (.NET & Vue.js)](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/UBER-DOTNET-VUE)
+### 2. [Uber-like Application (.NET & Vue.js)](uber-dotnet-vue)
 A full-stack application inspired by Uber, featuring:
 - Backend API built with .NET Core
 - Frontend application using Vue.js
@@ -20,7 +20,7 @@ A full-stack application inspired by Uber, featuring:
 - Interactive maps with Leaflet
 - Responsive UI design
 
-### 3. [Uber-like Application (Laravel)](https://github.com/melih0132/PROJECTS/tree/main/BIG%20PROJECTS/UBER-LARAVEL)
+### 3. [Uber-like Application (Laravel)](uber-laravel)
 A comprehensive data management system for an Uber-like application, including:
 - User and trip management
 - Payment handling

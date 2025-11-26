@@ -4,7 +4,7 @@ Welcome to my Flutter Projects repository! Here, you'll find a collection of my 
 
 ## Included Projects
 
-1. **[Namer App](https://github.com/melih0132/PROJECTS/tree/main/FLUTTER/namer_app)**
+1. **[Namer App](namer_app)**
    - **Description**: A basic introduction to Flutter, demonstrating the fundamentals of building cross-platform mobile applications.
    - **Features**: 
      - State management with Provider
@@ -12,7 +12,7 @@ Welcome to my Flutter Projects repository! Here, you'll find a collection of my 
      - Navigation between screens
    - **Technologies**: Flutter, Dart, Provider
 
-2. **[Weather App](https://github.com/melih0132/PROJECTS/tree/main/FLUTTER/weather_app)**
+2. **[Weather App](weather_app)**
    - **Description**: An application connecting to the OpenWeatherMap API to display weather information based on location or search.
    - **Features**:
      - Real-time weather data
@@ -21,7 +21,7 @@ Welcome to my Flutter Projects repository! Here, you'll find a collection of my 
      - Weather forecasts
    - **Technologies**: Flutter, Dart, HTTP, Geolocation
 
-3. **[Event Poll](https://github.com/melih0132/PROJECTS/tree/main/FLUTTER/event_poll)**
+3. **[Event Poll](event_poll)**
    - **Description**: An application allowing administrators to manage events and users to register and indicate their presence at events.
    - **Features**:
      - User authentication
@@ -42,7 +42,7 @@ Each project uses different technologies, including:
 
 ## Project Structure
 ```
-FLUTTER/
+flutter/
 ├── namer_app/              → Introduction to Flutter
 │   ├── lib/                → Source code
 │   ├── test/               → Unit tests

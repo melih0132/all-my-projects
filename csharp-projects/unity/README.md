@@ -4,7 +4,7 @@ Welcome to the Unity Projects section of my repository! Here, you'll find a coll
 
 ## Projects
 
-1. **[KUBE](https://github.com/melih0132/PROJECTS/tree/main/UNITY/KUBE)**
+1. **[KUBE](KUBE)**
    - A 3D platformer game featuring engaging gameplay and unique levels.
    - Built using Unity's built-in physics and animation systems.
    - Features:
@@ -25,7 +25,7 @@ The Unity projects in this repository utilize the following technologies:
 
 ## Project Structure
 ```
-UNITY/
+unity/
 ├── KUBE/                    → 3D platformer game
 │   ├── Assets/              → Game assets
 │   │   ├── Scripts/         → C# scripts
