@@ -4,25 +4,20 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
 
 ## Projects
 
-1. **[CHANGE_WALLPAPER](CHANGE_WALLPAPER)**
-   - A script to automatically change the desktop wallpaper.
-   - Utilizes Python's built-in modules to interact with the operating system.
-   - Features:
-     - Automatic wallpaper rotation
-     - Custom scheduling
-     - Support for multiple image formats
-   - Technologies: Python, OS modules, Schedule
+### [app](app)
+A collection of Python applications and utilities.
 
-2. **[LITTLE_THINGS](LITTLE_THINGS)**
+1. **[little-things](app/little-things)**
    - A set of small, useful Python programs.
    - Includes scripts for tasks like file management, data manipulation, and automation.
    - Features:
-     - File organization tools
-     - Data processing utilities
-     - Automation scripts
-   - Technologies: Python, Pandas, OS modules
+     - Desktop wallpaper changer (`app_wallpaper.py`)
+     - Task manager (`gestionnaire_taches.py`)
+     - File renaming utilities (`rename-files/`)
+     - Various utility scripts
+   - Technologies: Python, OS modules
 
-3. **[QUIZ_JSON](QUIZ_JSON)**
+2. **[quiz-json](app/quiz-json)**
    - A quiz program that retrieves questions and answers from a JSON data source.
    - Demonstrates the use of JSON data handling in Python.
    - Features:
@@ -31,7 +26,7 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - JSON data management
    - Technologies: Python, JSON, Random
 
-4. **[RANKING](RANKING)**
+3. **[ranking](app/ranking)**
    - A project for ranking things.
    - Covers topics such as sorting, searching, and data manipulation.
    - Features:
@@ -40,14 +35,15 @@ Welcome to the Python Projects section of my repository! Here, you'll find a col
      - Export functionality
    - Technologies: Python, Pandas, Matplotlib
 
-5. **[IUT](IUT)**
-   - Academic projects and assignments from IUT.
-   - Various Python programming exercises and solutions.
-   - Features:
-     - Algorithm implementations
-     - Data structures
-     - Problem-solving exercises
-   - Technologies: Python, NumPy, Matplotlib
+### [iut](iut)
+Academic projects and assignments from IUT (Institut Universitaire de Technologie).
+- Various Python programming exercises and solutions.
+- Features:
+  - Algorithm implementations (`algo/`)
+  - Cryptography projects (`crypto/`)
+  - Data structures
+  - Problem-solving exercises
+- Technologies: Python, NumPy, Matplotlib
 
 ## Technologies Used
 
@@ -63,22 +59,24 @@ The Python projects in this repository utilize the following technologies:
 ## Project Structure
 ```
 python/
-├── CHANGE_WALLPAPER/        → Desktop wallpaper changer
-│   ├── src/                 → Source code
-│   └── README.md            → Documentation
-├── LITTLE_THINGS/           → Small utility scripts
-│   ├── src/                 → Source code
-│   └── README.md            → Documentation
-├── QUIZ_JSON/               → Quiz application using JSON
-│   ├── src/                 → Source code
-│   ├── data/                → JSON data files
-│   └── README.md            → Documentation
-├── RANKING/                 → Ranking project
-│   ├── src/                 → Source code
-│   └── README.md            → Documentation
-├── IUT/                     → Academic projects
-│   ├── src/                 → Source code
-│   └── README.md            → Documentation
+├── app/                     → Python applications
+│   ├── little-things/       → Small utility scripts
+│   │   ├── app_wallpaper.py → Desktop wallpaper changer
+│   │   ├── gestionnaire_taches.py → Task manager
+│   │   └── rename-files/    → File renaming utilities
+│   ├── quiz-json/           → Quiz application using JSON
+│   │   ├── quiz_game.py     → Main quiz game
+│   │   └── quiz_data.json   → Quiz data
+│   └── ranking/             → Ranking project
+│       └── ranking.py        → Ranking algorithm
+├── iut/                     → Academic projects
+│   ├── algo/                → Algorithm implementations
+│   │   ├── TD/              → Tutorial exercises
+│   │   ├── REVISIONS/       → Revision exercises
+│   │   └── ANNEXES/         → Course materials
+│   └── crypto/              → Cryptography projects
+│       ├── TRAVAUX/         → Assignments and practical work
+│       └── ANNEXES/          → Course materials
 └── README.md                → Project documentation
 ```
 
