@@ -1,0 +1,8 @@
+# Fichiers de configuration sensibles
+**/db.php
+!**/db.example.php
+config.php
+.env
+.env.local
+*.local.php
+

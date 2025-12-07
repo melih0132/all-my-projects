@@ -10,7 +10,8 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **[lpo](big-projects/lpo)**: Bird counting data management system with PostgreSQL and Power BI
      - **[uber-dotnet-vue](big-projects/uber-dotnet-vue)**: Full-stack Uber-like application with .NET Core and Vue.js
      - **[uber-laravel](big-projects/uber-laravel)**: Comprehensive data management system with Laravel
-   - Technologies: .NET Core, Vue.js, Laravel, PostgreSQL, Power BI
+     - **[shared-ia](big-projects/shared-ia)**: Collaborative AI chat application where multiple users (max 4) converse with an AI via a collective message validation system
+   - Technologies: .NET Core, Vue.js, Laravel, Node.js, React, PostgreSQL, Power BI, Socket.io, OpenAI
 
 ### 2. **[C# Projects](csharp-projects)**
    - Projects developed using .NET and C#, including Windows Presentation Foundation (WPF) applications, backend services, and modern .NET Core applications.
@@ -64,7 +65,18 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **[PokemonProjectGuides](swift/PokemonProjectGuides)**: Development guides for Pokémon project
    - Technologies: Swift, UIKit, Xcode
 
-### 7. **[Web Development](web)**
+### 7. **[Kotlin](kotlin)**
+   - Android applications developed using Kotlin and Jetpack Compose.
+   - Projects:
+     - **[DiceRoller](kotlin/DiceRoller)**: Interactive dice rolling application with state management
+     - **[HappyBirthday](kotlin/HappyBirthday)**: Personalized birthday card application
+     - **[Lemonade](kotlin/Lemonade)**: Interactive lemonade-making simulation with multi-step state management
+     - **[TipTime](kotlin/TipTime)**: Tip calculator with user input handling and real-time calculations
+     - **[Affirmations](kotlin/Affirmations)**: Scrollable list application with lazy loading
+     - **[Woof](kotlin/Woof)**: Dog gallery application with expandable cards and animations
+   - Technologies: Kotlin, Jetpack Compose, Material Design 3, Gradle
+
+### 8. **[Web Development](web)**
    - Web applications and websites using modern web technologies.
    - Structure:
      - **[back](web/back)**: Backend projects
@@ -80,16 +92,17 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
 Throughout these projects, I have utilized a diverse set of technologies and tools, including:
 
 ### Languages
-- **Backend**: C#, Python, PHP, Java, JavaScript, Swift
-- **Frontend**: HTML5, CSS3, JavaScript, Dart
+- **Backend**: C#, Python, PHP, Java, JavaScript, Swift, Kotlin
+- **Frontend**: HTML5, CSS3, JavaScript, Dart, TypeScript
 - **Database**: SQL, NoSQL
 
 ### Frameworks & Libraries
 - **Web**: React, Vue.js, Express.js, Laravel
-- **Mobile**: Flutter
+- **Mobile**: Flutter, Jetpack Compose
 - **Game Development**: Unity, Phaser 3
 - **Desktop**: .NET (WPF)
 - **iOS**: UIKit, SwiftUI
+- **Android**: Jetpack Compose, Material Design 3
 
 ### Databases & Tools
 - **Databases**: PostgreSQL, MongoDB, MySQL, SQLite
@@ -98,7 +111,7 @@ Throughout these projects, I have utilized a diverse set of technologies and too
 - **Version Control**: Git, GitHub
 
 ### Development Environments
-- **IDEs**: Visual Studio, VS Code, Xcode
+- **IDEs**: Visual Studio, VS Code, Xcode, Android Studio
 - **Game Development**: Unity Hub, Blender
 - **Mobile Development**: Android Studio, Xcode
 
@@ -108,7 +121,8 @@ PROJECTS/
 ├── big-projects/            → Large-scale projects
 │   ├── lpo/                 → Bird Counting Management (PostgreSQL, Power BI)
 │   ├── uber-dotnet-vue/     → Uber-like App (.NET Core & Vue.js)
-│   └── uber-laravel/        → Uber-like App (Laravel)
+│   ├── uber-laravel/        → Uber-like App (Laravel)
+│   └── shared-ia/           → Collaborative AI Chat (React, Node.js, Socket.io)
 ├── csharp-projects/         → .NET and C# projects
 │   ├── csharp-with-db/      → C# projects with database
 │   │   └── DORTANAPP/       → WPF reservation management app
@@ -139,6 +153,13 @@ PROJECTS/
 │   ├── SwiftPlaygrounds/    → Swift Exercises
 │   ├── SwiftUIKitStudyGuide/ → Study Guide
 │   └── PokemonProjectGuides/ → Project Guides
+├── kotlin/                  → Kotlin Android applications
+│   ├── DiceRoller/          → Dice Rolling App
+│   ├── HappyBirthday/       → Birthday Card App
+│   ├── Lemonade/            → Lemonade Making Simulation
+│   ├── TipTime/             → Tip Calculator
+│   ├── Affirmations/        → Affirmations List App
+│   └── Woof/                → Dog Gallery App
 ├── web/                     → Web development
 │   ├── back/                → Backend Projects
 │   │   └── poo/             → OOP projects (PHP)

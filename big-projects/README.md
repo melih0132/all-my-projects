@@ -35,15 +35,30 @@ A comprehensive data management system for an Uber-like application, including:
 
 **Technologies**: Laravel, PostgreSQL, Power BI, RESTful API
 
+### 4. [Collaborative AI Chat Application](shared-ia)
+A full-stack collaborative AI chat application where multiple users (max 4) can converse with an AI through a collective message validation system. Features include:
+- Real-time chat with Socket.io
+- Collective message validation system
+- Conflict resolution with voting mechanism
+- OpenAI integration for AI responses
+- User authentication with JWT
+- Room management and invitations
+- Message editing, deletion, and retraction
+- Typing indicators and user presence
+
+**Technologies**: Node.js, Express.js, React, TypeScript, Socket.io, PostgreSQL, OpenAI API, JWT, TailwindCSS, Zustand, Vite
+
 ## Technologies Used
 
 ### Backend
 - **.NET Core**: Full-stack application development
 - **Laravel**: PHP framework for data management systems
+- **Node.js/Express.js**: RESTful APIs and real-time communication
 - **PostgreSQL**: Relational database management
 
 ### Frontend
 - **Vue.js**: Progressive JavaScript framework
+- **React**: Modern UI library with TypeScript
 - **HTML/CSS/JavaScript**: Core web technologies
 
 ### Database & Tools
@@ -51,6 +66,10 @@ A comprehensive data management system for an Uber-like application, including:
 - **Power BI**: Data visualization and business intelligence
 - **Excel**: Statistical analysis and data processing
 - **pgAdmin4**: PostgreSQL administration tool
+
+### Real-time Communication
+- **Socket.io**: Real-time bidirectional communication
+- **WebSockets**: Persistent connections for live updates
 
 ### Security
 - **JWT Authentication**: Secure token-based authentication
@@ -69,7 +88,10 @@ big-projects/
 ├── uber-dotnet-vue/         → Full-stack Uber clone
 │   ├── UberApi/            → .NET Core backend
 │   └── UberVueJS/          → Vue.js frontend
-└── uber-laravel/           → Laravel data management system
+├── uber-laravel/           → Laravel data management system
+└── shared-ia/              → Collaborative AI Chat Application
+    ├── backend/            → Node.js/Express backend
+    └── frontend/           → React/TypeScript frontend
 ```
 
 ## Getting Started
