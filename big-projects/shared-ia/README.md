@@ -1,114 +1,138 @@
-# shared-ia
+# Shared IA
 
-Application full-stack de chat IA collaborative où plusieurs utilisateurs (max 4) conversent avec une IA via un système de validation collective des messages.
+A full-stack collaborative AI chat application where multiple users (max 4) can converse with an AI through a collective message validation system. This project demonstrates real-time communication, collaborative workflows, and AI integration in modern web applications.
 
-## Vue d'ensemble
+## Overview
 
-Cette application permet à un groupe d'utilisateurs (maximum 4) de collaborer dans une conversation avec une IA. Chaque message envoyé par un utilisateur doit être validé par les autres membres de la room avant d'être envoyé à l'IA. Le système inclut également un mécanisme de résolution de conflits lorsque plusieurs messages sont proposés simultanément.
+This application allows a group of users (maximum 4) to collaborate in a conversation with an AI. Each message sent by a user must be validated by all other room members before being sent to the AI. The system also includes a conflict resolution mechanism when multiple messages are proposed simultaneously.
 
-## Fonctionnalités principales
+## Projects Included
 
-- **Chat collaboratif en temps réel** : Communication instantanée via Socket.io
-- **Système de validation collective** : Chaque message nécessite l'approbation de tous les membres
-- **Résolution de conflits** : Mécanisme de vote lorsque plusieurs messages sont proposés en même temps
-- **Intégration OpenAI** : Réponses générées par l'IA avec streaming en temps réel
-- **Gestion des rooms** : Création, suppression et gestion de salles de conversation
-- **Système d'invitations** : Invitation de membres à rejoindre une room
-- **Édition et suppression de messages** : Modification ou retrait de messages en attente
-- **Indicateurs de présence** : Affichage du statut en ligne/hors ligne des utilisateurs
-- **Indicateurs de frappe** : Visualisation en temps réel de qui est en train d'écrire
+### 1. [Backend](backend)
+Node.js/Express backend with Socket.io for real-time communication and OpenAI integration.
 
-## Architecture
+- Real-time chat with Socket.io
+- Collective message validation system
+- Conflict resolution with voting mechanism
+- OpenAI integration for AI responses
+- User authentication with JWT
+- Room management and invitations
+- Message editing, deletion, and retraction
+- Typing indicators and user presence
 
-L'application suit une architecture full-stack moderne :
+**Technologies**: Node.js, Express.js, Socket.io, PostgreSQL, OpenAI API, JWT, bcrypt, Swagger
 
-- **Backend** : Node.js avec Express.js et Socket.io pour la communication en temps réel
-- **Frontend** : React 19 avec TypeScript et Vite
-- **Base de données** : PostgreSQL (via Supabase)
-- **Authentification** : JWT (JSON Web Tokens)
-- **IA** : OpenAI API pour la génération de réponses
+### 2. [Frontend](frontend)
+React 19 frontend with TypeScript and Vite for the collaborative AI chat interface.
 
-## Structure du projet
+- Modern React 19 with TypeScript
+- Real-time UI updates with Socket.io client
+- State management with Zustand
+- Form handling with React Hook Form and Zod
+- Material Design with shadcn/ui components
+- Responsive design with TailwindCSS
+
+**Technologies**: React 19, TypeScript, Vite, TailwindCSS, React Router v6, Zustand, Socket.io-client, Axios, shadcn/ui
+
+## Technologies Used
+
+### Languages & Frameworks
+- **Node.js 18+**: JavaScript runtime environment
+- **Express.js**: Web application framework
+- **React 19**: Modern UI library
+- **TypeScript**: Static type checking
+
+### Real-time Communication
+- **Socket.io**: Real-time bidirectional communication
+- **WebSockets**: Persistent connections for live updates
+
+### Backend Services
+- **PostgreSQL**: Relational database management (via Supabase)
+- **OpenAI API**: AI response generation with streaming
+- **JWT**: Token-based authentication
+- **bcrypt**: Password hashing
+
+### Frontend Libraries
+- **Vite**: Build tool and development server
+- **TailwindCSS**: Utility-first CSS framework
+- **React Router v6**: Client-side routing
+- **Zustand**: Lightweight state management
+- **React Hook Form + Zod**: Form handling and validation
+- **Axios**: HTTP client
+- **shadcn/ui**: UI component library
+
+### Development Tools
+- **Swagger**: API documentation
+- **Git / GitHub**: Version control
+- **npm**: Package manager
+
+## Project Structure
 
 ```
 shared-ia/
 ├── backend/                 → Backend Node.js/Express
 │   ├── src/
 │   │   ├── config/         → Configuration (database, socket, swagger, ai-handler)
-│   │   ├── middleware/     → Middleware d'authentification
-│   │   ├── routes/         → Routes API (auth, rooms, invitations)
+│   │   ├── middleware/     → Authentication middleware
+│   │   ├── routes/         → API routes (auth, rooms, invitations)
 │   │   ├── services/       → Services (OpenAI)
-│   │   ├── schema.sql      → Schéma de base de données
-│   │   └── server.js       → Point d'entrée du serveur
-│   ├── scripts/            → Scripts utilitaires (generate-secret, test-db)
-│   ├── env.example         → Exemple de configuration
-│   ├── README.md           → Documentation backend
+│   │   ├── schema.sql      → Database schema
+│   │   └── server.js       → Server entry point
+│   ├── scripts/            → Utility scripts (generate-secret, test-db)
+│   ├── env.example         → Configuration example
+│   ├── README.md           → Backend documentation
 │   └── package.json
 ├── frontend/                → Frontend React/TypeScript
 │   ├── src/
-│   │   ├── components/     → Composants React
-│   │   │   ├── ui/         → Composants UI (shadcn/ui)
-│   │   │   └── ...         → Composants métier
-│   │   ├── pages/          → Pages de l'application
-│   │   ├── lib/            → Utilitaires (API, Socket, utils)
+│   │   ├── components/     → React components
+│   │   │   ├── ui/         → UI components (shadcn/ui)
+│   │   │   └── ...         → Business components
+│   │   ├── pages/          → Application pages
+│   │   ├── lib/            → Utilities (API, Socket, utils)
 │   │   ├── store/          → State management (Zustand)
-│   │   ├── hooks/          → Hooks React personnalisés
-│   │   ├── assets/         → Ressources statiques
-│   │   ├── App.tsx         → Composant principal
-│   │   └── main.tsx        → Point d'entrée
-│   ├── public/             → Fichiers publics
-│   ├── env.example         → Exemple de configuration
-│   ├── README.md           → Documentation frontend
-│   ├── vite.config.ts      → Configuration Vite
-│   ├── tailwind.config.js  → Configuration TailwindCSS
+│   │   ├── hooks/          → Custom React hooks
+│   │   ├── assets/         → Static resources
+│   │   ├── App.tsx         → Main component
+│   │   └── main.tsx        → Entry point
+│   ├── public/             → Public files
+│   ├── env.example         → Configuration example
+│   ├── README.md           → Frontend documentation
+│   ├── vite.config.ts      → Vite configuration
+│   ├── tailwind.config.js  → TailwindCSS configuration
 │   └── package.json
-└── README.md                → Documentation principale
+└── README.md                → Main documentation
 ```
 
-## Technologies utilisées
+## Getting Started
 
-### Backend
-- **Node.js 18+** : Runtime JavaScript
-- **Express.js** : Framework web
-- **Socket.io** : Communication en temps réel
-- **PostgreSQL** : Base de données relationnelle
-- **OpenAI API** : Intégration IA
-- **JWT** : Authentification
-- **bcrypt** : Hashage de mots de passe
-- **Swagger** : Documentation API
+Each project has its own README with detailed instructions. To explore a project:
 
-### Frontend
-- **React 19** : Bibliothèque UI
-- **TypeScript** : Typage statique
-- **Vite** : Build tool et dev server
-- **TailwindCSS** : Framework CSS
-- **React Router v6** : Routing
-- **Zustand** : State management
-- **React Hook Form + Zod** : Formulaires et validation
-- **Socket.io-client** : Client WebSocket
-- **Axios** : Requêtes HTTP
-- **shadcn/ui** : Composants UI
+1. Navigate to the project directory (backend or frontend)
+2. Read the project's README.md for specific setup instructions
+3. Follow the installation and configuration steps
+4. Run the project according to its documentation
 
-## Installation
+### Prerequisites
 
-### Prérequis
 - Node.js 18+
-- PostgreSQL (via Supabase recommandé)
-- Clé API OpenAI
+- PostgreSQL (via Supabase recommended)
+- OpenAI API key
 
-### Backend
+### Quick Start
 
-1. Naviguer vers le dossier backend :
+#### Backend
+
+1. Navigate to the backend directory:
 ```bash
 cd backend
 ```
 
-2. Installer les dépendances :
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Créer un fichier `.env` :
+3. Create a `.env` file:
 ```env
 DATABASE_URL=postgresql://user:password@host:port/database
 JWT_SECRET=your-secret-key-change-in-production
@@ -119,109 +143,93 @@ CLIENT_URL=http://localhost:5173
 USE_HTTPS=false
 ```
 
-4. Générer une clé JWT secrète :
+4. Generate a JWT secret key:
 ```bash
 npm run generate-secret
 ```
 
-5. Démarrer le serveur :
+5. Start the server:
 ```bash
 npm run dev
 ```
 
-Le serveur démarre sur `http://localhost:3001`
+The server starts on `http://localhost:3001`
 
-### Frontend
+#### Frontend
 
-1. Naviguer vers le dossier frontend :
+1. Navigate to the frontend directory:
 ```bash
 cd frontend
 ```
 
-2. Installer les dépendances :
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Créer un fichier `.env` :
+3. Create a `.env` file:
 ```env
 VITE_API_URL=http://localhost:3001
 VITE_SOCKET_URL=http://localhost:3001
 ```
 
-4. Démarrer le serveur de développement :
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-L'application démarre sur `http://localhost:5173`
+The application starts on `http://localhost:5173`
 
-## Documentation API
+## Key Features
 
-Une fois le backend démarré, la documentation Swagger est disponible sur :
+### Collective Message Validation
+- Each message sent by a user is first pending validation
+- All room members (except the author) must validate the message
+- Once validated by all, the message is sent to the AI
+- Messages can be rejected, modified, or retracted before validation
+
+### Conflict Resolution
+- When multiple messages are proposed simultaneously, a conflict is detected
+- Members vote to choose which message to send to the AI
+- The message with the most votes is selected
+- Other messages can be kept for later
+
+### Real-time Communication
+- All interactions use Socket.io for instant communication
+- Updates are propagated in real-time to all members
+- Automatic reconnection with state synchronization
+
+## API Documentation
+
+Once the backend is started, Swagger documentation is available at:
 - http://localhost:3001/docs
 
-## Fonctionnalités détaillées
+## Database
 
-### Système de validation
-- Chaque message envoyé par un utilisateur est d'abord en attente de validation
-- Tous les membres de la room (sauf l'auteur) doivent valider le message
-- Une fois validé par tous, le message est envoyé à l'IA
-- Les messages peuvent être rejetés, modifiés ou retirés avant validation
+The SQL schema is automatically created when the server starts. Main tables include:
+- `users`: Users
+- `rooms`: Conversation rooms
+- `room_members`: Room members
+- `messages`: Messages
+- `message_validations`: Message validations
+- `message_conflicts`: Message conflicts
+- `conflict_messages`: Message/conflict relationships
+- `votes`: Votes for conflict resolution
+- `invitations`: Invitations
 
-### Résolution de conflits
-- Lorsque plusieurs messages sont proposés simultanément, un conflit est détecté
-- Les membres votent pour choisir quel message envoyer à l'IA
-- Le message avec le plus de votes est sélectionné
-- Les autres messages peuvent être conservés pour plus tard
+## Security
 
-### Communication en temps réel
-- Toutes les interactions utilisent Socket.io pour la communication instantanée
-- Les mises à jour sont propagées en temps réel à tous les membres
-- Reconnexion automatique avec synchronisation de l'état
+- JWT authentication with 7-day expiration
+- Rate limiting: 100 requests/minute per IP
+- Password hashing with bcrypt
+- Data validation with Zod
+- CORS protection configured
 
-## Base de données
+## Important Notes
 
-Le schéma SQL est automatiquement créé au démarrage du serveur. Les tables principales sont :
-- `users` : Utilisateurs
-- `rooms` : Salles de conversation
-- `room_members` : Membres des rooms
-- `messages` : Messages
-- `message_validations` : Validations de messages
-- `message_conflicts` : Conflits de messages
-- `conflict_messages` : Liaison messages/conflits
-- `votes` : Votes pour résoudre les conflits
-- `invitations` : Invitations
+- The backend requires a JWT token in `auth.token` when connecting to Socket.io
+- Swagger documentation is available at `/docs` once the server is started
+- The system supports a maximum of 4 users per room
+- Messages in error can be retried manually or automatically
 
-## Scripts disponibles
-
-### Backend
-- `npm run dev` : Démarrer en mode développement (avec watch)
-- `npm start` : Démarrer en mode production
-- `npm run test-db` : Tester la connexion à la base de données
-- `npm run generate-secret` : Générer une clé JWT secrète
-
-### Frontend
-- `npm run dev` : Démarrer le serveur de développement
-- `npm run build` : Build de production
-- `npm run preview` : Prévisualiser le build de production
-- `npm run lint` : Linter le code
-
-## Sécurité
-
-- Authentification JWT avec expiration après 7 jours
-- Rate limiting : 100 requêtes/minute par IP
-- Hashage des mots de passe avec bcrypt
-- Validation des données avec Zod
-- Protection CORS configurée
-
-## Notes importantes
-
-- Le backend nécessite un token JWT dans `auth.token` lors de la connexion Socket.io
-- La documentation Swagger est disponible sur `/docs` une fois le serveur démarré
-- Le système supporte un maximum de 4 utilisateurs par room
-- Les messages en erreur peuvent être retentés manuellement ou automatiquement
-
-## Contribution
-
-Ce projet est en développement actif. N'hésitez pas à explorer le code et à proposer des améliorations !
+Feel free to explore the repositories for more detailed information on each project!

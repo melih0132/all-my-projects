@@ -1,8 +1,8 @@
-# **PROJECTS**
+# PROJECTS
 
-Welcome to my **PROJECTS** repository! This repository serves as a curated collection of my development projects, each housed in its own directory. These projects cover a wide range of domains, technologies, and complexity levels, showcasing my skills and interests in software development.
+Welcome to my PROJECTS repository! This repository serves as a curated collection of my development projects, each housed in its own directory. These projects cover a wide range of domains, technologies, and complexity levels, showcasing my skills and interests in software development.
 
-## **Project Categories**
+## Project Categories
 
 ### 1. **[Big Projects](big-projects)**
    - A collection of large-scale projects demonstrating advanced functionalities and architectures.
@@ -87,7 +87,7 @@ Welcome to my **PROJECTS** repository! This repository serves as a curated colle
      - **[phaser-projects](web/phaser-projects)**: HTML5 game development with Phaser.js
    - Technologies: React, Vue.js, Node.js, Express.js, Phaser 3, PHP, HTML5, CSS3, JavaScript
 
-## **Technologies & Tools**
+## Technologies & Tools
 
 Throughout these projects, I have utilized a diverse set of technologies and tools, including:
 

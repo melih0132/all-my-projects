@@ -7,7 +7,7 @@ This folder contains my C# and .NET development projects, covering a wide range 
 ### 1. [C# with Database](csharp-with-db)
 Projects developed in C# that utilize database integration, primarily with PostgreSQL.
 
-- **[DortanApp](csharp-with-db/DORTANAPP)**: WPF application for managing activity reservations in a town hall, integrated with PostgreSQL database
+- **[DortanApp](csharp-with-db/dortan_app)**: WPF application for managing activity reservations in a town hall, integrated with PostgreSQL database
 
 **Technologies**: C#, WPF, PostgreSQL, Entity Framework
 
@@ -17,7 +17,7 @@ C# projects that focus on programming concepts, algorithms, and applications wit
 - **[csharp](csharp-without-db/csharp)**: Console-based applications demonstrating fundamental C# concepts
   - Bank Account: Object-oriented programming example
   - Minesweeper Console: Game logic implementation
-- **[WPF](csharp-without-db/WPF)**: Desktop applications built with Windows Presentation Foundation
+- **[WPF](csharp-without-db/wpf)**: Desktop applications built with Windows Presentation Foundation
   - **EVIT_SHURIKEN**: WPF game application
 
 **Technologies**: C#, WPF, Console Applications
@@ -62,12 +62,12 @@ Games and interactive applications built with Unity game engine using C# scripti
 ```
 csharp-projects/
 ├── csharp-with-db/          → C# projects with database
-│   └── DORTANAPP/           → WPF reservation management app
+│   └── dortan_app/          → WPF reservation management app
 ├── csharp-without-db/       → C# projects without database
 │   ├── csharp/              → Console applications
 │   │   ├── bank-account/    → OOP bank account example
 │   │   └── Demineur Console/ → Minesweeper game
-│   └── WPF/                 → WPF desktop applications
+│   └── wpf/                 → WPF desktop applications
 │       └── EVIT_SHURIKEN/   → WPF game
 └── unity/                   → Unity game development
     └── KUBE/                → 3D platformer game

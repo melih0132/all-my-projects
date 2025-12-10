@@ -1,25 +1,73 @@
-# C# without DB
+# C# Projects without Database
 
-Welcome to the **C# without DB** repository! This directory contains projects developed in C# that do not utilize a database. These projects focus on various programming concepts, algorithms, and applications built purely in C#.
+This folder contains C# projects that focus on programming concepts, algorithms, and applications without database integration. These projects demonstrate fundamental C# concepts, console applications, and desktop applications built with WPF.
 
-## Current Projects
+## Projects Included
 
-### 1. [C#](csharp)
+### 1. [C# Console Applications](csharp)
+A collection of console-based applications demonstrating fundamental C# concepts.
 
-**Overview:**  
-A collection of console-based applications demonstrating fundamental C# concepts, including loops, conditionals, and data structures.
-
-#### Features
+- Bank Account: Object-oriented programming example
+- Minesweeper Console: Game logic implementation
 - User input handling
 - Implementation of basic algorithms
 - File I/O operations
 
-### 2. [WPF](WPF)
+**Technologies**: C#, Console Applications
 
-**Overview:**  
-Desktop applications built using Windows Forms or WPF, showcasing the ability to create user-friendly interfaces without database integration.
+### 2. [WPF Applications](wpf)
+Desktop applications built using Windows Presentation Foundation (WPF).
 
-#### Features
+- **[EVIT_SHURIKEN](wpf/EVIT_SHURIKEN)**: WPF game application
 - Event-driven programming
 - Component-based architecture
 - Data validation and error handling
+- User-friendly interfaces with XAML
+- Data binding for dynamic content display
+
+**Technologies**: C#, WPF, XAML
+
+## Technologies Used
+
+### Languages & Frameworks
+- **C#**: Primary programming language
+- **WPF**: Windows Presentation Foundation for desktop applications
+- **XAML**: Markup language for UI design
+
+### Development Tools
+- **Visual Studio**: Primary IDE
+- **Git / GitHub**: Version control
+
+### Programming Concepts
+- **Object-Oriented Programming**: Core programming paradigm
+- **Event-Driven Programming**: User interaction handling
+- **Data Binding**: Dynamic content display
+- **File I/O**: File system operations
+
+## Project Structure
+
+```
+csharp-without-db/
+├── csharp/                  → Console applications
+│   ├── bank-account/        → OOP bank account example
+│   └── Demineur Console/    → Minesweeper game
+└── wpf/                     → WPF desktop applications
+    └── EVIT_SHURIKEN/       → WPF game
+```
+
+## Getting Started
+
+Each project has its own README with detailed instructions. To explore a project:
+
+1. Navigate to the project directory
+2. Read the project's README.md for specific setup instructions
+3. Follow the installation and configuration steps
+4. Run the project according to its documentation
+
+### Prerequisites
+
+- Visual Studio (latest version recommended)
+- .NET SDK
+- Git
+
+Feel free to explore the repositories for more detailed information on each project!

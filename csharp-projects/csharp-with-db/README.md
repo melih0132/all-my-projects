@@ -1,22 +1,64 @@
-# C# with DB
+# C# Projects with Database
 
-Welcome to the **C# with DB** repository! This directory contains projects developed in C#, showcasing various applications and functionalities.
+This folder contains C# projects that utilize database integration, primarily with PostgreSQL. These projects demonstrate database connectivity, data management, and WPF applications with database backends.
 
-## Projects
+## Projects Included
 
-### 1. [DortanApp](DORTANAPP)
+### 1. [DortanApp](dortan_app)
+A WPF application for managing activity reservations in a town hall, integrated with PostgreSQL database.
 
-**Overview:**  
-DortanApp is a software application developed using WPF (Windows Presentation Foundation) and integrated with a PostgreSQL database. It is specifically designed for managing the reservation of activities in a town hall. This project allows town hall staff to select from existing activities or create new ones, and input reservation dates accordingly.
-
-#### Features
 - User-friendly interface for managing reservations
 - Ability to create and manage activities
 - Database integration for storing and retrieving data
 - Efficient handling of reservation dates
+- Activity selection and creation
+- Reservation date management
 
-#### Technologies Used
-- **Programming Languages:** C#
-- **Framework:** WPF
-- **Database:** PostgreSQL
-- **Tools:** Visual Studio, Git
+**Technologies**: C#, WPF, PostgreSQL, Entity Framework
+
+## Technologies Used
+
+### Languages & Frameworks
+- **C#**: Primary programming language
+- **WPF**: Windows Presentation Foundation for desktop applications
+- **XAML**: Markup language for UI design
+
+### Databases & ORM
+- **PostgreSQL**: Relational database management
+- **Entity Framework Core**: Object-relational mapping
+- **SQL**: Database queries and operations
+
+### Development Tools
+- **Visual Studio**: Primary IDE
+- **Git / GitHub**: Version control
+- **pgAdmin**: PostgreSQL administration tool (optional)
+
+## Project Structure
+
+```
+csharp-with-db/
+├── dortan_app/             → WPF reservation management app
+│   ├── Dortan_IHM/         → Solution folder
+│   │   └── DortanApp/      → Main application
+│   ├── Fonctionnalités.pdf → Features documentation
+│   └── README.md           → Project documentation
+└── README.md               → Project documentation
+```
+
+## Getting Started
+
+Each project has its own README with detailed instructions. To explore a project:
+
+1. Navigate to the project directory
+2. Read the project's README.md for specific setup instructions
+3. Follow the installation and configuration steps
+4. Run the project according to its documentation
+
+### Prerequisites
+
+- Visual Studio (latest version recommended)
+- .NET SDK
+- PostgreSQL (installed and running)
+- Git
+
+Feel free to explore the repositories for more detailed information on each project!
