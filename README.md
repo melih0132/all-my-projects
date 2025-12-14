@@ -40,14 +40,14 @@ Welcome to my PROJECTS repository! This repository serves as a curated collectio
 ### 4. **[Python](python)**
    - A variety of Python-based applications and scripts.
    - Structure:
-     - **[app](python/app)**: Collection of Python applications
-       - **[little-things](python/app/little-things)**: Utility scripts and tools (wallpaper changer, task manager, file renaming)
-       - **[quiz-json](python/app/quiz-json)**: JSON-based quiz application
-       - **[ranking](python/app/ranking)**: Data ranking and visualization
-     - **[iut](python/iut)**: Academic projects and exercises
-       - **[algo](python/iut/algo)**: Algorithm implementations and exercises
-       - **[crypto](python/iut/crypto)**: Cryptography projects
-   - Technologies: Python, Pandas, NumPy, Matplotlib
+     - **[applications](python/applications)**: Collection of Python applications
+       - **[utilities](python/applications/utilities)**: Utility scripts and tools (wallpaper changer, task manager, file renaming with AI)
+       - **[quiz-game](python/applications/quiz-game)**: JSON-based quiz application
+       - **[ranking](python/applications/ranking)**: Data ranking and visualization with SQLite
+     - **[academic](python/academic)**: Academic projects and exercises
+       - **[algorithms](python/academic/algorithms)**: Algorithm implementations and exercises
+       - **[cryptography](python/academic/cryptography)**: Cryptography projects
+   - Technologies: Python, Pandas, NumPy, Matplotlib, Tkinter, SQLite, OpenAI API
 
 ### 5. **[Unity](csharp-projects/unity)**
    - Games and interactive applications built with Unity.
@@ -140,13 +140,13 @@ PROJECTS/
 │   ├── weather_app/         → Weather API Application
 │   └── event_poll/          → Event Management App
 ├── python/                  → Python applications
-│   ├── app/                 → Python applications
-│   │   ├── little-things/   → Utility scripts (wallpaper, tasks, file management)
-│   │   ├── quiz-json/        → Quiz application
-│   │   └── ranking/         → Ranking project
-│   └── iut/                 → Academic projects
-│       ├── algo/            → Algorithm implementations
-│       └── crypto/          → Cryptography projects
+│   ├── applications/        → Python applications
+│   │   ├── utilities/       → Utility scripts (wallpaper, tasks, file management with AI)
+│   │   ├── quiz-game/       → Quiz application
+│   │   └── ranking/         → Ranking project with SQLite
+│   └── academic/            → Academic projects
+│       ├── algorithms/      → Algorithm implementations
+│       └── cryptography/    → Cryptography projects
 ├── swift/                   → Swift iOS applications
 │   ├── DocumentApp/         → Document Management App
 │   ├── PokemonTrainerManager/ → Pokémon Trainer Manager

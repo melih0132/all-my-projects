@@ -4,30 +4,40 @@ This folder contains my Python development projects, covering a wide range of ap
 
 ## Projects Included
 
-### 1. [app](app)
+### 1. [Applications](applications)
 A collection of Python applications and utilities.
 
-- **[little-things](app/little-things)**: A set of small, useful Python programs
+- **[utilities](applications/utilities)**: A set of small, useful Python programs
   - Desktop wallpaper changer
-  - Task manager
-  - File renaming utilities
+  - Task manager (CLI and GUI versions)
+  - File renaming utilities with AI-powered batch analysis
   - Various utility scripts
-- **[quiz-json](app/quiz-json)**: A quiz program that retrieves questions and answers from a JSON data source
+- **[quiz-game](applications/quiz-game)**: A quiz program that retrieves questions and answers from a JSON data source
   - Multiple choice questions
   - Score tracking
   - JSON data management
-- **[ranking](app/ranking)**: A project for ranking things
+- **[ranking](applications/ranking)**: A project for ranking things
   - Custom ranking algorithms
-  - Data visualization
-  - Export functionality
+  - SQLite database for data persistence
+  - Export functionality to CSV
+  - Interactive GUI built with Tkinter
 
-**Technologies**: Python, JSON, Pandas, Matplotlib
+**Technologies**: Python, JSON, SQLite, Tkinter, OpenAI API
 
-### 2. [IUT](IUT)
-Academic projects and assignments from IUT (Institut Universitaire de Technologie).
+### 2. [Academic](academic)
+Academic projects and assignments from university studies.
 
-- **[ALGO](IUT/ALGO)**: Algorithm implementations and exercises
-- **[CRYPTO](IUT/CRYPTO)**: Cryptography projects and assignments
+- **[algorithms](academic/algorithms)**: Algorithm implementations and exercises
+  - Data structures (linked lists, trees)
+  - Recursive algorithms
+  - Fractal generation
+  - Image processing
+  - Various algorithmic challenges
+- **[cryptography](academic/cryptography)**: Cryptography projects and assignments
+  - Symmetric encryption (AES, Caesar cipher)
+  - Asymmetric encryption (RSA)
+  - Modular arithmetic operations
+  - Hash functions
 
 **Technologies**: Python, NumPy, Matplotlib
 
@@ -38,6 +48,8 @@ Academic projects and assignments from IUT (Institut Universitaire de Technologi
 - **NumPy**: Numerical computing library
 - **Pandas**: Data manipulation and analysis
 - **Matplotlib**: Data visualization
+- **Tkinter**: GUI development
+- **SQLite**: Database management
 
 ### Data Processing
 - **JSON**: Data format for storing and retrieving data
@@ -48,30 +60,37 @@ Academic projects and assignments from IUT (Institut Universitaire de Technologi
 - **Python 3.x**: Runtime environment
 - **pip**: Package manager
 - **Git / GitHub**: Version control
-- **Jupyter Notebook**: Interactive development (if applicable)
+- **OpenAI API**: AI-powered file analysis
 
 ## Project Structure
 
 ```
 python/
-├── app/                     → Python applications
-│   ├── little-things/       → Small utility scripts
-│   │   ├── app_wallpaper.py → Desktop wallpaper changer
-│   │   ├── gestionnaire_taches.py → Task manager
-│   │   └── rename-files/    → File renaming utilities
-│   ├── quiz-json/           → Quiz application using JSON
-│   │   ├── quiz_game.py     → Main quiz game
-│   │   └── quiz_data.json   → Quiz data
-│   └── ranking/             → Ranking project
-│       └── ranking.py       → Ranking algorithm
-└── IUT/                     → Academic projects
-    ├── ALGO/                → Algorithm implementations
-    │   ├── TD/              → Tutorial exercises
-    │   ├── REVISIONS/       → Revision exercises
-    │   └── ANNEXES/         → Course materials
-    └── CRYPTO/              → Cryptography projects
-        ├── TRAVAUX/         → Assignments and practical work
-        └── ANNEXES/         → Course materials
+├── applications/              → Python applications
+│   ├── utilities/            → Small utility scripts
+│   │   ├── app_wallpaper.py  → Desktop wallpaper changer
+│   │   ├── gestionnaire_taches.py → Task manager (CLI)
+│   │   ├── gestionnaire_taches_app.py → Task manager (GUI)
+│   │   ├── list_name.py      → USB key song list extractor
+│   │   ├── pierre_papier_ciseaux.py → Rock-paper-scissors game
+│   │   └── file-renamer/     → File renaming utilities
+│   │       ├── rename_music.py → AI-powered MP3 renamer
+│   │       └── clean_filenames.py → Filename cleaner
+│   ├── quiz-game/            → Quiz application using JSON
+│   │   ├── quiz_game.py      → Main quiz game
+│   │   └── quiz_data.json    → Quiz data
+│   └── ranking/              → Ranking project
+│       └── ranking.py        → Ranking application with GUI
+└── academic/                 → Academic projects
+    ├── algorithms/           → Algorithm implementations
+    │   ├── Data structures (linked lists, trees)
+    │   ├── Recursive algorithms
+    │   ├── Fractal generation
+    │   └── Image processing
+    └── cryptography/         → Cryptography projects
+        ├── Symmetric encryption
+        ├── Asymmetric encryption (RSA)
+        └── Modular arithmetic
 ```
 
 ## Getting Started
