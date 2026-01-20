@@ -8,36 +8,41 @@ This folder contains my Python development projects, covering a wide range of ap
 A collection of Python applications and utilities.
 
 - **[utilities](applications/utilities)**: A set of small, useful Python programs
-  - Desktop wallpaper changer
+  - Desktop wallpaper changer (`app_wallpaper.py`)
   - Task manager (CLI and GUI versions)
-  - File renaming utilities with AI-powered batch analysis
-  - Various utility scripts
+  - Rock-paper-scissors game
+  - File renaming utilities with intelligent batch analysis (`file-renamer/music_formatter.py`)
 - **[quiz-game](applications/quiz-game)**: A quiz program that retrieves questions and answers from a JSON data source
   - Multiple choice questions
   - Score tracking
   - JSON data management
-- **[ranking](applications/ranking)**: A project for ranking things
-  - Custom ranking algorithms
+- **[ranking](applications/ranking)**: A ranking management application
+  - Create and manage rankings for various items
   - SQLite database for data persistence
   - Export functionality to CSV
+  - Backup database functionality
   - Interactive GUI built with Tkinter
 
-**Technologies**: Python, JSON, SQLite, Tkinter, OpenAI API
+**Technologies**: Python, JSON, SQLite, Tkinter
 
 ### 2. [Academic](academic)
 Academic projects and assignments from university studies.
 
 - **[algorithms](academic/algorithms)**: Algorithm implementations and exercises
   - Data structures (linked lists, trees)
-  - Recursive algorithms
-  - Fractal generation
+  - Recursive algorithms (Tower of Hanoi, tree traversals)
+  - Fractal generation (Koch snowflake, various fractals)
   - Image processing
-  - Various algorithmic challenges
+  - ASCII art generation
+  - Base conversion algorithms
+  - Object-oriented programming examples
+  - Various algorithmic challenges and exercises
 - **[cryptography](academic/cryptography)**: Cryptography projects and assignments
-  - Symmetric encryption (AES, Caesar cipher)
-  - Asymmetric encryption (RSA)
-  - Modular arithmetic operations
-  - Hash functions
+  - Symmetric encryption (AES, Caesar cipher with encryption/decryption)
+  - Asymmetric encryption (RSA implementation and scripts)
+  - Modular arithmetic operations (modular exponentiation, modular inverse)
+  - Euler's totient function (φ)
+  - Hash functions using Python's hashlib
 
 **Technologies**: Python, NumPy, Matplotlib
 
@@ -60,7 +65,6 @@ Academic projects and assignments from university studies.
 - **Python 3.x**: Runtime environment
 - **pip**: Package manager
 - **Git / GitHub**: Version control
-- **OpenAI API**: AI-powered file analysis
 
 ## Project Structure
 
@@ -71,26 +75,39 @@ python/
 │   │   ├── app_wallpaper.py  → Desktop wallpaper changer
 │   │   ├── gestionnaire_taches.py → Task manager (CLI)
 │   │   ├── gestionnaire_taches_app.py → Task manager (GUI)
-│   │   ├── list_name.py      → USB key song list extractor
 │   │   ├── pierre_papier_ciseaux.py → Rock-paper-scissors game
 │   │   └── file-renamer/     → File renaming utilities
-│   │       ├── rename_music.py → AI-powered MP3 renamer
-│   │       └── clean_filenames.py → Filename cleaner
+│   │       ├── music_formatter.py → Intelligent music file formatter
+│   │       ├── README.md     → Documentation
+│   │       └── requirements.txt → Dependencies
 │   ├── quiz-game/            → Quiz application using JSON
 │   │   ├── quiz_game.py      → Main quiz game
-│   │   └── quiz_data.json    → Quiz data
+│   │   ├── quiz_data.json    → Quiz data
+│   │   └── README.md         → Documentation
 │   └── ranking/              → Ranking project
-│       └── ranking.py        → Ranking application with GUI
+│       ├── ranking.py        → Ranking application with GUI
+│       └── README.md         → Documentation
 └── academic/                 → Academic projects
     ├── algorithms/           → Algorithm implementations
-    │   ├── Data structures (linked lists, trees)
-    │   ├── Recursive algorithms
-    │   ├── Fractal generation
-    │   └── Image processing
+    │   ├── 01_hanoi.py, 06_spoil_hanoi.py → Tower of Hanoi
+    │   ├── 04_linkedList.py → Linked list implementation
+    │   ├── 05_tree.py, tree.py → Tree data structures
+    │   ├── 02_fract.py, flocon_koch.py → Fractal generation
+    │   ├── 05_image.py → Image processing
+    │   ├── 02_asciiart.py, ascii_art.py → ASCII art
+    │   ├── recursions.py → Recursive algorithms
+    │   ├── 02_bases.py → Base conversion
+    │   ├── 03_poo.py → OOP examples
+    │   └── Various exercise files (ex1_v1.py, ex2.py, exo1.py, etc.)
     └── cryptography/         → Cryptography projects
-        ├── Symmetric encryption
-        ├── Asymmetric encryption (RSA)
-        └── Modular arithmetic
+        ├── aes.py → AES encryption
+        ├── chiffrement cesar.py, dechiffrement cesar.py → Caesar cipher
+        ├── chiffrement par bloc avec AES.py → Block cipher with AES
+        ├── rsa.py, rsa_script.py → RSA encryption
+        ├── exponentiation_modulaire.py → Modular exponentiation
+        ├── inverse_modulaire.py → Modular inverse
+        ├── phi_euleur.py → Euler's totient function
+        └── hashlib.py → Hash functions
 ```
 
 ## Getting Started

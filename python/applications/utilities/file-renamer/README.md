@@ -1,148 +1,116 @@
-# Renommeur de Fichiers MP3 Intelligent - Analyse en Lot
+# Formatage de Titres Musicaux - Version Refactorisée
 
-Un script Python intelligent pour renommer automatiquement vos fichiers MP3 selon un format standardisé :
+Un script Python intelligent pour reformater automatiquement les noms de fichiers musicaux selon un format standardisé :
 
 ```
 Artiste - Titre ft. Featuring.mp3
 ```
 
-## Nouvelle Approche : Analyse en Lot
+## Description
 
-**Version 2.0** : Le script adopte une approche innovante d'analyse en lot :
+Ce module propose une solution complète de formatage de titres musicaux avec une architecture orientée objet, séparation des responsabilités et optimisation des performances. Le script analyse les noms de fichiers existants, extrait les informations (artiste principal, titre, featuring), nettoie les mentions indésirables et reformate selon un standard cohérent.
 
-1. **Extraction des titres** : Tous les titres des morceaux présents dans le dossier sont collectés.
-2. **Analyse IA en lot** : L'IA analyse TOUS les fichiers en une seule requête.
-3. **Recherche et identification** : L'IA utilise sa base de connaissances pour identifier chaque morceau.
-4. **Extraction des informations** : Les informations nécessaires sont extraites pour chaque morceau identifié.
-5. **Reformatage des titres** : Les titres sont reformattés selon le format standard.
-6. **Attribution des noms** : Les noms reformatés sont attribués aux fichiers du dossier.
+## Caractéristiques principales
 
-### Avantages de l'approche en lot
-
-- **Plus rapide** : Une seule requête IA au lieu d'une par fichier.
-- **Plus précis** : L'IA identifie les vrais titres grâce à sa base de connaissances.
-- **Plus cohérent** : Analyse globale pour éviter les incohérences.
-- **Plus économique** : Moins d'appels API = coûts réduits.
-- **Plus robuste** : Fallback automatique en cas d'échec de l'IA.
-
-## Outils inclus
-
-### 1. rename_music.py - Renommeur intelligent principal
-- **Analyse en lot** : Tous les fichiers traités en une seule requête IA.
-- **Parsing intelligent** : Extraction automatique de l'artiste, du titre et des featuring.
-- **Support des tags ID3** : Utilisation prioritaire des métadonnées MP3 si disponibles.
-- **Mode IA avancé** : Intégration avec OpenAI GPT pour une analyse plus précise.
-- **Multilingue** : Support du français, anglais, turc et autres langues.
-- **Gestion des conflits** : Évite automatiquement les doublons de noms.
-- **Mode test** : Possibilité de simuler les changements sans modifier les fichiers.
-- **Robuste** : Gestion avancée des erreurs et compatibilité Windows/Linux/Mac.
-
-### 2. clean_filenames.py - Nettoyeur de suffixes numériques
-- **Suppression automatique** des suffixes comme " (1)", " (2)", etc.
-- **Détection intelligente** des patterns numériques en fin de nom.
-- **Gestion des conflits** : Évite les doublons lors du nettoyage.
-- **Mode simulation** : Test sans modification des fichiers.
-- **Rapport détaillé** : Statistiques complètes du traitement.
+- **Architecture modulaire** : Séparation claire des responsabilités (parsing, nettoyage, formatage, système de fichiers)
+- **Traitement parallèle** : Support du traitement multi-thread pour améliorer les performances
+- **Cache LRU** : Mise en cache des résultats pour éviter les recalculs
+- **Configuration flexible** : Support de fichiers de configuration JSON personnalisés
+- **Gestion robuste des erreurs** : Gestion complète des cas limites et erreurs système
+- **Mode simulation** : Possibilité de tester les changements sans modifier les fichiers
+- **Traitement récursif** : Support du traitement des sous-dossiers
+- **Multi-formats** : Support de nombreux formats audio (MP3, WAV, FLAC, M4A, AAC, OGG, WMA, OPUS)
+- **Logging complet** : Journalisation détaillée des opérations
 
 ## Installation
 
 ### Prérequis
 
 - Python 3.7 ou supérieur
-- pip (gestionnaire de paquets Python)
+- Aucune dépendance externe requise (utilise uniquement la bibliothèque standard)
 
-### Dépendances
+### Installation
 
-Installez toutes les dépendances avec :
-```bash
-pip install -r requirements.txt
-```
-
-Ou installez manuellement :
-```bash
-pip install mutagen openai python-dotenv
-```
-
-### Configuration IA
-
-**Obligatoire pour rename_music.py** :
-
-1. Créez un fichier `.env` dans le même répertoire que le script :
-   ```
-   OPENAI_API_KEY=votre-clé-api-openai
-   ```
-2. Ou définissez la variable d'environnement :
-   ```bash
-   export OPENAI_API_KEY="votre-clé-api-openai"
-   ```
+Aucune installation de dépendances n'est nécessaire. Le script utilise uniquement les modules de la bibliothèque standard Python.
 
 ## Utilisation
 
-### rename_music.py - Renommeur intelligent
+### Utilisation de base
 
 ```bash
-# Renommer tous les fichiers MP3 du répertoire courant
-python rename_music.py
+# Traiter les fichiers du répertoire courant (mode simulation par défaut)
+python music_formatter.py --verbose
 
-# Spécifier un répertoire
-python rename_music.py /chemin/vers/musique
+# Appliquer les changements réellement
+python music_formatter.py
 
-# Mode test (affiche les changements sans les appliquer)
-python rename_music.py --dry-run
+# Traitement récursif des sous-dossiers
+python music_formatter.py --recursive
 
-# Mode verbose (affiche les détails)
-python rename_music.py --verbose
-
-# Limiter le nombre de fichiers traités
-python rename_music.py --limit 10
-```
-
-### clean_filenames.py - Nettoyeur de suffixes
-
-```bash
-# Nettoyer les suffixes numériques dans le répertoire courant
-python clean_filenames.py
-
-# Spécifier un répertoire
-python clean_filenames.py /chemin/vers/musique
-
-# Mode test
-python clean_filenames.py --dry-run
-
-# Affichage détaillé
-python clean_filenames.py --verbose
+# Désactiver le traitement parallèle
+python music_formatter.py --no-parallel
 ```
 
 ### Options disponibles
 
-**rename_music.py** :
-- `--dry-run` : Affiche les changements sans les appliquer
-- `--verbose, -v` : Affiche les détails du traitement
-- `--limit N` : Limite le traitement aux N premiers fichiers
-- `--help` : Affiche l'aide complète
-
-**clean_filenames.py** :
-- `--dry-run` : Mode simulation sans modification
-- `--verbose, -v` : Affichage détaillé des informations
-- `--help` : Affiche l'aide complète
+- `--verbose, -v` : Mode simulation (affiche les changements sans les appliquer)
+- `--recursive, -r` : Traitement récursif des sous-dossiers
+- `--config` : Spécifier un fichier de configuration JSON personnalisé
+- `--parallel` : Activer le traitement parallèle (activé par défaut)
+- `--no-parallel` : Désactiver le traitement parallèle
+- `--workers N` : Nombre de workers pour le traitement parallèle (défaut: 4)
+- `--create-config` : Créer un fichier de configuration d'exemple
+- `--backup` : Créer une sauvegarde des noms de fichiers avant traitement
+- `--help` : Afficher l'aide complète
 
 ### Exemples d'utilisation
 
 ```bash
-# Tester le renommeur sur 5 fichiers
-python rename_music.py --dry-run --limit 5 --verbose
+# Tester les changements sans les appliquer
+python music_formatter.py --verbose
 
-# Nettoyer les suffixes numériques
-python clean_filenames.py --dry-run --verbose
+# Traiter récursivement avec traitement parallèle
+python music_formatter.py --recursive --workers 8
 
-# Traitement complet avec les deux outils
-python clean_filenames.py --verbose
-python rename_music.py --verbose
+# Créer un fichier de configuration personnalisé
+python music_formatter.py --create-config
+
+# Traiter avec sauvegarde et configuration personnalisée
+python music_formatter.py --backup --config music_formatter_config.json
+```
+
+## Configuration
+
+Le script peut utiliser un fichier de configuration JSON pour personnaliser les patterns de nettoyage, les séparateurs d'artistes, les extensions supportées, etc.
+
+### Créer un fichier de configuration
+
+```bash
+python music_formatter.py --create-config
+```
+
+Cela crée un fichier `music_formatter_config.json` avec la configuration par défaut que vous pouvez modifier.
+
+### Structure de configuration
+
+```json
+{
+  "cleanup_patterns": [
+    "\\s*\\(Official Audio\\)",
+    "\\s*\\(Official Video\\)"
+  ],
+  "feat_patterns": [
+    "\\s*\\(\\s*(feat\\.?|featuring|ft\\.?)\\s+([^)]+)\\)"
+  ],
+  "artist_separators": ["\\s*&\\s*", "\\s*x\\s*", "\\s*,\\s*"],
+  "music_extensions": [".mp3", ".wav", ".flac", ".m4a"],
+  "title_case_exceptions": ["a", "an", "the", "and", "or"]
+}
 ```
 
 ## Formats supportés
 
-Le script peut analyser et renommer des fichiers avec des noms comme :
+Le script peut analyser et reformater des fichiers avec des noms comme :
 
 - `Artiste - Titre.mp3`
 - `Artiste - Titre ft. Featuring.mp3`
@@ -150,97 +118,106 @@ Le script peut analyser et renommer des fichiers avec des noms comme :
 - `Artiste - Titre [Audio].mp3`
 - `Artiste - Titre feat. Featuring.mp3`
 - `Artiste x Featuring - Titre.mp3`
-- `Titre incomplet ou mal formaté.mp3` → L'IA identifiera le vrai titre
-- `Fichier (1).mp3` → `Fichier.mp3` (nettoyage des suffixes)
-
-## Méthodes d'analyse
-
-### 1. Analyse IA en lot (nouvelle approche)
-- **Une seule requête** pour tous les fichiers
-- **Base de connaissances** de l'IA pour identifier les vrais titres
-- **Analyse contextuelle** entre les fichiers
-- **Fallback automatique** en cas d'échec
-
-### 2. Tags ID3 (priorité si disponibles)
-Si les métadonnées MP3 contiennent les informations artiste/titre, elles sont utilisées en priorité.
-
-### 3. Règles de fallback
-Algorithme avancé basé sur des règles pour extraire les informations :
-- Détection des séparateurs (-, –, —)
-- Reconnaissance des featuring (ft, feat, featuring, &, x)
-- Nettoyage des suffixes (Official Video, Audio, etc.)
-- Capitalisation intelligente
+- `Artiste & Featuring - Titre.mp3`
+- `01 Artiste - Titre.mp3` (suppression des numéros de piste)
 
 ## Format de sortie
 
-Tous les fichiers sont renommés selon le format standardisé :
+Tous les fichiers sont reformatés selon le format standardisé :
+
 ```
 Artiste - Titre.mp3
 Artiste - Titre ft. Featuring.mp3
 ```
 
+Les règles de formatage incluent :
+- Suppression des mentions indésirables (Official Video, HD, etc.)
+- Extraction et formatage des featuring
+- Capitalisation intelligente (Title Case)
+- Nettoyage des séparateurs multiples
+- Suppression des numéros de piste
+
+## Architecture
+
+Le module est organisé en plusieurs classes spécialisées :
+
+- **PatternCompiler** : Compilation et gestion des patterns regex
+- **TitleCleaner** : Nettoyage des titres (suppression des mentions indésirables)
+- **ArtistExtractor** : Extraction et traitement des artistes
+- **TitleParser** : Parsing complet de la structure d'un titre
+- **MusicTitleFormatter** : Formatage principal avec cache LRU
+- **FileSystemHandler** : Opérations sur le système de fichiers
+- **MusicFileProcessor** : Orchestration du traitement des fichiers
+
 ## Gestion des erreurs
 
-Les scripts gèrent automatiquement :
-- Fichiers introuvables
-- Conflits de noms (ajout automatique de numéros)
-- Permissions insuffisantes
-- Encodages problématiques
-- Caractères spéciaux
-- Échecs de l'IA (fallback automatique)
+Le script gère automatiquement :
+- Fichiers introuvables ou permissions insuffisantes
+- Conflits de noms (détection et avertissement)
+- Chemins trop longs (limite Windows)
+- Caractères invalides dans les noms de fichiers
+- Erreurs de formatage (fallback sur le nom original)
+- Timeouts lors du traitement parallèle
 
 ## Statistiques
 
-Les scripts affichent un rapport détaillé incluant :
-- Nombre de fichiers traités
-- Fichiers renommés avec succès
-- Fichiers ignorés (déjà au bon format)
+Le script affiche un rapport détaillé incluant :
+- Nombre de fichiers trouvés
+- Fichiers traités avec succès
+- Fichiers renommés
 - Erreurs rencontrées
-- Succès de l'IA en lot
-- Utilisation du fallback
-- Temps de traitement
+- Statistiques de cache (cache hits)
+- Erreurs de formatage
 
 ## Compatibilité
 
 - **Systèmes d'exploitation** : Windows, Linux, macOS
 - **Encodages** : UTF-8, gestion automatique des accents
-- **Fichiers** : MP3 avec ou sans tags ID3
+- **Fichiers** : MP3, WAV, FLAC, M4A, AAC, OGG, WMA, OPUS
 - **Noms de fichiers** : Support des caractères spéciaux et accents
+- **Python** : 3.7+
 
 ## Sécurité
 
-- Mode test disponible pour vérifier les changements
-- Sauvegarde recommandée avant traitement en masse
-- Gestion sécurisée des noms de fichiers
+- Mode simulation disponible pour vérifier les changements
+- Sauvegarde optionnelle des noms de fichiers avant traitement
+- Gestion sécurisée des noms de fichiers (sanitization)
 - Validation des chemins et permissions
-- Fallback automatique en cas d'échec IA
+- Gestion des cas limites (chemins trop longs, caractères invalides)
+
+## Logging
+
+Le script génère un fichier de log `music_formatter.log` dans le répertoire courant avec :
+- Les opérations de renommage effectuées
+- Les erreurs rencontrées
+- Les avertissements (conflits, chemins trop longs, etc.)
 
 ## Dépannage
 
 ### Erreurs courantes
 
-1. **"mutagen non installé"** : Installez avec `pip install mutagen`
-2. **"openai non installé"** : Installez avec `pip install openai` (recommandé)
-3. **"OPENAI_API_KEY non trouvée"** : Créez un fichier `.env` avec votre clé API
-4. **"Permission refusée"** : Vérifiez les droits d'accès au répertoire
-5. **"Fichier introuvable"** : Le fichier a peut-être été déplacé ou supprimé
+1. **"Le dossier n'existe pas"** : Vérifiez que le chemin spécifié est correct
+2. **"Permission refusée"** : Vérifiez les droits d'accès au répertoire
+3. **"Chemin trop long"** : Le nom de fichier résultant dépasse la limite Windows (260 caractères)
+4. **"Fichier existe déjà"** : Un fichier avec le même nom existe déjà (non renommé pour éviter les conflits)
 
 ### Conseils
 
-- Testez toujours avec `--dry-run` avant un traitement en masse
-- Utilisez `--limit` pour tester sur un petit nombre de fichiers
-- Activez `--verbose` pour diagnostiquer les problèmes
-- Sauvegardez vos fichiers avant traitement
-- L'approche en lot est plus rapide et plus précise
+- Testez toujours avec `--verbose` avant un traitement en masse
+- Utilisez `--backup` pour créer une sauvegarde avant traitement
+- Activez le logging pour diagnostiquer les problèmes
+- Personnalisez la configuration selon vos besoins
+- Le traitement parallèle améliore les performances sur de gros volumes
 
-## Changements majeurs v2.0
+## Améliorations de la version refactorisée
 
-- **Analyse en lot** : Une seule requête IA pour tous les fichiers
-- **Base de connaissances** : L'IA utilise ses connaissances pour identifier les vrais titres
-- **Performance améliorée** : Traitement plus rapide et économique
-- **Fallback robuste** : Gestion automatique des échecs IA
-- **Statistiques détaillées** : Suivi des succès IA et fallback
-- **Nouvel outil** : clean_filenames.py pour le nettoyage des suffixes
+- **Architecture modulaire** : Code mieux organisé et maintenable
+- **Performance optimisée** : Cache LRU et traitement parallèle
+- **Gestion d'erreurs robuste** : Gestion complète des cas limites
+- **Configuration flexible** : Support de fichiers de configuration personnalisés
+- **Logging détaillé** : Journalisation complète des opérations
+- **Type hints** : Meilleure lisibilité et support IDE
+- **Séparation des responsabilités** : Chaque classe a un rôle bien défini
 
 ## Licence
 

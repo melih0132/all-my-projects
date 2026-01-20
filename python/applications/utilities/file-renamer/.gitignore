@@ -1,17 +1,18 @@
-# Fichiers de configuration sensibles
-.env
-.env.local
-.env.production
+# Fichiers de configuration
+music_formatter_config.json
+*.config.json
 
 # Fichiers de sauvegarde et temporaires
 *.pkl
 *.bak
 *.tmp
 *.temp
+backup_list.json
 
 # Fichiers de logs
 *.log
 logs/
+music_formatter.log
 
 # Fichiers de cache Python
 __pycache__/
@@ -74,4 +75,4 @@ coverage.xml
 # Fichiers de données temporaires
 *.csv
 *.json
-!quiz_data.json  # Garder les fichiers de données nécessaires
+!music_formatter_config.json.example
