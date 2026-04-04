@@ -1,10 +1,10 @@
-# SmartHome Lite
+# SmartHome Lite - Distributed Smart Home (domotique)
 
-This folder is a redirect to the **[SmartHome Lite](https://github.com/oeoecbien/smarthome-lite)** project repository. For architecture, setup, API, hardware (Raspberry Pi / Z-Wave), and deployment details, see the dedicated repository.
+This repository is a redirect to the **[SmartHome Lite](https://github.com/melih0132/smarthome-lite)** project repository. For detailed information about the SmartHome Lite project, including its architecture, setup, API, hardware (Raspberry Pi / Z-Wave), and deployment, please visit the dedicated repository.
 
 ## Project Overview
 
-SmartHome Lite is a portfolio showcase project (SAE — domotique distribuée et embarquée): intelligent lighting and device control with presence detection, ambient light adaptation (smart dimming), rule-based automation, and classical ML (classification, regression) on the backend.
+The SmartHome Lite project is a portfolio showcase (SAE — domotique distribuée et embarquée): intelligent lighting and device control with presence detection, ambient light adaptation (smart dimming), rule-based automation, and classical ML (classification, regression) on the backend.
 
 ## Key Features
 
@@ -17,13 +17,13 @@ SmartHome Lite is a portfolio showcase project (SAE — domotique distribuée et
 
 ## Technologies Used
 
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic, JWT, bcrypt
 - **Database:** PostgreSQL, TimescaleDB (time-series)
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic, JWT, bcrypt
 - **Web:** Next.js (App Router), React, TypeScript, Tailwind CSS
 - **Mobile:** Kotlin, Jetpack Compose, Material 3, Retrofit
 - **Edge:** Raspberry Pi, Flask API, Z-Wave JS UI
-- **ML:** scikit-learn, pandas, numpy, joblib
+- **ML:** scikit-learn, pandas, NumPy, joblib
 
 ## Access the Project
 
-Explore the code and documentation on GitHub: **[oeoecbien/smarthome-lite](https://github.com/oeoecbien/smarthome-lite)**.
+To explore the project in detail, please visit the **[SmartHome Lite repository](https://github.com/melih0132/smarthome-lite)**.

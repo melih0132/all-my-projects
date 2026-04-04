@@ -13,29 +13,7 @@ This project helps manage bird counting data for the Ligue de Protection des Ois
 
 **Technologies**: PostgreSQL, SQL, Excel, Power BI, pgAdmin4
 
-### 2. [Uber-like Application (.NET & Vue.js)](uber-dotnet-vue)
-A full-stack application inspired by Uber, featuring:
-- Backend API built with .NET Core
-- Frontend application using Vue.js
-- User authentication with JWT
-- Ride booking and meal delivery features
-- Interactive maps with Leaflet
-- Responsive UI design
-
-**Technologies**: .NET 8, Vue.js 3, PostgreSQL, Entity Framework Core, JWT, Leaflet, Vuetify
-
-### 3. [Uber-like Application (Laravel)](uber-laravel)
-A comprehensive data management system for an Uber-like application, including:
-- User and trip management
-- Payment handling
-- Ride reservations
-- Ratings and feedback system
-- Geographical data analysis
-- Security and data protection measures
-
-**Technologies**: Laravel, PostgreSQL, Power BI, RESTful API
-
-### 4. [Collaborative AI Chat Application](shared-ia)
+### 2. [Collaborative AI Chat Application](shared-ia)
 A full-stack collaborative AI chat application where multiple users (max 4) can converse with an AI through a collective message validation system. Features include:
 - Real-time chat with Socket.io
 - Collective message validation system
@@ -48,10 +26,36 @@ A full-stack collaborative AI chat application where multiple users (max 4) can 
 
 **Technologies**: Node.js, Express.js, React, TypeScript, Socket.io, PostgreSQL, OpenAI API, JWT, TailwindCSS, Zustand, Vite
 
-### 5. [SmartHome Lite (domotique)](smarthome-lite)
-A distributed smart-home showcase: backend API, Next.js dashboard, Android app, and Raspberry Pi / Z-Wave integration. Includes presence, rules, smart dimming from ambient light, and ML-based scenario assistance.
+### 3. [SmartHome Lite (domotique)](smarthome-lite)
+A distributed smart-home stack: FastAPI backend, Next.js web dashboard, Android app, and Raspberry Pi / Z-Wave edge integration. Features include:
+- Presence detection, IF-THEN rules, and smart dimming from ambient light
+- Manual control of lights and sockets from mobile and web
+- ML-assisted scenario classification and intensity prediction (scikit-learn)
+- TimescaleDB for sensor history and dashboards (presence, luminosity)
 
 **Technologies**: FastAPI, PostgreSQL, TimescaleDB, Next.js, Kotlin/Jetpack Compose, Raspberry Pi, Z-Wave JS, scikit-learn
+
+### 4. [Uber-like Application (.NET & Vue.js)](uber-dotnet-vue)
+A full-stack application inspired by Uber, featuring:
+- Backend API built with .NET Core
+- Frontend application using Vue.js
+- User authentication with JWT
+- Ride booking and meal delivery features
+- Interactive maps with Leaflet
+- Responsive UI design
+
+**Technologies**: .NET 8, Vue.js 3, PostgreSQL, Entity Framework Core, JWT, Leaflet, Vuetify
+
+### 5. [Uber-like Application (Laravel)](uber-laravel)
+A comprehensive data management system for an Uber-like application, including:
+- User and trip management
+- Payment handling
+- Ride reservations
+- Ratings and feedback system
+- Geographical data analysis
+- Security and data protection measures
+
+**Technologies**: Laravel, PostgreSQL, Power BI, RESTful API
 
 ## Technologies Used
 
@@ -95,17 +99,17 @@ A distributed smart-home showcase: backend API, Next.js dashboard, Android app, 
 big-projects/
 ├── lpo/                    → Bird Counting Management System
 │   ├── 1_Modelisation/     → Database modeling (MCD, MLD)
-│   ├── 2_Insert_Query/      → SQL scripts and data insertion
+│   ├── 2_Insert_Query/     → SQL scripts and data insertion
 │   ├── 3_View_Stat/        → Statistics and views
 │   └── 4_PowerBI/          → Power BI dashboard
-├── uber-dotnet-vue/         → Full-stack Uber clone
-│   ├── UberApi/            → .NET Core backend
-│   └── UberVueJS/          → Vue.js frontend
-├── uber-laravel/           → Laravel data management system
 ├── shared-ia/              → Collaborative AI Chat Application
 │   ├── backend/            → Node.js/Express backend
 │   └── frontend/           → React/TypeScript frontend
-└── smarthome-lite/         → Redirect README → GitHub (domotique, FastAPI, Next.js, Android, RPi)
+├── smarthome-lite/         → Distributed smart home (FastAPI, Next.js, Android, Raspberry Pi / Z-Wave)
+├── uber-dotnet-vue/        → Full-stack Uber clone
+│   ├── UberApi/            → .NET Core backend
+│   └── UberVueJS/          → Vue.js frontend
+└── uber-laravel/           → Laravel data management system
 ```
 
 ## Getting Started
