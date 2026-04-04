@@ -11,7 +11,8 @@ Welcome to my PROJECTS repository! This repository serves as a curated collectio
      - **[uber-dotnet-vue](big-projects/uber-dotnet-vue)**: Full-stack Uber-like application with .NET Core and Vue.js
      - **[uber-laravel](big-projects/uber-laravel)**: Comprehensive data management system with Laravel
      - **[shared-ia](big-projects/shared-ia)**: Collaborative AI chat application where multiple users (max 4) converse with an AI via a collective message validation system
-   - Technologies: .NET Core, Vue.js, Laravel, Node.js, React, PostgreSQL, Power BI, Socket.io, OpenAI
+     - **[smarthome-lite](big-projects/smarthome-lite)**: Smart-home portfolio (domotique) — FastAPI, Next.js, Android, Raspberry Pi / Z-Wave; [repo GitHub](https://github.com/oeoecbien/smarthome-lite)
+   - Technologies: .NET Core, Vue.js, Laravel, Node.js, React, PostgreSQL, Power BI, Socket.io, OpenAI, FastAPI, Kotlin, TimescaleDB
 
 ### 2. **[C# Projects](csharp-projects)**
    - Projects developed using .NET and C#, including Windows Presentation Foundation (WPF) applications, backend services, and modern .NET Core applications.
@@ -122,7 +123,8 @@ PROJECTS/
 │   ├── lpo/                 → Bird Counting Management (PostgreSQL, Power BI)
 │   ├── uber-dotnet-vue/     → Uber-like App (.NET Core & Vue.js)
 │   ├── uber-laravel/        → Uber-like App (Laravel)
-│   └── shared-ia/           → Collaborative AI Chat (React, Node.js, Socket.io)
+│   ├── shared-ia/           → Collaborative AI Chat (React, Node.js, Socket.io)
+│   └── smarthome-lite/      → SmartHome Lite → GitHub (FastAPI, Next.js, Android, RPi)
 ├── csharp-projects/         → .NET and C# projects
 │   ├── csharp-with-db/      → C# projects with database
 │   │   └── DORTANAPP/       → WPF reservation management app

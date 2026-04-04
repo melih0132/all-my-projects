@@ -48,17 +48,25 @@ A full-stack collaborative AI chat application where multiple users (max 4) can 
 
 **Technologies**: Node.js, Express.js, React, TypeScript, Socket.io, PostgreSQL, OpenAI API, JWT, TailwindCSS, Zustand, Vite
 
+### 5. [SmartHome Lite (domotique)](smarthome-lite)
+A distributed smart-home showcase: backend API, Next.js dashboard, Android app, and Raspberry Pi / Z-Wave integration. Includes presence, rules, smart dimming from ambient light, and ML-based scenario assistance.
+
+**Technologies**: FastAPI, PostgreSQL, TimescaleDB, Next.js, Kotlin/Jetpack Compose, Raspberry Pi, Z-Wave JS, scikit-learn
+
 ## Technologies Used
 
 ### Backend
 - **.NET Core**: Full-stack application development
 - **Laravel**: PHP framework for data management systems
 - **Node.js/Express.js**: RESTful APIs and real-time communication
+- **FastAPI**: Python ASGI API (SmartHome Lite)
 - **PostgreSQL**: Relational database management
+- **TimescaleDB**: Time-series extension for sensor history (SmartHome Lite)
 
 ### Frontend
 - **Vue.js**: Progressive JavaScript framework
 - **React**: Modern UI library with TypeScript
+- **Next.js**: React framework (App Router) for SmartHome Lite web UI
 - **HTML/CSS/JavaScript**: Core web technologies
 
 ### Database & Tools
@@ -76,6 +84,11 @@ A full-stack collaborative AI chat application where multiple users (max 4) can 
 - **Data Encryption**: Protection of sensitive information
 - **XSS Prevention**: Web application security
 
+### Embedded & Mobile (SmartHome Lite)
+- **Raspberry Pi**: Edge controller, Flask API, Z-Wave devices
+- **Kotlin / Jetpack Compose**: Android client
+- **scikit-learn**: Scenario classification and regression models
+
 ## Project Structure
 
 ```
@@ -89,9 +102,10 @@ big-projects/
 │   ├── UberApi/            → .NET Core backend
 │   └── UberVueJS/          → Vue.js frontend
 ├── uber-laravel/           → Laravel data management system
-└── shared-ia/              → Collaborative AI Chat Application
-    ├── backend/            → Node.js/Express backend
-    └── frontend/           → React/TypeScript frontend
+├── shared-ia/              → Collaborative AI Chat Application
+│   ├── backend/            → Node.js/Express backend
+│   └── frontend/           → React/TypeScript frontend
+└── smarthome-lite/         → Redirect README → GitHub (domotique, FastAPI, Next.js, Android, RPi)
 ```
 
 ## Getting Started
