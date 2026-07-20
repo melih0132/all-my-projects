@@ -15,10 +15,9 @@ The projects included in this repository are:
 1. **pierre_papier_ciseaux.py**: The classic rock-paper-scissors game with an interactive command-line interface.
 
 ### File Management
-1. **file-renamer/**: A comprehensive file renaming toolkit containing:
-   - **rename_music.py**: Intelligent MP3 file renamer with AI-powered batch analysis.
-   - **clean_filenames.py**: Utility to remove numerical suffixes from MP3 filenames.
-   - **requirements.txt**: Dependencies for the renaming tools.
+1. **file-renamer/**: Reformateur de titres musicaux (package `music_formatter`).
+   - Tags audio, propriétés Windows, renommage, doublons, correction OpenAI optionnelle.
+   - Entrée : `python main.py` (voir README du dossier).
 
 ## Features
 

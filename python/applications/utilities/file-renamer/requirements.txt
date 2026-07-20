@@ -1,20 +1,3 @@
-# Dépendances pour le formatage de titres musicaux
-# Version refactorisée - Architecture modulaire
-
-# Aucune dépendance externe requise
-# Le script utilise uniquement la bibliothèque standard Python 3.7+
-
-# Modules utilisés (inclus avec Python) :
-# - os
-# - re
-# - sys
-# - json
-# - logging
-# - pathlib
-# - typing
-# - dataclasses
-# - collections
-# - concurrent.futures
-# - argparse
-# - datetime
-# - uuid
+mutagen>=1.47
+openai>=1.40.0
+python-dotenv>=1.0.0
