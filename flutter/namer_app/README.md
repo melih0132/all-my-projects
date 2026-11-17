@@ -1,16 +1,47 @@
-# namer_app
+# Namer App
 
-A new Flutter project.
+Flutter app that generates random English word pairs and saves favorites.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Namer App is a Material 3 Flutter client that builds two-word names with the `english_words` package. State is driven by Provider; favorites are persisted with SharedPreferences.
 
-A few resources to get you started if this is your first Flutter project:
+The UI switches between a generator screen and a favorites list. Orientation is unlocked for portrait and landscape.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Random word-pair generation
+- Like / unlike the current pair
+- Favorites list with persistence
+- Provider-based app state
+- Material 3 theming
+
+## Stack
+
+- Dart / Flutter
+- Provider
+- english_words
+- shared_preferences
+
+## Layout
+
+```
+namer_app/
+├── android/
+├── ios/
+├── lib/
+│   └── main.dart
+├── linux/
+├── macos/
+├── web/
+├── windows/
+├── pubspec.yaml
+└── README.md
+```
+
+## Run
+
+```bash
+flutter pub get
+flutter run
+```

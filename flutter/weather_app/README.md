@@ -1,16 +1,55 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+Flutter client for current weather via OpenWeatherMap and device location.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Weather App loads the user's position, then fetches and displays weather for that place. Search is available for other locations. Provider injects the API and geolocation services.
 
-A few resources to get you started if this is your first Flutter project:
+An OpenWeatherMap API key is required. Copy `lib/config.example.dart` to `lib/config.dart` and set the key before running.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Geolocation-based weather on launch
+- City / location search
+- OpenWeatherMap HTTP integration
+- Loading screen and weather detail UI
+- Dark Material theme
+- French locale formatting via intl
+
+## Stack
+
+- Dart / Flutter
+- Provider
+- http
+- geolocator
+- intl
+
+## Layout
+
+```
+weather_app/
+├── android/
+├── ios/
+├── lib/
+│   ├── config.example.dart
+│   ├── main.dart
+│   ├── models/
+│   ├── services/
+│   └── ui/
+├── linux/
+├── macos/
+├── web/
+├── windows/
+├── pubspec.yaml
+└── README.md
+```
+
+## Run
+
+```bash
+cp lib/config.example.dart lib/config.dart
+# set openWeatherMapApiKey in lib/config.dart
+flutter pub get
+flutter run
+```

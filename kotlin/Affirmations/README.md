@@ -1,100 +1,46 @@
 # Affirmations
 
-A scrollable list application that demonstrates data classes, lists, and lazy loading in Jetpack Compose.
+Android scrollable list of affirmation cards in Jetpack Compose.
 
 ## Overview
 
-The Affirmations app displays a scrollable list of 10 motivational affirmation cards. Each card contains an inspirational message paired with a beautiful image, showcasing how to work with lists and data in Jetpack Compose.
+Affirmations shows ten motivational cards in a `LazyColumn`. Each item pairs a drawable with a string via a data model and a local data source.
+
+The sample introduces lists, cards, and resource-backed content in Compose.
 
 ## Features
 
-- Scrollable list of 10 affirmation cards
-- Each card displays an image and motivational text
-- Smooth scrolling with LazyColumn
-- Material Design 3 Card components
-- Responsive layout with proper image scaling
+- LazyColumn of affirmation cards
+- Image plus text per card
+- Affirmation data class and Datasource
+- Material 3 Card layout
+- String and drawable resources
 
-## Key Concepts
+## Stack
 
-- **LazyColumn composables**: Efficiently display scrollable lists
-- **Card components**: Material Design 3 card layout
-- **Data classes**: Model data with Kotlin data classes
-- **Lists in Compose**: Working with collections and data sources
-- **Image composables**: Displaying drawable resources
-- **Resource management**: Using string and drawable resources
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Gradle (Kotlin DSL)
 
-## Technologies
-
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose
-- **Design System**: Material Design 3
-- **Build System**: Gradle (Kotlin DSL)
-
-## SDK Versions
-
-- **Min SDK**: 24
-- **Target SDK**: 33
-- **Compile SDK**: 33
-
-## Project Structure
+## Layout
 
 ```
 Affirmations/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/affirmations/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   ├── data/
-│   │   │   │   │   └── Datasource.kt
-│   │   │   │   ├── model/
-│   │   │   │   │   └── Affirmation.kt
-│   │   │   │   └── ui/theme/
-│   │   │   ├── res/
-│   │   │   │   ├── drawable/ (10 affirmation images)
-│   │   │   │   └── values/
-│   │   │   │       └── strings.xml
-│   │   │   └── AndroidManifest.xml
-│   │   ├── test/
-│   │   └── androidTest/
+│   ├── src/main/
 │   └── build.gradle.kts
 ├── build.gradle.kts
-└── settings.gradle.kts
+├── settings.gradle.kts
+├── LICENSE
+└── README.md
 ```
 
-## Getting Started
+## Run
 
-### Prerequisites
+```bash
+./gradlew assembleDebug
+# or open in Android Studio and Run
+```
 
-- Android Studio (latest version recommended)
-- JDK 11 or higher
-- Android SDK (API level 24+)
-- Basic knowledge of Kotlin syntax
-- Understanding of Android development fundamentals
-
-### Installation
-
-1. Open the project in Android Studio:
-   - File → Open → Select the `Affirmations` folder
-
-2. Sync Gradle dependencies
-
-3. Run the app on an emulator or physical device
-
-## Learning Objectives
-
-This project teaches:
-- How to create and use data classes in Kotlin
-- Working with lists and collections in Compose
-- Implementing scrollable lists with LazyColumn
-- Using Card components from Material Design 3
-- Managing resources (strings and drawables)
-- Creating reusable composable functions
-
-## Credits
-
-All photos by Romain Guy. All photos are licensed under CC0 https://creativecommons.org/share-your-work/public-domain/cc0/
-
-## License
-
-This project is part of the Android Basics with Compose course materials.
+On Windows: `gradlew.bat assembleDebug`

@@ -1,101 +1,47 @@
 # TipTime
 
-A tip calculator application built with Jetpack Compose that teaches user input handling and real-time calculations. This app demonstrates form inputs, state management, and Material Design 3 components in modern Android development.
+Android tip calculator built with Jetpack Compose.
 
 ## Overview
 
-TipTime is an Android application that calculates tips based on bill amount and tip percentage. Users can input the bill amount, select or customize the tip percentage, and optionally round up the tip. The app provides real-time calculations and currency formatting.
+TipTime takes a bill amount and tip percent, optionally rounds up, and shows the tip in currency format. Inputs update the result as the user types.
+
+The sample covers text fields, switches or round-up controls, and Material 3 form layout.
 
 ## Features
 
-- Bill amount input with number formatting
-- Customizable tip percentage selection
-- Round-up option for tips
-- Real-time tip calculation
+- Bill amount text input
+- Tip percentage control
+- Optional round-up
+- Live tip calculation
 - Currency formatting
-- Material Design 3 components
+- Material 3 form UI
 
-## Technologies Used
+## Stack
 
-### Languages & Frameworks
-- **Kotlin**: Primary programming language
-- **Jetpack Compose**: Modern Android UI toolkit
-- **Material Design 3**: Design system and components
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Gradle (Kotlin DSL)
 
-### Android Development
-- **Android Studio**: Primary IDE
-- **Gradle (Kotlin DSL)**: Build system
-- **Android SDK**: Development toolkit
-
-### Libraries & Dependencies
-- **AndroidX Core KTX**: Kotlin extensions
-- **AndroidX Lifecycle Runtime KTX**: Lifecycle management
-- **AndroidX Activity Compose**: Compose integration
-- **Jetpack Compose BOM**: Compose version management
-- **Compose UI, UI Graphics, UI Tooling**: Compose components
-- **Material 3 Components**: Material Design components
-
-### Development Tools
-- **Git / GitHub**: Version control
-- **Android Emulator**: Testing environment
-
-## Project Structure
+## Layout
 
 ```
 TipTime/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/tiptime/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   └── ui/theme/
-│   │   │   ├── res/
-│   │   │   │   └── values/
-│   │   │   └── AndroidManifest.xml
-│   │   ├── test/
-│   │   └── androidTest/
+│   ├── src/main/
 │   └── build.gradle.kts
 ├── build.gradle.kts
-└── settings.gradle.kts
+├── settings.gradle.kts
+├── LICENSE
+└── README.md
 ```
 
-## Getting Started
+## Run
 
-### Prerequisites
+```bash
+./gradlew assembleDebug
+# or open in Android Studio and Run
+```
 
-- Android Studio (latest version recommended)
-- JDK 11 or higher
-- Android SDK (API level 24+)
-- Basic knowledge of Kotlin syntax
-- Understanding of Jetpack Compose fundamentals
-
-### Installation
-
-1. Install Android Studio, if you don't already have it
-2. Download the sample
-3. Import the sample into Android Studio
-4. Build and run the sample
-
-## Key Concepts
-
-This project demonstrates:
-
-- **User Input Handling**: Text fields and input validation
-- **State Management**: Managing form state with `remember` and `mutableStateOf`
-- **Real-time Calculations**: Updating calculations as user inputs change
-- **Material Design 3**: Using Material 3 components and theming
-- **Number Formatting**: Currency and percentage formatting
-- **Layout Composition**: Arranging UI elements with Column and Row
-
-## Learning Objectives
-
-After completing this project, you should understand:
-
-- How to handle user input in Compose
-- How to perform real-time calculations
-- How to format numbers and currency
-- How to use Material Design 3 components
-- How to manage form state
-- How to create interactive UI components
-
-Feel free to explore the repositories for more detailed information on each project!
+On Windows: `gradlew.bat assembleDebug`

@@ -1,58 +1,48 @@
-# Pokémon Trainer Manager 🎯
+# Pokemon Trainer Manager
 
-**Sujet UIKit — Projet iOS**
+UIKit iOS app to browse Pokemon trainers, badges, and party members.
 
----
+## Overview
 
-## Pitch
+Pokemon Trainer Manager loads trainers and Pokemon from local JSON in the app bundle. A table lists trainers; detail screens show badges and owned Pokemon. Selecting a Pokemon opens a detail controller via delegation.
 
-Vous incarnez le **Professeur Chen** et devez développer une application pour gérer les **dresseurs Pokémon**, suivre leurs **Pokémon**, leurs **badges** et leur progression dans la **Ligue Pokémon**.
+Quick Look can preview high-resolution badge or trainer assets.
 
----
+## Features
 
-## Fonctionnalités
+- Trainer list in UITableView
+- Trainer detail with badges and Pokemon
+- Pokemon detail via delegate navigation
+- Local JSON loading from Bundle
+- QLPreviewController for HD assets
+- Storyboard-based UIKit flow
 
-- **Liste des dresseurs**  
-  Affichage dans un `UITableView` avec le nom et la photo de chaque dresseur.
+## Stack
 
-- **Fiche dresseur détaillée**  
-  - Nom et photo du dresseur  
-  - Nombre total de Pokémon  
-  - Liste des badges obtenus  
-  - Tableau des Pokémon possédés avec image et type
+- Swift
+- UIKit
+- UITableView / navigation
+- Bundle JSON parsing
+- QLPreviewController
+- Xcode
 
-- **Navigation et délégation**  
-  - Sélection d’un dresseur → ouverture de sa fiche  
-  - Sélection d’un Pokémon dans la fiche dresseur → ouverture de la **fiche Pokémon détaillée** via délégation
-
-- **Chargement des données**  
-  - Dresseurs et Pokémon chargés depuis un **JSON local** via `Bundle`
-
-- **Prévisualisation HD**  
-  - Visualisation des **badges** ou des **cartes dresseur** en haute résolution grâce à `QLPreviewController`
-
----
-
-## Technologies
-
-- Swift / UIKit  
-- UITableView / UICollectionView  
-- Navigation Controller  
-- Délégation (Delegate Pattern)  
-- Bundle & JSON Parsing  
-- QLPreviewController  
-
----
-
-## Organisation du projet
+## Layout
 
 ```
+PokemonTrainerManager/
+├── Pokémon Trainer Manager/
+│   ├── Pokémon Trainer Manager/
+│   │   ├── Controller/
+│   │   ├── Ressources/
+│   │   ├── AppDelegate.swift
+│   │   └── SceneDelegate.swift
+│   └── Pokémon Trainer Manager.xcodeproj/
+└── README.md
+```
 
-PokémonTrainerManager/
-│
-├─ Controllers/     # UIViewController pour liste et détails
-├─ Resources/       # JSON locaux et images
-└─ README.md
+## Run
 
-````
-
+```bash
+open "Pokémon Trainer Manager/Pokémon Trainer Manager.xcodeproj"
+# select a simulator or device, then Run in Xcode
+```

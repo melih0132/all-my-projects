@@ -1,48 +1,35 @@
-# Little Python Scripts
+# Python Utilities
 
-This repository contains a collection of small Python projects, often referred to as "little things." These projects are designed to be simple yet interesting and can serve as learning resources or as inspiration for more complex projects.
+Small scripts and the file-renamer package.
 
-## Projects
+## Overview
 
-The projects included in this repository are:
+Standalone helpers for wallpaper, tasks, a CLI game, and music filename/tag formatting.
 
-### Task Management
-1. **gestionnaire_taches.py**: A simple command-line task management application with basic CRUD operations.
-2. **gestionnaire_taches_app.py**: An advanced GUI task management application built with Tkinter, featuring file persistence and a modern interface.
-3. **list_name.py**: Returns a list of songs from the content of a USB key.
+## Stack
 
-### Games
-1. **pierre_papier_ciseaux.py**: The classic rock-paper-scissors game with an interactive command-line interface.
+- Python 3
+- Tkinter (task GUI)
+- mutagen / openai (file-renamer)
 
-### File Management
-1. **file-renamer/**: Reformateur de titres musicaux (package `music_formatter`).
-   - Tags audio, propriétés Windows, renommage, doublons, correction OpenAI optionnelle.
-   - Entrée : `python main.py` (voir README du dossier).
+## Layout
 
-## Features
+```
+utilities/
+├── app_wallpaper.py
+├── gestionnaire_taches.py
+├── gestionnaire_taches_app.py
+├── pierre_papier_ciseaux.py
+└── file-renamer/          → music_formatter package
+```
 
-- **Simple and Educational**: Each script demonstrates different Python concepts.
-- **Cross-platform**: Works on Windows, Linux, and macOS.
-- **No Complex Dependencies**: Most scripts use only the Python standard library.
-- **Well-documented**: Clear code structure with comments and docstrings.
+## Run
 
-## Getting Started
+```bash
+python app_wallpaper.py
+python gestionnaire_taches.py
+python gestionnaire_taches_app.py
+python pierre_papier_ciseaux.py
+```
 
-1. Clone or download this repository.
-2. Navigate to the specific project directory.
-3. Run the Python script: `python script_name.py`.
-
-For the rename-files tools, see the dedicated README in that folder for detailed installation and usage instructions.
-
-## Requirements
-
-- Python 3.7 or higher.
-- For GUI applications: Tkinter (usually included with Python).
-- For file-renamer tools: See requirements.txt in that folder.
-
-## Contributing
-
-Feel free to add new scripts or improve existing ones. Each script should be:
-- Self-contained and executable.
-- Well-commented.
-- Simple to understand and use.
+For file renaming, see `file-renamer/README.md`.

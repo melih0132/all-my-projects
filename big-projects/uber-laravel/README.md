@@ -1,29 +1,23 @@
-# Uber - Data Management and Application Design
+# Uber Laravel
 
-This repository is a redirect to the **[Uber](https://github.com/melih0132/uber-complete-system-laravel)** project repository. For detailed information about the Uber project, including its design, development, and deployment, please visit the dedicated repository.
+Uber-like data management system with Laravel and PostgreSQL.
 
-## Project Overview
+## Overview
 
-The Uber project involves the complete design and development of a data management system for an Uber-like application. It covers database design, modeling, query creation, and security, from conceptualization to final deployment.
+Dedicated repository for modeling, API, payments, and Power BI reporting. This folder is a redirect only.
 
-## Key Features
+## Stack
 
-- User and trip management
-- Payment handling
-- Ride reservations
-- Ratings and feedback system
-- Geographical data analysis
-- Security and data protection measures
+- PHP, Laravel
+- PostgreSQL, SQL
+- Power BI
+- RESTful API
+- Encryption, XSS prevention
 
-## Technologies Used
+## Layout
 
-- **Database:** PostgreSQL, pgAdmin4
-- **Backend:** Laravel
-- **Data Visualization:** Power BI
-- **API Integration:** RESTful API
-- **Security:** Data Encryption, XSS Prevention, Cookie Management
-- **Project Management:** Azure DevOps, GitHub
+External: [melih0132/uber-complete-system-laravel](https://github.com/melih0132/uber-complete-system-laravel)
 
-## Access the Project
+## Run
 
-To explore the project in detail, please visit the **[Uber Project Repository](https://github.com/melih0132/uber-complete-system-laravel)**.
+Use the dedicated repository: [melih0132/uber-complete-system-laravel](https://github.com/melih0132/uber-complete-system-laravel)

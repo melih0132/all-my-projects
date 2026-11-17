@@ -1,40 +1,35 @@
 # Cryptography
 
-This directory contains cryptography projects and assignments from academic coursework.
+Academic scripts for classical and modern crypto primitives.
 
-## Contents
+## Overview
 
-### Symmetric Encryption
-- **aes.py**: Advanced Encryption Standard (AES) implementation
-- **chiffrement cesar.py**: Caesar cipher encryption
-- **dechiffrement cesar.py**: Caesar cipher decryption
-- **chiffrement par bloc avec AES.py**: Block cipher encryption using AES
+Symmetric and asymmetric demos plus modular arithmetic helpers used in coursework.
 
-### Asymmetric Encryption
-- **rsa.py**: RSA encryption algorithm implementation
-- **rsa_script.py**: RSA script for encryption/decryption operations
+## Features
 
-### Modular Arithmetic
-- **exponentiation_modulaire.py**: Modular exponentiation
-- **inverse_modulaire.py**: Modular inverse calculation
-- **phi_euleur.py**: Euler's totient function (φ)
+- AES and Caesar ciphers
+- RSA encrypt/decrypt scripts
+- Modular exponentiation and inverse
+- Euler totient and hashlib demos
 
-### Hash Functions
-- **hashlib.py**: Hash function implementations using Python's hashlib
+## Stack
 
-## Technologies
+- Python 3
+- Standard library (`hashlib`, etc.)
 
-- Python 3.x
-- Standard library (hashlib, math)
+## Layout
 
-## Usage
-
-Each script is self-contained and can be run independently:
-
-```bash
-python script_name.py
+```
+cryptography/
+├── aes / caesar scripts
+├── rsa scripts
+└── modular arithmetic scripts
 ```
 
-## Note
+## Run
 
-These are educational implementations for learning purposes. For production use, always use well-tested cryptographic libraries.
+```bash
+cd python/academic/cryptography
+python <script>.py
+```

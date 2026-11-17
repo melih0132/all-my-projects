@@ -1,16 +1,53 @@
-# event_poll
+# Event Poll
 
-A new Flutter project.
+Flutter client for event polls with auth, listing, creation, and voting.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Event Poll talks to a REST backend (default `http://localhost:5240` in `lib/configs.dart`). Users can sign up, log in, browse events, open details, and create polls. Auth and poll state use Provider.
 
-A few resources to get you started if this is your first Flutter project:
+The UI is localized for French (Material localizations, `fr` locale).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Login and signup
+- Event / poll list and detail
+- Create event poll
+- Auth token wired into polls state
+- Named routes with shared scaffold
+- HTTP client against a local API
+
+## Stack
+
+- Dart / Flutter
+- Provider
+- http
+- flutter_localizations
+
+## Layout
+
+```
+event_poll/
+├── android/
+├── ios/
+├── lib/
+│   ├── configs.dart
+│   ├── main.dart
+│   ├── models/
+│   ├── states/
+│   └── ui/
+├── linux/
+├── macos/
+├── web/
+├── windows/
+├── pubspec.yaml
+└── README.md
+```
+
+## Run
+
+```bash
+# start the API on the URL in lib/configs.dart, then:
+flutter pub get
+flutter run
+```
