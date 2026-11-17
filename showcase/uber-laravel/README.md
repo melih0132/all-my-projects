@@ -16,7 +16,7 @@ Dedicated repository for modeling, API, payments, and Power BI reporting. This f
 
 ## Layout
 
-External: [melih0132/uber-complete-system-laravel](https://github.com/melih0132/uber-complete-system-laravel)
+External layout: `app/`, `modeling/`, `sql/`, `sprints/`, `bi/`. Repo: [melih0132/uber-complete-system-laravel](https://github.com/melih0132/uber-complete-system-laravel)
 
 ## Run
 

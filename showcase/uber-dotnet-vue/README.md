@@ -15,7 +15,7 @@ Dedicated repository for the API, Vue SPA, JWT auth, maps, and booking flows. Th
 
 ## Layout
 
-External: [melih0132/uber-clone-dotnet-vue](https://github.com/melih0132/uber-clone-dotnet-vue)
+External layout: `api/` (.NET), `frontend/` (Vue). Repo: [melih0132/uber-clone-dotnet-vue](https://github.com/melih0132/uber-clone-dotnet-vue)
 
 ## Run
 

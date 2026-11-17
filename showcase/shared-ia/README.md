@@ -14,7 +14,7 @@ Dedicated repository for the Node.js/Express API, Socket.io realtime layer, and 
 
 ## Layout
 
-External: [melih0132/shared-ia](https://github.com/melih0132/shared-ia)
+External layout: `backend/`, `frontend/`. Repo: [melih0132/shared-ia](https://github.com/melih0132/shared-ia)
 
 ## Run
 
