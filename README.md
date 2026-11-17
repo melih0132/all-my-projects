@@ -4,7 +4,7 @@ Curated collection of academic and personal software projects.
 
 ## Overview
 
-Work spanning full-stack apps, mobile, games, and utilities. Large projects live under `big-projects/`; language-specific work is grouped by stack.
+Work is grouped by domain: showcase apps, .NET, Docker labs, mobile, Python, and web.
 
 ## Stack
 
@@ -16,14 +16,12 @@ Work spanning full-stack apps, mobile, games, and utilities. Large projects live
 ## Layout
 
 ```
-├── big-projects/          → Large-scale apps (some redirect to dedicated repos)
-├── csharp-projects/       → .NET, WPF, WinUI, Unity
-├── docker-exercices/      → Progressive Docker / Compose labs
-├── flutter/               → Flutter mobile apps
-├── kotlin/                → Jetpack Compose apps
-├── python/                → Applications and academic exercises
-├── swift/                 → iOS / UIKit study projects
-└── web/                   → Front, back, Phaser
+├── docker/      → Container labs (basics, compose, projects)
+├── dotnet/      → WPF, ASP.NET, WinUI, Unity
+├── mobile/      → Flutter, Kotlin, Swift
+├── python/      → Applications and academic exercises
+├── showcase/    → Large apps (source or redirect stubs)
+└── web/         → Front, back, Phaser
 ```
 
 ## Run
