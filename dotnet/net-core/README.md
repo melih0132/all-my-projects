@@ -17,12 +17,12 @@ Coursework covering REST services, currency conversion clients, and film rating 
 
 ```
 net-core/
-├── APIfilms/
-├── ApiRestAvecEtat/
-├── ClientConvertisseur/
-├── FilmRatingsApp/
-├── TP3console/
-└── WSConvertisseur/
+├── film-ratings-api/
+├── series-api/
+├── currency-converter-api/
+├── currency-converter-client/
+├── film-ratings-app/
+└── films-console/
 ```
 
 ## Run

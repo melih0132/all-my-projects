@@ -1,24 +1,21 @@
 # SmartHome Lite
 
-Distributed smart-home stack: FastAPI, Next.js, Android, Raspberry Pi / Z-Wave.
+Modular smart-home stack with FastAPI, Next.js, Kotlin, and Raspberry Pi Z-Wave.
 
 ## Overview
 
-Dedicated repository for the SAE domotique showcase (rules, dimming, presence, ML). This folder is a redirect only.
+Dedicated repository for backend, web, mobile, Pi bridge, and TimescaleDB. This folder is a redirect only.
 
 ## Stack
 
-- Python, FastAPI, SQLAlchemy, JWT
-- PostgreSQL, TimescaleDB
-- Next.js, React, TypeScript, Tailwind CSS
-- Kotlin, Jetpack Compose
-- Raspberry Pi, Flask, Z-Wave JS
-- scikit-learn
+- FastAPI, TimescaleDB
+- Next.js, Kotlin Android
+- Raspberry Pi, Z-Wave JS
 
 ## Layout
 
-External: [melih0132/smarthome-lite](https://github.com/melih0132/smarthome-lite)
+External layout: `docs/`, `backend/`, `web/`, `mobile/`, `raspberry/`, `db/`, `zwave-js/`. Repo: [oeoecbien/smarthome-lite](https://github.com/oeoecbien/smarthome-lite)
 
 ## Run
 
-Use the dedicated repository: [melih0132/smarthome-lite](https://github.com/melih0132/smarthome-lite)
+Use the dedicated repository: [oeoecbien/smarthome-lite](https://github.com/oeoecbien/smarthome-lite)

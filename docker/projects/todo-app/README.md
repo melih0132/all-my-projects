@@ -1,4 +1,4 @@
-# Todo Application
+# Todo App
 
 PHP-FPM todo app with Nginx, MariaDB, PostgreSQL, and Redis.
 
@@ -23,7 +23,7 @@ Multi-service Compose stack for a simple todo UI and API under `src/`.
 ## Layout
 
 ```
-06-todo-application/
+todo-app/
 ├── src/
 ├── nginx.conf
 ├── composer.json
@@ -37,5 +37,3 @@ Multi-service Compose stack for a simple todo UI and API under `src/`.
 cd docker/projects/todo-app
 docker compose up -d
 ```
-
-App: http://localhost:8080

@@ -1,4 +1,4 @@
-# Production Todo App
+# Todo Production
 
 Production-oriented todo stack with custom PHP image and GitHub Actions publish workflow.
 
@@ -24,7 +24,7 @@ Compose app with Postgres and Redis, env-driven config, and a sample CI pipeline
 ## Layout
 
 ```
-07-production-todo-app/
+todo-production/
 ├── docker/
 │   ├── nginx/
 │   └── php/
@@ -44,4 +44,4 @@ cp env.example .env
 docker compose up --build -d
 ```
 
-App: http://localhost:8080
+App: `http://localhost:8080`

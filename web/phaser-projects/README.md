@@ -22,6 +22,8 @@ Browser games plus public/private chat servers used to practice Phaser scenes an
 
 ```
 phaser-projects/
+├── app/
+├── chat/
 ├── private-chat/
 └── public-chat/
 ```

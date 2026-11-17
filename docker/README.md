@@ -1,14 +1,14 @@
 # Docker
 
-Progressive container labs from a single image to production-oriented stacks.
+Progressive container labs from a single image to Compose stacks, Kubernetes, and fuller apps.
 
 ## Overview
 
-Three stages: image basics, Compose services, then fuller todo applications with CI.
+Four stages: image basics, Compose services, a Kubernetes sample app, then multi-service todo applications with CI.
 
 ## Stack
 
-- Docker, Docker Compose
+- Docker, Docker Compose, Kubernetes
 - Node.js, PHP, Apache, Nginx
 - MongoDB, MariaDB, PostgreSQL, Redis
 - GitLab CI, GitHub Actions
@@ -24,6 +24,8 @@ docker/
 │   ├── nodejs-mongodb/
 │   ├── php-apache-mariadb/
 │   └── multi-service/
+├── k8s/
+│   └── quote-app/
 └── projects/
     ├── todo-app/
     └── todo-production/
@@ -34,6 +36,11 @@ docker/
 ```bash
 cd docker/projects/todo-app
 docker compose up -d
+```
+
+```bash
+cd docker/k8s/quote-app
+docker compose -f compose.yaml up --build
 ```
 
 Open any lab README for build and access details.

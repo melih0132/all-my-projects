@@ -19,7 +19,7 @@ WPF apps with and without databases, ASP.NET / WinUI samples, and Unity games.
 dotnet/
 ├── with-db/       → DB-backed WPF (dortan-app)
 ├── without-db/    → Console and WPF (evit-shuriken)
-├── net-core/      → REST APIs, WinUI, converters
+├── net-core/      → film/series APIs, WinUI, currency converter, console
 └── unity/         → KUBE
 ```
 

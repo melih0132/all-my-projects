@@ -16,7 +16,7 @@ Dedicated repository for the EIP project (characters, buildings, users). This fo
 
 ## Layout
 
-External: [oeoecbien/symfony-project](https://github.com/oeoecbien/symfony-project)
+External layout: `api/`, `front/`. Repo: [oeoecbien/symfony-project](https://github.com/oeoecbien/symfony-project)
 
 ## Run
 
