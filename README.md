@@ -11,12 +11,14 @@ Work spanning full-stack apps, mobile, games, and utilities. Large projects live
 - C#, Python, PHP, JavaScript, TypeScript, Dart, Swift, Kotlin
 - .NET, Laravel, React, Vue, Next.js, Flutter, Unity, Phaser
 - PostgreSQL, MySQL, SQLite, Power BI
+- Docker, Docker Compose
 
 ## Layout
 
 ```
 ├── big-projects/          → Large-scale apps (some redirect to dedicated repos)
 ├── csharp-projects/       → .NET, WPF, WinUI, Unity
+├── docker-exercices/      → Progressive Docker / Compose labs
 ├── flutter/               → Flutter mobile apps
 ├── kotlin/                → Jetpack Compose apps
 ├── python/                → Applications and academic exercises

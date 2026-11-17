@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+!.env*.example
+
+node_modules/
+vendor/
+
+database/
+**/mysql/
+postgres_data/
+redis_data/
+mongo_data/
+
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,47 @@
+# Production Todo App
+
+Production-oriented todo stack with custom PHP image and GitHub Actions publish workflow.
+
+## Overview
+
+Compose app with Postgres and Redis, env-driven config, and a sample CI pipeline under `.github/workflows`.
+
+## Features
+
+- Custom `docker/php` image
+- Nginx + PHP services
+- PostgreSQL and Redis
+- `env.example` for secrets
+- GitHub Actions Docker publish workflow
+
+## Stack
+
+- Docker Compose
+- PHP, Nginx
+- PostgreSQL, Redis
+- GitHub Actions
+
+## Layout
+
+```
+07-production-todo-app/
+├── docker/
+│   ├── nginx/
+│   └── php/
+├── src/
+├── .github/workflows/
+├── docker-compose.yml
+├── docker-compose.override.yml
+├── env.example
+└── README.md
+```
+
+## Run
+
+```bash
+cd docker-exercices/07-production-todo-app
+cp env.example .env
+docker compose up --build -d
+```
+
+App: http://localhost:8080

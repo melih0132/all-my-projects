@@ -1,0 +1,70 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: multi-php-web
+    ports:
+      - "8083:80"
+    environment:
+      MYSQL_HOST: mariadb
+      MARIADB_DATABASE: mydb
+      MARIADB_USER: app_user
+      MARIADB_PASSWORD: app_password
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: mydb
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+      REDIS_HOST: redis
+    depends_on:
+      - mariadb
+      - postgres
+      - redis
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  mariadb:
+    image: mariadb:10.5
+    container_name: multi-mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MARIADB_DATABASE: mydb
+      MARIADB_USER: app_user
+      MARIADB_PASSWORD: app_password
+    volumes:
+      - mariadb-data:/var/lib/mysql
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: multi-postgres
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: app_user
+      POSTGRES_PASSWORD: app_password
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: multi-redis
+    volumes:
+      - redis-data:/data
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mariadb-data:
+  postgres-data:
+  redis-data:
